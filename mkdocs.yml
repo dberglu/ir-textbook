@@ -1,0 +1,11 @@
+site_name: Investor Relations Textbook
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Chapters:
+      - Overview: chapters/index.md
+      - Chapter 1 – Introduction: chapters/chapter-1.md
+      - Chapter 2 – Stakeholder Communication: chapters/chapter-2.md
+      - Chapter 3 – Financial Reporting & Disclosure: chapters/chapter-3.md

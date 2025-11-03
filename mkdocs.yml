@@ -4,6 +4,7 @@ theme:
 
 nav:
   - Home: index.md
+  - Course Overview: course-description.md
   - Chapters:
       - Overview: chapters/index.md
       - Chapter 1 – Introduction: chapters/chapter-1.md

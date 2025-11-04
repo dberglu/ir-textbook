@@ -1,17 +1,27 @@
-# Welcome to MkDocs
+# AI for Investor Relations Transformation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to the **AI for Investor Relations Transformation** intelligent textbook. This executive-level course equips senior leaders with the frameworks, tools, and governance models required to lead AI-powered IR modernization efforts.
 
-## Commands
+## Quick Links
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- [Course Overview](course-description.md) - Detailed course description with learning outcomes
+- [Learning Graph](learning-graph/index.md) - Explore the 200 concepts and their dependencies
+- [Graph Viewer](sims/graph-viewer/main.html) - Interactive visualization of the learning graph
+- [Chapters](chapters/index.md) - Course content organized by chapter
 
-## Project layout
+## About This Course
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+This self-paced course is designed for:
+- Executive leaders (CDAO, CFO, CIO) driving AI transformation
+- Heads of investor relations and corporate strategy teams
+- Strategic advisors working with public companies
+- AI/ML professionals new to the investor relations domain
+
+## Features
+
+This intelligent textbook includes:
+- **Learning Graph** with 200 interconnected concepts
+- **Interactive Graph Viewer** for exploring concept relationships
+- **Bloom's Taxonomy** alignment across all 6 cognitive levels
+- **Regulatory Focus** on Reg FD, SOX, and compliance frameworks
+- **Practical Application** with case studies and hands-on exercises

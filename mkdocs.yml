@@ -17,6 +17,15 @@ nav:
       - Graph Viewer: sims/graph-viewer/index.md
   - Chapters:
       - Overview: chapters/index.md
-      - Chapter 1 – Introduction: chapters/chapter-1.md
-      - Chapter 2 – Stakeholder Communication: chapters/chapter-2.md
-      - Chapter 3 – Financial Reporting & Disclosure: chapters/chapter-3.md
+      - Chapter 1 - Foundations of Modern IR: chapters/01-foundations-of-modern-ir/index.md
+      - Chapter 2 - Regulatory Frameworks and Compliance: chapters/02-regulatory-frameworks-compliance/index.md
+      - Chapter 3 - Investor Types and Market Dynamics: chapters/03-investor-types-market-dynamics/index.md
+      - Chapter 4 - Valuation Metrics and Performance: chapters/04-valuation-metrics-performance/index.md
+      - Chapter 5 - AI and Machine Learning Fundamentals: chapters/05-ai-ml-fundamentals/index.md
+      - Chapter 6 - AI-Powered Content Creation: chapters/06-ai-powered-content-creation/index.md
+      - Chapter 7 - Sentiment Analysis and Predictive: chapters/07-sentiment-analysis-predictive/index.md
+      - Chapter 8 - Algorithmic Trading and Microstructure: chapters/08-algorithmic-trading-microstructure/index.md
+      - Chapter 9 - Agentic AI Systems and MCP: chapters/09-agentic-ai-systems-mcp/index.md
+      - Chapter 10 - AI Governance, Risk, and Data: chapters/10-ai-governance-risk-data/index.md
+      - Chapter 11 - AI Dashboards and Performance: chapters/11-ai-dashboards-performance/index.md
+      - Chapter 12 - Transformation and Change Management: chapters/12-transformation-change-management/index.md

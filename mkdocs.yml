@@ -2,6 +2,7 @@ site_name: Investor Relations Textbook
 theme:
   name: material
   favicon: assets/images/IR_favicon.png
+  logo: assets/images/IR_favicon.png
   palette:
     # Light mode - Anthropic Brand
     - scheme: default

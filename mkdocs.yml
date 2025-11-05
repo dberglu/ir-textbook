@@ -1,6 +1,7 @@
 site_name: Investor Relations Textbook
 theme:
   name: material
+  favicon: assets/images/IR_favicon.png
 
 nav:
   - Home: index.md

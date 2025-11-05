@@ -2,10 +2,10 @@
 
 ## Overview
 
-- **Total Concepts**: 200
+- **Total Concepts**: 298
 - **Foundational Concepts** (no dependencies): 11
-- **Concepts with Dependencies**: 189
-- **Average Dependencies per Concept**: 1.41
+- **Concepts with Dependencies**: 287
+- **Average Dependencies per Concept**: 1.56
 
 ## Graph Structure Validation
 
@@ -49,32 +49,32 @@ These concepts have no prerequisites:
 
 ## Orphaned Nodes Analysis
 
-- **Total Orphaned Nodes**: 84
+- **Total Orphaned Nodes**: 154
 
 Concepts that are not prerequisites for any other concept:
 
-- **5**: Investor Targeting Methods
 - **9**: Hedge Funds
 - **10**: Mutual Funds
 - **11**: Pension Funds
 - **12**: Sovereign Wealth Funds
 - **15**: Investment Bank Relations
-- **17**: Proxy Season Management
-- **18**: Annual General Meetings
-- **20**: Roadshow Planning
-- **21**: Earnings Call Scripts
 - **27**: Preventing Selective Disclosure
 - **29**: SOX Section 302
-- **32**: Disclosure Controls
 - **35**: Form 10-Q Essentials
 - **36**: Form 8-K Summary
 - **37**: XBRL Reporting Standards
 - **38**: MD&A Requirements
 - **39**: Risk Factor Disclosures
 - **41**: Safe Harbor Provisions
-- **42**: Materiality Assessment
+- **46**: Blackout Period Management
+- **47**: Insider Trading Rules
+- **49**: Market Liquidity Trends
+- **56**: Enterprise Value Metrics
+- **62**: Guidance Withdrawal Risks
+- **63**: Setting Guidance Ranges
+- **64**: Beat-and-Raise Tactics
 
-*...and 64 more*
+*...and 134 more*
 
 ## Connected Components
 
@@ -88,31 +88,30 @@ Top 10 concepts that are prerequisites for the most other concepts:
 
 | Rank | Concept ID | Concept Label | Indegree |
 |------|-----------|---------------|----------|
-| 1 | 1 | Investor Relations Function | 15 |
-| 2 | 7 | Institutional Investors | 9 |
-| 3 | 66 | Machine Learning Basics | 7 |
-| 4 | 3 | Market Communication Strategy | 6 |
-| 5 | 33 | SEC Filing Requirements | 6 |
-| 6 | 68 | Generative AI Tools | 6 |
-| 7 | 91 | Sentiment Analysis Tools | 6 |
-| 8 | 131 | Data Governance Basics | 6 |
-| 9 | 170 | AI Transformation Strategy | 6 |
-| 10 | 4 | Earnings Reporting Process | 5 |
+| 1 | 100 | Predictive Analytics | 24 |
+| 2 | 66 | Machine Learning Basics | 21 |
+| 3 | 1 | Investor Relations Function | 16 |
+| 4 | 198 | Selecting IR Platforms | 13 |
+| 5 | 68 | Generative AI Tools | 12 |
+| 6 | 7 | Institutional Investors | 10 |
+| 7 | 93 | Text Mining Methods | 9 |
+| 8 | 112 | Autonomous AI Agents | 9 |
+| 9 | 2 | Corporate Valuation Strategy | 8 |
+| 10 | 3 | Market Communication Strategy | 8 |
 
 ## Outdegree Distribution
 
 | Dependencies | Number of Concepts |
 |--------------|--------------------|
 | 0 | 11 |
-| 1 | 116 |
-| 2 | 70 |
+| 1 | 129 |
+| 2 | 155 |
 | 3 | 2 |
 | 4 | 1 |
 
 ## Recommendations
 
-- ⚠️ **Many orphaned nodes** (84): Consider if these should be prerequisites for advanced concepts
-- ℹ️ **Consider adding cross-dependencies**: More connections could create richer learning pathways
+- ⚠️ **Many orphaned nodes** (154): Consider if these should be prerequisites for advanced concepts
 
 ---
 

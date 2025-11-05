@@ -1,15 +1,160 @@
 {
   "metadata": {
-    "title": "Learning Graph",
-    "description": "Learning graph with 200 concepts generated from CSV",
-    "creator": "CSV to JSON Converter",
-    "date": "2025-11-04",
-    "version": "1.0",
+    "title": "AI for Investor Relations Transformation",
+    "description": "A comprehensive learning graph covering investor relations fundamentals, AI technologies, data governance, regulatory compliance, and strategic transformation for IR professionals and executives.",
+    "creator": "David Berglund",
+    "date": "2025-11-05",
+    "version": "2.0",
     "format": "Learning Graph JSON v1.0",
     "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
     "license": "CC BY-NC-SA 4.0 DEED"
   },
-  "groups": {},
+  "groups": {
+    "AGENTIC": {
+      "color": {
+        "classifierName": "Agentic AI Systems",
+        "color": "#6366f1",
+        "font": {
+          "color": "white"
+        }
+      },
+      "font": {
+        "color": "black"
+      }
+    },
+    "AI-CONT": {
+      "color": {
+        "classifierName": "AI Content Creation",
+        "color": "#8b5cf6",
+        "font": {
+          "color": "white"
+        }
+      },
+      "font": {
+        "color": "black"
+      }
+    },
+    "AI-GOV": {
+      "color": {
+        "classifierName": "AI Governance",
+        "color": "#a855f7",
+        "font": {
+          "color": "white"
+        }
+      },
+      "font": {
+        "color": "black"
+      }
+    },
+    "AI-TECH": {
+      "color": {
+        "classifierName": "AI Technology",
+        "color": "#ec4899",
+        "font": {
+          "color": "white"
+        }
+      },
+      "font": {
+        "color": "black"
+      }
+    },
+    "ANLYT": {
+      "color": {
+        "classifierName": "Analytics & Predictions",
+        "color": "#06b6d4",
+        "font": {
+          "color": "white"
+        }
+      },
+      "font": {
+        "color": "black"
+      }
+    },
+    "DATA-GOV": {
+      "color": {
+        "classifierName": "Data Governance",
+        "color": "#10b981",
+        "font": {
+          "color": "white"
+        }
+      },
+      "font": {
+        "color": "black"
+      }
+    },
+    "INVEST": {
+      "color": {
+        "classifierName": "Investor Types",
+        "color": "#f59e0b",
+        "font": {
+          "color": "black"
+        }
+      },
+      "font": {
+        "color": "black"
+      }
+    },
+    "IR-FOUND": {
+      "color": {
+        "classifierName": "IR Foundations",
+        "color": "#ef4444",
+        "font": {
+          "color": "white"
+        }
+      },
+      "font": {
+        "color": "black"
+      }
+    },
+    "IR-OPS": {
+      "color": {
+        "classifierName": "IR Operations",
+        "color": "#f97316",
+        "font": {
+          "color": "white"
+        }
+      },
+      "font": {
+        "color": "black"
+      }
+    },
+    "REG-COMP": {
+      "color": {
+        "classifierName": "Regulatory Compliance",
+        "color": "#84cc16",
+        "font": {
+          "color": "black"
+        }
+      },
+      "font": {
+        "color": "black"
+      }
+    },
+    "TRANSFORM": {
+      "color": {
+        "classifierName": "Transformation & Strategy",
+        "color": "#3b82f6",
+        "font": {
+          "color": "white"
+        }
+      },
+      "font": {
+        "color": "black"
+      }
+    },
+    "VALMET": {
+      "color": {
+        "classifierName": "Valuation Metrics",
+        "color": "#eab308",
+        "font": {
+          "color": "black"
+        }
+      },
+      "font": {
+        "color": "black"
+      }
+    }
+  },
   "nodes": [
     {
       "id": 1,
@@ -1021,6 +1166,496 @@
       "id": 200,
       "label": "IR Transformation Plan",
       "group": "TRANSFORM"
+    },
+    {
+      "id": 201,
+      "label": "Trading Volume Analysis",
+      "group": "VALMET"
+    },
+    {
+      "id": 202,
+      "label": "Analyst Coverage Metrics",
+      "group": "VALMET"
+    },
+    {
+      "id": 203,
+      "label": "Peer Valuation Benchmark",
+      "group": "VALMET"
+    },
+    {
+      "id": 204,
+      "label": "Market Cap Fluctuations",
+      "group": "VALMET"
+    },
+    {
+      "id": 205,
+      "label": "Beta Risk Measurement",
+      "group": "VALMET"
+    },
+    {
+      "id": 206,
+      "label": "Dividend Yield Trends",
+      "group": "VALMET"
+    },
+    {
+      "id": 207,
+      "label": "Price To Earnings Ratio",
+      "group": "VALMET"
+    },
+    {
+      "id": 208,
+      "label": "Earnings Per Share Growth",
+      "group": "VALMET"
+    },
+    {
+      "id": 209,
+      "label": "Return On Equity Targets",
+      "group": "VALMET"
+    },
+    {
+      "id": 210,
+      "label": "AI Sentiment Tracking",
+      "group": "ANLYT"
+    },
+    {
+      "id": 211,
+      "label": "Predictive IR Analytics",
+      "group": "ANLYT"
+    },
+    {
+      "id": 212,
+      "label": "ML Model Calibration",
+      "group": "ANLYT"
+    },
+    {
+      "id": 213,
+      "label": "NLP For Transcripts",
+      "group": "ANLYT"
+    },
+    {
+      "id": 214,
+      "label": "Big Data Aggregation",
+      "group": "DATA-GOV"
+    },
+    {
+      "id": 215,
+      "label": "Q4 Platform Features",
+      "group": "TRANSFORM"
+    },
+    {
+      "id": 216,
+      "label": "Nasdaq IR Tools",
+      "group": "TRANSFORM"
+    },
+    {
+      "id": 217,
+      "label": "AlphaSense Search",
+      "group": "TRANSFORM"
+    },
+    {
+      "id": 218,
+      "label": "Enterprise LLM Usage",
+      "group": "AI-TECH"
+    },
+    {
+      "id": 219,
+      "label": "Sentiment Vendor Tools",
+      "group": "ANLYT"
+    },
+    {
+      "id": 220,
+      "label": "Compliance AI Monitors",
+      "group": "AI-GOV"
+    },
+    {
+      "id": 221,
+      "label": "Crisis AI Assistance",
+      "group": "AGENTIC"
+    },
+    {
+      "id": 222,
+      "label": "Earnings Surprise AI",
+      "group": "ANLYT"
+    },
+    {
+      "id": 223,
+      "label": "ESG Automation Tools",
+      "group": "AGENTIC"
+    },
+    {
+      "id": 224,
+      "label": "Proxy AI Support",
+      "group": "AGENTIC"
+    },
+    {
+      "id": 225,
+      "label": "Investor Targeting AI",
+      "group": "AGENTIC"
+    },
+    {
+      "id": 226,
+      "label": "Roadshow Optimization",
+      "group": "ANLYT"
+    },
+    {
+      "id": 227,
+      "label": "Earnings Prep Simulators",
+      "group": "AGENTIC"
+    },
+    {
+      "id": 228,
+      "label": "Guidance AI Forecasting",
+      "group": "ANLYT"
+    },
+    {
+      "id": 229,
+      "label": "Reg FD Compliance AI",
+      "group": "AI-GOV"
+    },
+    {
+      "id": 230,
+      "label": "Materiality AI Assessment",
+      "group": "AI-GOV"
+    },
+    {
+      "id": 231,
+      "label": "Disclosure AI Policies",
+      "group": "AI-GOV"
+    },
+    {
+      "id": 232,
+      "label": "Quiet Period Monitoring",
+      "group": "AI-GOV"
+    },
+    {
+      "id": 233,
+      "label": "Shareholder Activism AI",
+      "group": "ANLYT"
+    },
+    {
+      "id": 234,
+      "label": "Proxy Firm Simulations",
+      "group": "AGENTIC"
+    },
+    {
+      "id": 235,
+      "label": "ISS Recommendation AI",
+      "group": "ANLYT"
+    },
+    {
+      "id": 236,
+      "label": "Glass Lewis Analysis",
+      "group": "ANLYT"
+    },
+    {
+      "id": 237,
+      "label": "Vote Solicitation Bots",
+      "group": "AGENTIC"
+    },
+    {
+      "id": 238,
+      "label": "Annual Meeting AI",
+      "group": "AGENTIC"
+    },
+    {
+      "id": 239,
+      "label": "Chatbot Query Handling",
+      "group": "AGENTIC"
+    },
+    {
+      "id": 240,
+      "label": "Automated IR Reports",
+      "group": "AGENTIC"
+    },
+    {
+      "id": 241,
+      "label": "Real-Time Data Alerts",
+      "group": "AGENTIC"
+    },
+    {
+      "id": 242,
+      "label": "Anomaly Detection AI",
+      "group": "ANLYT"
+    },
+    {
+      "id": 243,
+      "label": "Fraud Prevention Models",
+      "group": "ANLYT"
+    },
+    {
+      "id": 244,
+      "label": "Valuation AI Modeling",
+      "group": "ANLYT"
+    },
+    {
+      "id": 245,
+      "label": "Scenario AI Simulation",
+      "group": "ANLYT"
+    },
+    {
+      "id": 246,
+      "label": "Risk Assessment AI",
+      "group": "ANLYT"
+    },
+    {
+      "id": 247,
+      "label": "Portfolio AI Optimization",
+      "group": "ANLYT"
+    },
+    {
+      "id": 248,
+      "label": "Benchmarking Algorithms",
+      "group": "ANLYT"
+    },
+    {
+      "id": 249,
+      "label": "SEC Filing Analytics",
+      "group": "ANLYT"
+    },
+    {
+      "id": 250,
+      "label": "EDGAR Data Mining",
+      "group": "ANLYT"
+    },
+    {
+      "id": 251,
+      "label": "Bloomberg IR Integration",
+      "group": "TRANSFORM"
+    },
+    {
+      "id": 252,
+      "label": "FactSet Benchmarking",
+      "group": "TRANSFORM"
+    },
+    {
+      "id": 253,
+      "label": "Thomson Reuters Feeds",
+      "group": "TRANSFORM"
+    },
+    {
+      "id": 254,
+      "label": "Social Media Analytics",
+      "group": "ANLYT"
+    },
+    {
+      "id": 255,
+      "label": "News Aggregation AI",
+      "group": "AGENTIC"
+    },
+    {
+      "id": 256,
+      "label": "Web Scraping Guidelines",
+      "group": "DATA-GOV"
+    },
+    {
+      "id": 257,
+      "label": "GDPR Data Compliance",
+      "group": "DATA-GOV"
+    },
+    {
+      "id": 258,
+      "label": "Cybersecurity Protocols",
+      "group": "DATA-GOV"
+    },
+    {
+      "id": 259,
+      "label": "Free Float Metrics",
+      "group": "VALMET"
+    },
+    {
+      "id": 260,
+      "label": "Institutional Share Trends",
+      "group": "VALMET"
+    },
+    {
+      "id": 261,
+      "label": "Retail Investor Metrics",
+      "group": "VALMET"
+    },
+    {
+      "id": 262,
+      "label": "Short Interest Tracking",
+      "group": "VALMET"
+    },
+    {
+      "id": 263,
+      "label": "Implied Volatility AI",
+      "group": "ANLYT"
+    },
+    {
+      "id": 264,
+      "label": "Cost Of Capital Models",
+      "group": "VALMET"
+    },
+    {
+      "id": 265,
+      "label": "WACC AI Calculations",
+      "group": "ANLYT"
+    },
+    {
+      "id": 266,
+      "label": "DCF Valuation Tools",
+      "group": "VALMET"
+    },
+    {
+      "id": 267,
+      "label": "Comparable Company AI",
+      "group": "ANLYT"
+    },
+    {
+      "id": 268,
+      "label": "Multiples Analysis AI",
+      "group": "ANLYT"
+    },
+    {
+      "id": 269,
+      "label": "Ipreo IR Solutions",
+      "group": "TRANSFORM"
+    },
+    {
+      "id": 270,
+      "label": "Broadridge Proxy Tools",
+      "group": "TRANSFORM"
+    },
+    {
+      "id": 271,
+      "label": "Computershare Services",
+      "group": "TRANSFORM"
+    },
+    {
+      "id": 272,
+      "label": "Intralinks Data Rooms",
+      "group": "TRANSFORM"
+    },
+    {
+      "id": 273,
+      "label": "DealCloud IR CRM",
+      "group": "TRANSFORM"
+    },
+    {
+      "id": 274,
+      "label": "Salesforce IR Dashboards",
+      "group": "TRANSFORM"
+    },
+    {
+      "id": 275,
+      "label": "Tableau IR Visuals",
+      "group": "TRANSFORM"
+    },
+    {
+      "id": 276,
+      "label": "Power BI Metrics",
+      "group": "TRANSFORM"
+    },
+    {
+      "id": 277,
+      "label": "Python Data Scripts",
+      "group": "ANLYT"
+    },
+    {
+      "id": 278,
+      "label": "R Statistical Analysis",
+      "group": "ANLYT"
+    },
+    {
+      "id": 279,
+      "label": "Tesla IR Case Study",
+      "group": "IR-FOUND"
+    },
+    {
+      "id": 280,
+      "label": "Apple Earnings Strategy",
+      "group": "IR-OPS"
+    },
+    {
+      "id": 281,
+      "label": "Amazon Letter Insights",
+      "group": "IR-FOUND"
+    },
+    {
+      "id": 282,
+      "label": "Berkshire AGM Lessons",
+      "group": "IR-OPS"
+    },
+    {
+      "id": 283,
+      "label": "Enron Detection Failures",
+      "group": "REG-COMP"
+    },
+    {
+      "id": 284,
+      "label": "VW Scandal Response",
+      "group": "TRANSFORM"
+    },
+    {
+      "id": 285,
+      "label": "Theranos IR Ethics",
+      "group": "REG-COMP"
+    },
+    {
+      "id": 286,
+      "label": "WeWork IPO Analysis",
+      "group": "IR-FOUND"
+    },
+    {
+      "id": 287,
+      "label": "GameStop Squeeze AI",
+      "group": "ANLYT"
+    },
+    {
+      "id": 288,
+      "label": "Bitcoin ETF Monitoring",
+      "group": "ANLYT"
+    },
+    {
+      "id": 289,
+      "label": "Generative Script AI",
+      "group": "AI-CONT"
+    },
+    {
+      "id": 290,
+      "label": "Voice Tone Analysis",
+      "group": "ANLYT"
+    },
+    {
+      "id": 291,
+      "label": "Facial Ethics In IR",
+      "group": "AI-GOV"
+    },
+    {
+      "id": 292,
+      "label": "Deep Learning Forecasts",
+      "group": "ANLYT"
+    },
+    {
+      "id": 293,
+      "label": "Neural Net Predictions",
+      "group": "ANLYT"
+    },
+    {
+      "id": 294,
+      "label": "Reinforcement IR Learning",
+      "group": "AI-TECH"
+    },
+    {
+      "id": 295,
+      "label": "Supervised Data Models",
+      "group": "AI-TECH"
+    },
+    {
+      "id": 296,
+      "label": "Unsupervised Clustering",
+      "group": "AI-TECH"
+    },
+    {
+      "id": 297,
+      "label": "Feature Engineering IR",
+      "group": "ANLYT"
+    },
+    {
+      "id": 298,
+      "label": "Model Training Datasets",
+      "group": "AI-TECH"
     }
   ],
   "edges": [
@@ -2087,6 +2722,738 @@
     {
       "from": 200,
       "to": 199
+    },
+    {
+      "from": 201,
+      "to": 48
+    },
+    {
+      "from": 201,
+      "to": 50
+    },
+    {
+      "from": 202,
+      "to": 59
+    },
+    {
+      "from": 203,
+      "to": 53
+    },
+    {
+      "from": 203,
+      "to": 54
+    },
+    {
+      "from": 204,
+      "to": 58
+    },
+    {
+      "from": 205,
+      "to": 48
+    },
+    {
+      "from": 206,
+      "to": 57
+    },
+    {
+      "from": 207,
+      "to": 55
+    },
+    {
+      "from": 208,
+      "to": 4
+    },
+    {
+      "from": 208,
+      "to": 57
+    },
+    {
+      "from": 209,
+      "to": 2
+    },
+    {
+      "from": 209,
+      "to": 54
+    },
+    {
+      "from": 210,
+      "to": 91
+    },
+    {
+      "from": 210,
+      "to": 95
+    },
+    {
+      "from": 211,
+      "to": 100
+    },
+    {
+      "from": 211,
+      "to": 101
+    },
+    {
+      "from": 212,
+      "to": 66
+    },
+    {
+      "from": 212,
+      "to": 100
+    },
+    {
+      "from": 213,
+      "to": 92
+    },
+    {
+      "from": 213,
+      "to": 93
+    },
+    {
+      "from": 214,
+      "to": 66
+    },
+    {
+      "from": 214,
+      "to": 132
+    },
+    {
+      "from": 215,
+      "to": 198
+    },
+    {
+      "from": 216,
+      "to": 198
+    },
+    {
+      "from": 217,
+      "to": 93
+    },
+    {
+      "from": 217,
+      "to": 198
+    },
+    {
+      "from": 218,
+      "to": 67
+    },
+    {
+      "from": 218,
+      "to": 199
+    },
+    {
+      "from": 219,
+      "to": 91
+    },
+    {
+      "from": 219,
+      "to": 198
+    },
+    {
+      "from": 220,
+      "to": 76
+    },
+    {
+      "from": 220,
+      "to": 143
+    },
+    {
+      "from": 221,
+      "to": 68
+    },
+    {
+      "from": 221,
+      "to": 148
+    },
+    {
+      "from": 222,
+      "to": 100
+    },
+    {
+      "from": 222,
+      "to": 4
+    },
+    {
+      "from": 223,
+      "to": 68
+    },
+    {
+      "from": 223,
+      "to": 123
+    },
+    {
+      "from": 224,
+      "to": 68
+    },
+    {
+      "from": 224,
+      "to": 17
+    },
+    {
+      "from": 225,
+      "to": 5
+    },
+    {
+      "from": 225,
+      "to": 112
+    },
+    {
+      "from": 226,
+      "to": 20
+    },
+    {
+      "from": 226,
+      "to": 100
+    },
+    {
+      "from": 227,
+      "to": 21
+    },
+    {
+      "from": 227,
+      "to": 68
+    },
+    {
+      "from": 228,
+      "to": 61
+    },
+    {
+      "from": 228,
+      "to": 100
+    },
+    {
+      "from": 229,
+      "to": 26
+    },
+    {
+      "from": 229,
+      "to": 76
+    },
+    {
+      "from": 230,
+      "to": 42
+    },
+    {
+      "from": 230,
+      "to": 76
+    },
+    {
+      "from": 231,
+      "to": 32
+    },
+    {
+      "from": 231,
+      "to": 78
+    },
+    {
+      "from": 232,
+      "to": 44
+    },
+    {
+      "from": 232,
+      "to": 76
+    },
+    {
+      "from": 233,
+      "to": 16
+    },
+    {
+      "from": 233,
+      "to": 100
+    },
+    {
+      "from": 234,
+      "to": 17
+    },
+    {
+      "from": 234,
+      "to": 112
+    },
+    {
+      "from": 235,
+      "to": 17
+    },
+    {
+      "from": 235,
+      "to": 100
+    },
+    {
+      "from": 236,
+      "to": 17
+    },
+    {
+      "from": 236,
+      "to": 93
+    },
+    {
+      "from": 237,
+      "to": 17
+    },
+    {
+      "from": 237,
+      "to": 112
+    },
+    {
+      "from": 238,
+      "to": 18
+    },
+    {
+      "from": 238,
+      "to": 112
+    },
+    {
+      "from": 239,
+      "to": 68
+    },
+    {
+      "from": 239,
+      "to": 92
+    },
+    {
+      "from": 240,
+      "to": 123
+    },
+    {
+      "from": 241,
+      "to": 99
+    },
+    {
+      "from": 241,
+      "to": 121
+    },
+    {
+      "from": 242,
+      "to": 66
+    },
+    {
+      "from": 242,
+      "to": 100
+    },
+    {
+      "from": 243,
+      "to": 100
+    },
+    {
+      "from": 243,
+      "to": 146
+    },
+    {
+      "from": 244,
+      "to": 54
+    },
+    {
+      "from": 244,
+      "to": 100
+    },
+    {
+      "from": 245,
+      "to": 100
+    },
+    {
+      "from": 245,
+      "to": 102
+    },
+    {
+      "from": 246,
+      "to": 146
+    },
+    {
+      "from": 246,
+      "to": 147
+    },
+    {
+      "from": 247,
+      "to": 103
+    },
+    {
+      "from": 247,
+      "to": 105
+    },
+    {
+      "from": 248,
+      "to": 53
+    },
+    {
+      "from": 248,
+      "to": 66
+    },
+    {
+      "from": 249,
+      "to": 33
+    },
+    {
+      "from": 249,
+      "to": 93
+    },
+    {
+      "from": 250,
+      "to": 33
+    },
+    {
+      "from": 250,
+      "to": 93
+    },
+    {
+      "from": 251,
+      "to": 121
+    },
+    {
+      "from": 251,
+      "to": 198
+    },
+    {
+      "from": 252,
+      "to": 53
+    },
+    {
+      "from": 252,
+      "to": 121
+    },
+    {
+      "from": 253,
+      "to": 121
+    },
+    {
+      "from": 253,
+      "to": 198
+    },
+    {
+      "from": 254,
+      "to": 94
+    },
+    {
+      "from": 254,
+      "to": 95
+    },
+    {
+      "from": 255,
+      "to": 95
+    },
+    {
+      "from": 255,
+      "to": 120
+    },
+    {
+      "from": 256,
+      "to": 93
+    },
+    {
+      "from": 256,
+      "to": 131
+    },
+    {
+      "from": 257,
+      "to": 134
+    },
+    {
+      "from": 257,
+      "to": 135
+    },
+    {
+      "from": 258,
+      "to": 136
+    },
+    {
+      "from": 258,
+      "to": 137
+    },
+    {
+      "from": 259,
+      "to": 51
+    },
+    {
+      "from": 259,
+      "to": 52
+    },
+    {
+      "from": 260,
+      "to": 7
+    },
+    {
+      "from": 260,
+      "to": 52
+    },
+    {
+      "from": 261,
+      "to": 8
+    },
+    {
+      "from": 261,
+      "to": 52
+    },
+    {
+      "from": 262,
+      "to": 48
+    },
+    {
+      "from": 262,
+      "to": 51
+    },
+    {
+      "from": 263,
+      "to": 48
+    },
+    {
+      "from": 263,
+      "to": 100
+    },
+    {
+      "from": 264,
+      "to": 2
+    },
+    {
+      "from": 264,
+      "to": 54
+    },
+    {
+      "from": 265,
+      "to": 264
+    },
+    {
+      "from": 265,
+      "to": 66
+    },
+    {
+      "from": 266,
+      "to": 2
+    },
+    {
+      "from": 266,
+      "to": 54
+    },
+    {
+      "from": 267,
+      "to": 53
+    },
+    {
+      "from": 267,
+      "to": 100
+    },
+    {
+      "from": 268,
+      "to": 54
+    },
+    {
+      "from": 268,
+      "to": 100
+    },
+    {
+      "from": 269,
+      "to": 198
+    },
+    {
+      "from": 270,
+      "to": 17
+    },
+    {
+      "from": 270,
+      "to": 198
+    },
+    {
+      "from": 271,
+      "to": 198
+    },
+    {
+      "from": 272,
+      "to": 136
+    },
+    {
+      "from": 272,
+      "to": 198
+    },
+    {
+      "from": 273,
+      "to": 128
+    },
+    {
+      "from": 273,
+      "to": 198
+    },
+    {
+      "from": 274,
+      "to": 124
+    },
+    {
+      "from": 274,
+      "to": 198
+    },
+    {
+      "from": 275,
+      "to": 124
+    },
+    {
+      "from": 275,
+      "to": 164
+    },
+    {
+      "from": 276,
+      "to": 124
+    },
+    {
+      "from": 276,
+      "to": 126
+    },
+    {
+      "from": 277,
+      "to": 66
+    },
+    {
+      "from": 277,
+      "to": 214
+    },
+    {
+      "from": 278,
+      "to": 66
+    },
+    {
+      "from": 278,
+      "to": 100
+    },
+    {
+      "from": 279,
+      "to": 1
+    },
+    {
+      "from": 279,
+      "to": 3
+    },
+    {
+      "from": 280,
+      "to": 4
+    },
+    {
+      "from": 280,
+      "to": 61
+    },
+    {
+      "from": 281,
+      "to": 3
+    },
+    {
+      "from": 281,
+      "to": 164
+    },
+    {
+      "from": 282,
+      "to": 18
+    },
+    {
+      "from": 283,
+      "to": 42
+    },
+    {
+      "from": 283,
+      "to": 148
+    },
+    {
+      "from": 284,
+      "to": 148
+    },
+    {
+      "from": 284,
+      "to": 164
+    },
+    {
+      "from": 285,
+      "to": 23
+    },
+    {
+      "from": 285,
+      "to": 80
+    },
+    {
+      "from": 286,
+      "to": 2
+    },
+    {
+      "from": 286,
+      "to": 148
+    },
+    {
+      "from": 287,
+      "to": 48
+    },
+    {
+      "from": 287,
+      "to": 100
+    },
+    {
+      "from": 288,
+      "to": 100
+    },
+    {
+      "from": 288,
+      "to": 110
+    },
+    {
+      "from": 289,
+      "to": 68
+    },
+    {
+      "from": 289,
+      "to": 21
+    },
+    {
+      "from": 290,
+      "to": 75
+    },
+    {
+      "from": 290,
+      "to": 92
+    },
+    {
+      "from": 291,
+      "to": 80
+    },
+    {
+      "from": 291,
+      "to": 164
+    },
+    {
+      "from": 292,
+      "to": 66
+    },
+    {
+      "from": 292,
+      "to": 100
+    },
+    {
+      "from": 293,
+      "to": 66
+    },
+    {
+      "from": 293,
+      "to": 100
+    },
+    {
+      "from": 294,
+      "to": 66
+    },
+    {
+      "from": 294,
+      "to": 101
+    },
+    {
+      "from": 295,
+      "to": 66
+    },
+    {
+      "from": 296,
+      "to": 66
+    },
+    {
+      "from": 297,
+      "to": 66
+    },
+    {
+      "from": 297,
+      "to": 100
+    },
+    {
+      "from": 298,
+      "to": 66
+    },
+    {
+      "from": 298,
+      "to": 132
     }
   ]
 }

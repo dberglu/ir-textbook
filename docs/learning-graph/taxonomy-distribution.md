@@ -2,42 +2,42 @@
 
 ## Overview
 
-- **Total Concepts**: 200
+- **Total Concepts**: 298
 - **Number of Taxonomies**: 12
-- **Average Concepts per Taxonomy**: 16.7
+- **Average Concepts per Taxonomy**: 24.8
 
 ## Distribution Summary
 
 | Category | TaxonomyID | Count | Percentage | Status |
 |----------|-----------|-------|------------|--------|
-| TRANSFORM | TRANSFORM | 50 | 25.0% | ✅ |
-| REG-COMP | REG-COMP | 26 | 13.0% | ✅ |
-| DATA-GOV | DATA-GOV | 20 | 10.0% | ✅ |
-| ANLYT | ANLYT | 19 | 9.5% | ✅ |
-| AGENTIC | AGENTIC | 15 | 7.5% | ✅ |
-| AI-GOV | AI-GOV | 14 | 7.0% | ✅ |
-| IR-OPS | IR-OPS | 13 | 6.5% | ✅ |
-| INVEST | INVEST | 11 | 5.5% | ✅ |
-| VALMET | VALMET | 11 | 5.5% | ✅ |
-| IR-FOUND | IR-FOUND | 9 | 4.5% | ✅ |
-| AI-CONT | AI-CONT | 7 | 3.5% | ✅ |
-| AI-TECH | AI-TECH | 5 | 2.5% | ℹ️ Under |
+| TRANSFORM | TRANSFORM | 65 | 21.8% | ✅ |
+| ANLYT | ANLYT | 52 | 17.4% | ✅ |
+| REG-COMP | REG-COMP | 28 | 9.4% | ✅ |
+| AGENTIC | AGENTIC | 27 | 9.1% | ✅ |
+| VALMET | VALMET | 26 | 8.7% | ✅ |
+| DATA-GOV | DATA-GOV | 24 | 8.1% | ✅ |
+| AI-GOV | AI-GOV | 20 | 6.7% | ✅ |
+| IR-OPS | IR-OPS | 15 | 5.0% | ✅ |
+| IR-FOUND | IR-FOUND | 12 | 4.0% | ✅ |
+| INVEST | INVEST | 11 | 3.7% | ✅ |
+| AI-TECH | AI-TECH | 10 | 3.4% | ✅ |
+| AI-CONT | AI-CONT | 8 | 2.7% | ℹ️ Under |
 
 ## Visual Distribution
 
 ```
-TRANSFORM ████████████  50 ( 25.0%)
-REG-COMP ██████  26 ( 13.0%)
-DATA-GOV █████  20 ( 10.0%)
-ANLYT  ████  19 (  9.5%)
-AGENTIC ███  15 (  7.5%)
-AI-GOV ███  14 (  7.0%)
-IR-OPS ███  13 (  6.5%)
-INVEST ██  11 (  5.5%)
-VALMET ██  11 (  5.5%)
-IR-FOUND ██   9 (  4.5%)
-AI-CONT █   7 (  3.5%)
-AI-TECH █   5 (  2.5%)
+TRANSFORM ██████████  65 ( 21.8%)
+ANLYT  ████████  52 ( 17.4%)
+REG-COMP ████  28 (  9.4%)
+AGENTIC ████  27 (  9.1%)
+VALMET ████  26 (  8.7%)
+DATA-GOV ████  24 (  8.1%)
+AI-GOV ███  20 (  6.7%)
+IR-OPS ██  15 (  5.0%)
+IR-FOUND ██  12 (  4.0%)
+INVEST █  11 (  3.7%)
+AI-TECH █  10 (  3.4%)
+AI-CONT █   8 (  2.7%)
 ```
 
 ## Balance Analysis
@@ -48,14 +48,14 @@ All categories are under the 30% threshold. Good balance!
 
 ### ℹ️ Under-Represented Categories (<3%)
 
-- **AI-TECH** (AI-TECH): 5 concepts (2.5%)
+- **AI-CONT** (AI-CONT): 8 concepts (2.7%)
   - *Note*: Small categories are acceptable for specialized topics
 
 ## Category Details
 
 ### TRANSFORM (TRANSFORM)
 
-**Count**: 50 concepts (25.0%)
+**Count**: 65 concepts (21.8%)
 
 **Concepts**:
 
@@ -74,57 +74,11 @@ All categories are under the 30% threshold. Good balance!
 - 163. C-Suite Communications
 - 164. Storytelling with Data
 - 165. Developing Narratives
-- *...and 35 more*
-
-### REG-COMP (REG-COMP)
-
-**Count**: 26 concepts (13.0%)
-
-**Concepts**:
-
-- 23. Material Information
-- 24. Nonpublic Information
-- 25. Regulation Fair Disclosure
-- 26. Reg FD Compliance
-- 27. Preventing Selective Disclosure
-- 28. Sarbanes-Oxley Act
-- 29. SOX Section 302
-- 30. SOX Section 404
-- 31. Internal Control Systems
-- 32. Disclosure Controls
-- 33. SEC Filing Requirements
-- 34. Form 10-K Overview
-- 35. Form 10-Q Essentials
-- 36. Form 8-K Summary
-- 37. XBRL Reporting Standards
-- *...and 11 more*
-
-### DATA-GOV (DATA-GOV)
-
-**Count**: 20 concepts (10.0%)
-
-**Concepts**:
-
-- 131. Data Governance Basics
-- 132. Managing Data Quality
-- 133. Tracking Data Lineage
-- 134. Financial Data Privacy
-- 135. Protecting Personal Data
-- 136. Data Security Standards
-- 137. Encryption Best Practices
-- 138. Access Control Models
-- 139. Role-Based Access
-- 140. Audit Trail Requirements
-- 141. Managing Audit Logs
-- 142. Compliance Monitoring
-- 143. RegTech Applications
-- 144. Compliance Automation
-- 145. Automated Risk Monitoring
-- *...and 5 more*
+- *...and 50 more*
 
 ### ANLYT (ANLYT)
 
-**Count**: 19 concepts (9.5%)
+**Count**: 52 concepts (17.4%)
 
 **Concepts**:
 
@@ -143,11 +97,34 @@ All categories are under the 30% threshold. Good balance!
 - 103. Modeling Investor Behavior
 - 104. Trading Pattern Analysis
 - 105. Algorithmic Trading Impact
-- *...and 4 more*
+- *...and 37 more*
+
+### REG-COMP (REG-COMP)
+
+**Count**: 28 concepts (9.4%)
+
+**Concepts**:
+
+- 23. Material Information
+- 24. Nonpublic Information
+- 25. Regulation Fair Disclosure
+- 26. Reg FD Compliance
+- 27. Preventing Selective Disclosure
+- 28. Sarbanes-Oxley Act
+- 29. SOX Section 302
+- 30. SOX Section 404
+- 31. Internal Control Systems
+- 32. Disclosure Controls
+- 33. SEC Filing Requirements
+- 34. Form 10-K Overview
+- 35. Form 10-Q Essentials
+- 36. Form 8-K Summary
+- 37. XBRL Reporting Standards
+- *...and 13 more*
 
 ### AGENTIC (AGENTIC)
 
-**Count**: 15 concepts (7.5%)
+**Count**: 27 concepts (9.1%)
 
 **Concepts**:
 
@@ -166,10 +143,57 @@ All categories are under the 30% threshold. Good balance!
 - 123. Automated Report Tools
 - 124. AI-Driven Dashboards
 - 125. Designing Dashboards
+- *...and 12 more*
+
+### VALMET (VALMET)
+
+**Count**: 26 concepts (8.7%)
+
+**Concepts**:
+
+- 48. Stock Price Volatility
+- 49. Market Liquidity Trends
+- 50. Trading Volume Metrics
+- 51. Ownership Concentration
+- 52. Shareholder Base Analysis
+- 53. Peer Benchmarking Tools
+- 54. Valuation Multiples
+- 55. P/E Ratio Insights
+- 56. Enterprise Value Metrics
+- 57. Shareholder Return Metrics
+- 58. Market Capitalization
+- 201. Trading Volume Analysis
+- 202. Analyst Coverage Metrics
+- 203. Peer Valuation Benchmark
+- 204. Market Cap Fluctuations
+- *...and 11 more*
+
+### DATA-GOV (DATA-GOV)
+
+**Count**: 24 concepts (8.1%)
+
+**Concepts**:
+
+- 131. Data Governance Basics
+- 132. Managing Data Quality
+- 133. Tracking Data Lineage
+- 134. Financial Data Privacy
+- 135. Protecting Personal Data
+- 136. Data Security Standards
+- 137. Encryption Best Practices
+- 138. Access Control Models
+- 139. Role-Based Access
+- 140. Audit Trail Requirements
+- 141. Managing Audit Logs
+- 142. Compliance Monitoring
+- 143. RegTech Applications
+- 144. Compliance Automation
+- 145. Automated Risk Monitoring
+- *...and 9 more*
 
 ### AI-GOV (AI-GOV)
 
-**Count**: 14 concepts (7.0%)
+**Count**: 20 concepts (6.7%)
 
 **Concepts**:
 
@@ -187,10 +211,12 @@ All categories are under the 30% threshold. Good balance!
 - 88. Detecting Model Drift
 - 89. Managing Model Drift
 - 90. Monitoring AI Models
+- 220. Compliance AI Monitors
+- *...and 5 more*
 
 ### IR-OPS (IR-OPS)
 
-**Count**: 13 concepts (6.5%)
+**Count**: 15 concepts (5.0%)
 
 **Concepts**:
 
@@ -207,10 +233,31 @@ All categories are under the 30% threshold. Good balance!
 - 62. Guidance Withdrawal Risks
 - 63. Setting Guidance Ranges
 - 64. Beat-and-Raise Tactics
+- 280. Apple Earnings Strategy
+- 282. Berkshire AGM Lessons
+
+### IR-FOUND (IR-FOUND)
+
+**Count**: 12 concepts (4.0%)
+
+**Concepts**:
+
+- 1. Investor Relations Function
+- 2. Corporate Valuation Strategy
+- 3. Market Communication Strategy
+- 16. Shareholder Engagement
+- 126. Key Performance Indicators
+- 127. IR Engagement Metrics
+- 128. Tracking Investor Outreach
+- 129. Meeting Effectiveness
+- 130. Response Time Analytics
+- 279. Tesla IR Case Study
+- 281. Amazon Letter Insights
+- 286. WeWork IPO Analysis
 
 ### INVEST (INVEST)
 
-**Count**: 11 concepts (5.5%)
+**Count**: 11 concepts (3.7%)
 
 **Concepts**:
 
@@ -226,43 +273,26 @@ All categories are under the 30% threshold. Good balance!
 - 59. Analyst Coverage Review
 - 60. Consensus Estimates
 
-### VALMET (VALMET)
+### AI-TECH (AI-TECH)
 
-**Count**: 11 concepts (5.5%)
-
-**Concepts**:
-
-- 48. Stock Price Volatility
-- 49. Market Liquidity Trends
-- 50. Trading Volume Metrics
-- 51. Ownership Concentration
-- 52. Shareholder Base Analysis
-- 53. Peer Benchmarking Tools
-- 54. Valuation Multiples
-- 55. P/E Ratio Insights
-- 56. Enterprise Value Metrics
-- 57. Shareholder Return Metrics
-- 58. Market Capitalization
-
-### IR-FOUND (IR-FOUND)
-
-**Count**: 9 concepts (4.5%)
+**Count**: 10 concepts (3.4%)
 
 **Concepts**:
 
-- 1. Investor Relations Function
-- 2. Corporate Valuation Strategy
-- 3. Market Communication Strategy
-- 16. Shareholder Engagement
-- 126. Key Performance Indicators
-- 127. IR Engagement Metrics
-- 128. Tracking Investor Outreach
-- 129. Meeting Effectiveness
-- 130. Response Time Analytics
+- 65. AI Fundamentals
+- 66. Machine Learning Basics
+- 67. Large Language Models
+- 68. Generative AI Tools
+- 69. Prompt Engineering Skills
+- 218. Enterprise LLM Usage
+- 294. Reinforcement IR Learning
+- 295. Supervised Data Models
+- 296. Unsupervised Clustering
+- 298. Model Training Datasets
 
 ### AI-CONT (AI-CONT)
 
-**Count**: 7 concepts (3.5%)
+**Count**: 8 concepts (2.7%)
 
 **Concepts**:
 
@@ -273,22 +303,11 @@ All categories are under the 30% threshold. Good balance!
 - 74. Narrative Consistency
 - 75. Tone Analysis Tools
 - 76. Compliance Review Tools
-
-### AI-TECH (AI-TECH)
-
-**Count**: 5 concepts (2.5%)
-
-**Concepts**:
-
-- 65. AI Fundamentals
-- 66. Machine Learning Basics
-- 67. Large Language Models
-- 68. Generative AI Tools
-- 69. Prompt Engineering Skills
+- 289. Generative Script AI
 
 ## Recommendations
 
-- ✅ **Good balance**: Categories are reasonably distributed (spread: 22.5%)
+- ✅ **Good balance**: Categories are reasonably distributed (spread: 19.1%)
 - ✅ **MISC category minimal**: Good categorization specificity
 
 ### Educational Use Recommendations

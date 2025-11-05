@@ -206,6 +206,104 @@ This list contains 200 concepts derived from the course description, organized t
 198. Selecting IR Platforms
 199. Integrating Enterprise AI
 200. IR Transformation Plan
+201. Trading Volume Analysis
+202. Analyst Coverage Metrics
+203. Peer Valuation Benchmark
+204. Market Cap Fluctuations
+205. Beta Risk Measurement
+206. Dividend Yield Trends
+207. Price To Earnings Ratio
+208. Earnings Per Share Growth
+209. Return On Equity Targets
+210. AI Sentiment Tracking
+211. Predictive IR Analytics
+212. ML Model Calibration
+213. NLP For Transcripts
+214. Big Data Aggregation
+215. Q4 Platform Features
+216. Nasdaq IR Tools
+217. AlphaSense Search
+218. Enterprise LLM Usage
+219. Sentiment Vendor Tools
+220. Compliance AI Monitors
+221. Crisis AI Assistance
+222. Earnings Surprise AI
+223. ESG Automation Tools
+224. Proxy AI Support
+225. Investor Targeting AI
+226. Roadshow Optimization
+227. Earnings Prep Simulators
+228. Guidance AI Forecasting
+229. Reg FD Compliance AI
+230. Materiality AI Assessment
+231. Disclosure AI Policies
+232. Quiet Period Monitoring
+233. Shareholder Activism AI
+234. Proxy Firm Simulations
+235. ISS Recommendation AI
+236. Glass Lewis Analysis
+237. Vote Solicitation Bots
+238. Annual Meeting AI
+239. Chatbot Query Handling
+240. Automated IR Reports
+241. Real-Time Data Alerts
+242. Anomaly Detection AI
+243. Fraud Prevention Models
+244. Valuation AI Modeling
+245. Scenario AI Simulation
+246. Risk Assessment AI
+247. Portfolio AI Optimization
+248. Benchmarking Algorithms
+249. SEC Filing Analytics
+250. EDGAR Data Mining
+251. Bloomberg IR Integration
+252. FactSet Benchmarking
+253. Thomson Reuters Feeds
+254. Social Media Analytics
+255. News Aggregation AI
+256. Web Scraping Guidelines
+257. GDPR Data Compliance
+258. Cybersecurity Protocols
+259. Free Float Metrics
+260. Institutional Share Trends
+261. Retail Investor Metrics
+262. Short Interest Tracking
+263. Implied Volatility AI
+264. Cost Of Capital Models
+265. WACC AI Calculations
+266. DCF Valuation Tools
+267. Comparable Company AI
+268. Multiples Analysis AI
+269. Ipreo IR Solutions
+270. Broadridge Proxy Tools
+271. Computershare Services
+272. Intralinks Data Rooms
+273. DealCloud IR CRM
+274. Salesforce IR Dashboards
+275. Tableau IR Visuals
+276. Power BI Metrics
+277. Python Data Scripts
+278. R Statistical Analysis
+279. Tesla IR Case Study
+280. Apple Earnings Strategy
+281. Amazon Letter Insights
+282. Berkshire AGM Lessons
+283. Enron Detection Failures
+284. VW Scandal Response
+285. Theranos IR Ethics
+286. WeWork IPO Analysis
+287. GameStop Squeeze AI
+288. Bitcoin ETF Monitoring
+289. Generative Script AI
+290. Voice Tone Analysis
+291. Facial Ethics In IR
+292. Deep Learning Forecasts
+293. Neural Net Predictions
+294. Reinforcement IR Learning
+295. Supervised Data Models
+296. Unsupervised Clustering
+297. Feature Engineering IR
+298. Model Training Datasets
 
 ---
 
@@ -213,10 +311,12 @@ This list contains 200 concepts derived from the course description, organized t
 
 - Concepts are in Title Case
 - All concepts are ≤32 characters
+- Updated list now contains 298 concepts (expanded from 200)
 - Concepts cover the full breadth of the course material:
-  - IR Domain Knowledge (concepts 1-64)
-  - AI Technologies & Methods (concepts 65-123)
-  - Data Governance & Compliance (concepts 124-157)
+  - IR Domain Knowledge (concepts 1-64, 201-209, 259-262, 279-288)
+  - AI Technologies & Methods (concepts 65-123, 210-248, 289-298)
+  - Data Governance & Compliance (concepts 124-157, 256-258)
   - Strategy & Transformation (concepts 158-200)
+  - IR Platforms & Tools (concepts 215-219, 249-255, 269-278)
 - Each concept is distinct and pedagogically sound
 - Concepts support multiple dependency relationships for DAG structure

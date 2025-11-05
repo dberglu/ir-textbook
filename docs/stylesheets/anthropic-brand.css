@@ -210,32 +210,42 @@ li,
   margin: 2rem 0;
 }
 
-/* Collapsible Concepts Covered Section */
+/* Collapsible Concepts Covered Section - Modern Card Design */
 details.concepts-covered {
-  background-color: var(--anthropic-light-gray);
-  border-left: 4px solid var(--anthropic-blue);
+  background-color: var(--anthropic-light);
+  border: 1px solid var(--anthropic-light-gray);
+  border-left: 3px solid var(--anthropic-light-gray);
   border-radius: 8px;
-  padding: 1.5rem;
+  padding: 0;
   margin: 2rem 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+details.concepts-covered:hover {
+  border-left-color: var(--anthropic-orange);
+  background-color: rgba(217, 119, 87, 0.02);
 }
 
 details.concepts-covered[open] {
   border-left-color: var(--anthropic-orange);
+  background-color: rgba(217, 119, 87, 0.03);
 }
 
 details.concepts-covered summary {
   font-family: var(--heading-font);
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--anthropic-dark);
   cursor: pointer;
   user-select: none;
-  padding: 0.5rem 0;
+  padding: 1rem 0.75rem;
   list-style: none;
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  transition: color 0.2s ease;
 }
 
 details.concepts-covered summary::-webkit-details-marker {
@@ -243,16 +253,15 @@ details.concepts-covered summary::-webkit-details-marker {
 }
 
 details.concepts-covered summary::before {
-  content: "▶";
+  content: "📘";
   display: inline-block;
+  font-size: 1rem;
   transition: transform 0.3s ease;
-  font-size: 0.9rem;
-  color: var(--anthropic-blue);
+  flex-shrink: 0;
 }
 
 details.concepts-covered[open] summary::before {
-  transform: rotate(90deg);
-  color: var(--anthropic-orange);
+  transform: rotate(0deg);
 }
 
 details.concepts-covered summary:hover {
@@ -260,32 +269,61 @@ details.concepts-covered summary:hover {
 }
 
 details.concepts-covered summary:focus {
-  outline: 2px solid var(--anthropic-blue);
-  outline-offset: 2px;
-  border-radius: 4px;
+  outline: 2px solid var(--anthropic-orange);
+  outline-offset: -2px;
+}
+
+details.concepts-covered summary:focus-visible {
+  outline: 2px solid var(--anthropic-orange);
+  outline-offset: -2px;
 }
 
 /* Content inside the details */
+details.concepts-covered .concepts-content {
+  padding: 0 0.75rem 1rem 0.75rem;
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 details.concepts-covered ol {
-  margin-top: 1rem;
+  margin: 0.75rem 0 0 0;
   padding-left: 2rem;
   font-family: var(--body-font);
+  font-size: 0.9rem;
   line-height: 1.8;
+  color: var(--anthropic-dark);
 }
 
 details.concepts-covered ol li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
   color: var(--anthropic-dark);
 }
 
 /* Dark mode support */
 [data-md-color-scheme="slate"] details.concepts-covered {
-  background-color: #1f1f1e;
-  border-left-color: var(--anthropic-blue);
+  background-color: #1a1a19;
+  border-color: #2a2a28;
+  border-left-color: #2a2a28;
+}
+
+[data-md-color-scheme="slate"] details.concepts-covered:hover {
+  border-left-color: var(--anthropic-orange);
+  background-color: rgba(217, 119, 87, 0.05);
 }
 
 [data-md-color-scheme="slate"] details.concepts-covered[open] {
   border-left-color: var(--anthropic-orange);
+  background-color: rgba(217, 119, 87, 0.08);
 }
 
 [data-md-color-scheme="slate"] details.concepts-covered summary {
@@ -298,11 +336,17 @@ details.concepts-covered ol li {
 
 /* Mobile responsive */
 @media screen and (max-width: 768px) {
-  details.concepts-covered {
-    padding: 1rem;
-  }
-  
   details.concepts-covered summary {
-    font-size: 1rem;
+    font-size: 0.95rem;
+    padding: 0.875rem 0.625rem;
+  }
+
+  details.concepts-covered .concepts-content {
+    padding: 0 0.625rem 0.875rem 0.625rem;
+  }
+
+  details.concepts-covered ol {
+    font-size: 0.85rem;
+    padding-left: 1.5rem;
   }
 }

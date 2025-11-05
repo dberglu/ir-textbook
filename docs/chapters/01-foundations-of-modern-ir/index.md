@@ -6,11 +6,21 @@ This chapter introduces the strategic role of investor relations in capital mark
 
 ## Prerequisites
 
-This chapter assumes only the prerequisites listed in the [course description](../../course-description.md):
+<details class="concepts-covered">
+  <summary>
+    <span class="chevron">▸</span>
+    <span>Prerequisites for This Chapter</span>
+  </summary>
 
-- Working knowledge of corporate financial statements and capital markets
-- Basic understanding of investor relations roles and disclosures
-- Executive-level experience in digital, data, or innovation functions
+  <div class="concepts-list">
+    <p>This chapter assumes only the prerequisites listed in the <a href="../../course-description.md">course description</a>:</p>
+    <ul>
+      <li>Working knowledge of corporate financial statements and capital markets</li>
+      <li>Basic understanding of investor relations roles and disclosures</li>
+      <li>Executive-level experience in digital, data, or innovation functions</li>
+    </ul>
+  </div>
+</details>
 
 ---
 
@@ -105,28 +115,33 @@ Annual general meetings provide formal voting venues and shareholder dialogue op
 ## Concepts Covered
 
 <details class="concepts-covered">
-<summary>📚 Concepts Covered in This Chapter</summary>
+  <summary>
+    <span class="chevron">▸</span>
+    <span>Concepts Covered in This Chapter</span>
+  </summary>
 
-This chapter covers the following 17 concepts from the learning graph:
-
-1. Investor Relations Function
-2. Corporate Valuation Strategy
-3. Market Communication Strategy
-4. Earnings Reporting Process
-5. Investor Targeting Methods
-6. Q&A Preparation Techniques
-7. Shareholder Engagement
-8. Proxy Season Management
-9. Annual General Meetings
-10. Investor Presentations
-11. Roadshow Planning
-12. Earnings Call Scripts
-13. Press Release Drafting
-14. Institutional Investors
-15. Retail Investors
-16. Buy-Side Analysts
-17. Sell-Side Analysts
-
+  <div class="concepts-list">
+    <p>This chapter covers the following 17 concepts from the learning graph:</p>
+    <ol>
+      <li>Investor Relations Function</li>
+      <li>Corporate Valuation Strategy</li>
+      <li>Market Communication Strategy</li>
+      <li>Earnings Reporting Process</li>
+      <li>Investor Targeting Methods</li>
+      <li>Q&A Preparation Techniques</li>
+      <li>Shareholder Engagement</li>
+      <li>Proxy Season Management</li>
+      <li>Annual General Meetings</li>
+      <li>Investor Presentations</li>
+      <li>Roadshow Planning</li>
+      <li>Earnings Call Scripts</li>
+      <li>Press Release Drafting</li>
+      <li>Institutional Investors</li>
+      <li>Retail Investors</li>
+      <li>Buy-Side Analysts</li>
+      <li>Sell-Side Analysts</li>
+    </ol>
+  </div>
 </details>
 
 ---

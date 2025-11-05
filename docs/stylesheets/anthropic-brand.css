@@ -210,166 +210,91 @@ li,
   margin: 2rem 0;
 }
 
-/* Collapsible Concepts Covered Section - Modern Card Design */
+/* --- Concepts Covered Card --- */
 details.concepts-covered {
-  background-color: var(--anthropic-light);
-  border: 1px solid var(--anthropic-light-gray);
-  border-left: 3px solid var(--anthropic-light-gray);
+  border: 1px solid #e8e6dc;
   border-radius: 8px;
-  padding: 0;
-  margin: 2rem 0;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
-  transition: all 0.3s ease;
+  background-color: #faf9f5;
+  margin: 1.5rem 0;
+  font-family: 'Lora', serif;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
   overflow: hidden;
 }
 
-details.concepts-covered:hover {
-  border-left-color: var(--anthropic-orange);
-  background-color: rgba(217, 119, 87, 0.02);
+/* Remove MkDocs Material's default triangle */
+details.concepts-covered summary::-webkit-details-marker,
+details.concepts-covered summary::marker {
+  display: none;
 }
 
-details.concepts-covered[open] {
-  border-left-color: var(--anthropic-orange);
-  background-color: rgba(217, 119, 87, 0.03);
-}
-
+/* Summary (header) */
 details.concepts-covered summary {
-  font-family: var(--heading-font);
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 1rem;
-  color: var(--anthropic-dark);
+  color: #141413;
   cursor: pointer;
-  user-select: none;
-  padding: 1rem 2.5rem 1rem 0.75rem;
-  list-style: none;
+  padding: 1rem 1.25rem;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  transition: color 0.2s ease;
-  position: relative;
-}
-
-details.concepts-covered summary::-webkit-details-marker {
-  display: none;
-}
-
-/* Remove MkDocs Material default icon */
-details.concepts-covered summary .twemoji {
-  display: none;
-}
-
-details.concepts-covered summary::before {
-  content: "📘";
-  display: inline-block;
-  font-size: 1rem;
-  transition: transform 0.3s ease;
-  flex-shrink: 0;
-}
-
-details.concepts-covered[open] summary::before {
-  transform: rotate(0deg);
-}
-
-/* Dropdown arrow on the right */
-details.concepts-covered summary::after {
-  content: "▼";
-  position: absolute;
-  right: 0.75rem;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 0.75rem;
-  color: var(--anthropic-mid-gray);
-  transition: transform 0.3s ease, color 0.2s ease;
-}
-
-details.concepts-covered[open] summary::after {
-  transform: translateY(-50%) rotate(180deg);
-  color: var(--anthropic-orange);
-}
-
-details.concepts-covered summary:hover::after {
-  color: var(--anthropic-orange);
+  gap: 0.6rem;
+  background-color: #faf9f5;
+  transition: background-color 0.2s ease;
+  border-left: 4px solid transparent;
 }
 
 details.concepts-covered summary:hover {
-  color: var(--anthropic-orange);
+  background-color: rgba(217, 119, 87, 0.05);
+  border-left-color: #d97757;
 }
 
-details.concepts-covered summary:focus {
-  outline: 2px solid var(--anthropic-orange);
-  outline-offset: -2px;
+/* Chevron icon (replaces emoji/book) */
+details.concepts-covered summary .chevron {
+  font-size: 1.1rem;
+  color: #b0aea5;
+  transition: transform 0.3s ease, color 0.3s ease;
+  margin-right: 0.25rem;
 }
 
-details.concepts-covered summary:focus-visible {
-  outline: 2px solid var(--anthropic-orange);
-  outline-offset: -2px;
+details.concepts-covered[open] summary .chevron {
+  transform: rotate(90deg);
+  color: #d97757;
 }
 
-/* Content inside the details */
-details.concepts-covered .concepts-content {
-  padding: 0 0.75rem 1rem 0.75rem;
-  animation: slideDown 0.3s ease;
-}
-
-@keyframes slideDown {
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-details.concepts-covered ol {
-  margin: 0.75rem 0 0 0;
-  padding-left: 2rem;
-  font-family: var(--body-font);
+/* Inner list */
+details.concepts-covered .concepts-list {
+  padding: 0.75rem 1.25rem 1.25rem;
   font-size: 0.9rem;
-  line-height: 1.8;
-  color: var(--anthropic-dark);
+  line-height: 1.6;
+  color: #141413;
 }
 
-details.concepts-covered ol li {
-  margin-bottom: 0.4rem;
-  color: var(--anthropic-dark);
+/* Animation for open */
+details.concepts-covered[open] .concepts-list {
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-3px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 /* Dark mode support */
 [data-md-color-scheme="slate"] details.concepts-covered {
   background-color: #1a1a19;
   border-color: #2a2a28;
-  border-left-color: #2a2a28;
-}
-
-[data-md-color-scheme="slate"] details.concepts-covered:hover {
-  border-left-color: var(--anthropic-orange);
-  background-color: rgba(217, 119, 87, 0.05);
-}
-
-[data-md-color-scheme="slate"] details.concepts-covered[open] {
-  border-left-color: var(--anthropic-orange);
-  background-color: rgba(217, 119, 87, 0.08);
 }
 
 [data-md-color-scheme="slate"] details.concepts-covered summary {
   color: var(--anthropic-light);
+  background-color: #1a1a19;
 }
 
-[data-md-color-scheme="slate"] details.concepts-covered summary::after {
-  color: var(--anthropic-mid-gray);
+[data-md-color-scheme="slate"] details.concepts-covered summary:hover {
+  background-color: rgba(217, 119, 87, 0.08);
 }
 
-[data-md-color-scheme="slate"] details.concepts-covered[open] summary::after {
-  color: var(--anthropic-orange);
-}
-
-[data-md-color-scheme="slate"] details.concepts-covered summary:hover::after {
-  color: var(--anthropic-orange);
-}
-
-[data-md-color-scheme="slate"] details.concepts-covered ol li {
+[data-md-color-scheme="slate"] details.concepts-covered .concepts-list {
   color: var(--anthropic-light);
 }
 
@@ -377,20 +302,11 @@ details.concepts-covered ol li {
 @media screen and (max-width: 768px) {
   details.concepts-covered summary {
     font-size: 0.95rem;
-    padding: 0.875rem 2rem 0.875rem 0.625rem;
+    padding: 0.875rem 1rem;
   }
 
-  details.concepts-covered summary::after {
-    right: 0.625rem;
-    font-size: 0.7rem;
-  }
-
-  details.concepts-covered .concepts-content {
-    padding: 0 0.625rem 0.875rem 0.625rem;
-  }
-
-  details.concepts-covered ol {
+  details.concepts-covered .concepts-list {
+    padding: 0.625rem 1rem 1rem;
     font-size: 0.85rem;
-    padding-left: 1.5rem;
   }
 }

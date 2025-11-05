@@ -6,9 +6,19 @@ This chapter provides comprehensive coverage of the regulatory environment gover
 
 ## Prerequisites
 
-This chapter builds on concepts from:
+<details class="concepts-covered">
+  <summary>
+    <span class="chevron">▸</span>
+    <span>Prerequisites for This Chapter</span>
+  </summary>
 
-- [Chapter 1: Foundations of Modern Investor Relations](../01-foundations-of-modern-ir/index.md)
+  <div class="concepts-list">
+    <p>This chapter builds on concepts from:</p>
+    <ul>
+      <li><a href="../01-foundations-of-modern-ir/index.md">Chapter 1: Foundations of Modern Investor Relations</a></li>
+    </ul>
+  </div>
+</details>
 
 ---
 ## Regulation Fair Disclosure: Foundation of Modern IR Compliance
@@ -193,34 +203,39 @@ These compliance imperatives explain why AI adoption in IR has proceeded more ca
 ## Concepts Covered
 
 <details class="concepts-covered">
-<summary>📚 Concepts Covered in This Chapter</summary>
+  <summary>
+    <span class="chevron">▸</span>
+    <span>Concepts Covered in This Chapter</span>
+  </summary>
 
-This chapter covers the following 25 concepts from the learning graph:
-
-1. Material Information
-2. Nonpublic Information
-3. Regulation Fair Disclosure
-4. Reg FD Compliance
-5. Preventing Selective Disclosure
-6. Sarbanes-Oxley Act
-7. SOX Section 302
-8. SOX Section 404
-9. Internal Control Systems
-10. Disclosure Controls
-11. SEC Filing Requirements
-12. Form 10-K Overview
-13. Form 10-Q Essentials
-14. Form 8-K Summary
-15. XBRL Reporting Standards
-16. MD&A Requirements
-17. Risk Factor Disclosures
-18. Forward-Looking Statements
-19. Safe Harbor Provisions
-20. Materiality Assessment
-21. Disclosure Timing Rules
-22. Quiet Period Guidelines
-23. Trading Window Rules
-24. Blackout Period Management
-25. Insider Trading Rules
-
+  <div class="concepts-list">
+    <p>This chapter covers the following 25 concepts from the learning graph:</p>
+    <ol>
+      <li>Material Information</li>
+      <li>Nonpublic Information</li>
+      <li>Regulation Fair Disclosure</li>
+      <li>Reg FD Compliance</li>
+      <li>Preventing Selective Disclosure</li>
+      <li>Sarbanes-Oxley Act</li>
+      <li>SOX Section 302</li>
+      <li>SOX Section 404</li>
+      <li>Internal Control Systems</li>
+      <li>Disclosure Controls</li>
+      <li>SEC Filing Requirements</li>
+      <li>Form 10-K Overview</li>
+      <li>Form 10-Q Essentials</li>
+      <li>Form 8-K Summary</li>
+      <li>XBRL Reporting Standards</li>
+      <li>MD&A Requirements</li>
+      <li>Risk Factor Disclosures</li>
+      <li>Forward-Looking Statements</li>
+      <li>Safe Harbor Provisions</li>
+      <li>Materiality Assessment</li>
+      <li>Disclosure Timing Rules</li>
+      <li>Quiet Period Guidelines</li>
+      <li>Trading Window Rules</li>
+      <li>Blackout Period Management</li>
+      <li>Insider Trading Rules</li>
+    </ol>
+  </div>
 </details>

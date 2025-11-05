@@ -193,7 +193,7 @@ These compliance imperatives explain why AI adoption in IR has proceeded more ca
 ## Concepts Covered
 
 <details class="concepts-covered">
-<summary>📚 Concepts Covered in This Chapter (click to expand)</summary>
+<summary>📚 Concepts Covered in This Chapter</summary>
 
 This chapter covers the following 25 concepts from the learning graph:
 

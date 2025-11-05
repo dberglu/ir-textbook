@@ -240,15 +240,21 @@ details.concepts-covered summary {
   color: var(--anthropic-dark);
   cursor: pointer;
   user-select: none;
-  padding: 1rem 0.75rem;
+  padding: 1rem 2.5rem 1rem 0.75rem;
   list-style: none;
   display: flex;
   align-items: center;
   gap: 0.5rem;
   transition: color 0.2s ease;
+  position: relative;
 }
 
 details.concepts-covered summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Remove MkDocs Material default icon */
+details.concepts-covered summary .twemoji {
   display: none;
 }
 
@@ -262,6 +268,27 @@ details.concepts-covered summary::before {
 
 details.concepts-covered[open] summary::before {
   transform: rotate(0deg);
+}
+
+/* Dropdown arrow on the right */
+details.concepts-covered summary::after {
+  content: "▼";
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.75rem;
+  color: var(--anthropic-mid-gray);
+  transition: transform 0.3s ease, color 0.2s ease;
+}
+
+details.concepts-covered[open] summary::after {
+  transform: translateY(-50%) rotate(180deg);
+  color: var(--anthropic-orange);
+}
+
+details.concepts-covered summary:hover::after {
+  color: var(--anthropic-orange);
 }
 
 details.concepts-covered summary:hover {
@@ -330,6 +357,18 @@ details.concepts-covered ol li {
   color: var(--anthropic-light);
 }
 
+[data-md-color-scheme="slate"] details.concepts-covered summary::after {
+  color: var(--anthropic-mid-gray);
+}
+
+[data-md-color-scheme="slate"] details.concepts-covered[open] summary::after {
+  color: var(--anthropic-orange);
+}
+
+[data-md-color-scheme="slate"] details.concepts-covered summary:hover::after {
+  color: var(--anthropic-orange);
+}
+
 [data-md-color-scheme="slate"] details.concepts-covered ol li {
   color: var(--anthropic-light);
 }
@@ -338,7 +377,12 @@ details.concepts-covered ol li {
 @media screen and (max-width: 768px) {
   details.concepts-covered summary {
     font-size: 0.95rem;
-    padding: 0.875rem 0.625rem;
+    padding: 0.875rem 2rem 0.875rem 0.625rem;
+  }
+
+  details.concepts-covered summary::after {
+    right: 0.625rem;
+    font-size: 0.7rem;
   }
 
   details.concepts-covered .concepts-content {

@@ -105,7 +105,7 @@ Annual general meetings provide formal voting venues and shareholder dialogue op
 ## Concepts Covered
 
 <details class="concepts-covered">
-<summary>📚 Concepts Covered in This Chapter (click to expand)</summary>
+<summary>📚 Concepts Covered in This Chapter</summary>
 
 This chapter covers the following 17 concepts from the learning graph:
 

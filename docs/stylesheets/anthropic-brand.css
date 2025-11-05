@@ -248,17 +248,23 @@ details.concepts-covered summary:hover {
   border-left-color: #d97757;
 }
 
-/* Chevron icon (replaces emoji/book) */
+/* Chevron icon */
 details.concepts-covered summary .chevron {
   font-size: 1.1rem;
   color: #b0aea5;
   transition: transform 0.3s ease, color 0.3s ease;
   margin-right: 0.25rem;
+  flex-shrink: 0;
 }
 
 details.concepts-covered[open] summary .chevron {
   transform: rotate(90deg);
   color: #d97757;
+}
+
+/* Hide any book emoji or other icons that might appear */
+details.concepts-covered summary::before {
+  display: none !important;
 }
 
 /* Inner list */

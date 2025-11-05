@@ -2,6 +2,37 @@ site_name: Investor Relations Textbook
 theme:
   name: material
   favicon: assets/images/IR_favicon.png
+  palette:
+    # Light mode - Anthropic Brand
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode - Anthropic Brand
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Lora
+    code: Roboto Mono
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+extra_css:
+  - stylesheets/anthropic-brand.css
 
 nav:
   - Home: index.md

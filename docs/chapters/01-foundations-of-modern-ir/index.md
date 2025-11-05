@@ -4,28 +4,6 @@
 
 This chapter introduces the strategic role of investor relations in capital markets, covering core IR functions, essential workflows, and fundamental stakeholder engagement practices. You'll learn about the IR function's responsibilities, corporate valuation strategies, market communication approaches, and key operational activities including earnings reporting, investor targeting, Q&A preparation, shareholder engagement, proxy season management, annual meetings, investor presentations, roadshows, earnings calls, and press release drafting. This foundational knowledge establishes the context for understanding how AI can transform IR operations in subsequent chapters.
 
-## Concepts Covered
-
-This chapter covers the following 17 concepts from the learning graph:
-
-1. Investor Relations Function
-2. Corporate Valuation Strategy
-3. Market Communication Strategy
-4. Earnings Reporting Process
-5. Investor Targeting Methods
-6. Q&A Preparation Techniques
-7. Shareholder Engagement
-8. Proxy Season Management
-9. Annual General Meetings
-10. Investor Presentations
-11. Roadshow Planning
-12. Earnings Call Scripts
-13. Press Release Drafting
-14. Institutional Investors
-15. Retail Investors
-16. Buy-Side Analysts
-17. Sell-Side Analysts
-
 ## Prerequisites
 
 This chapter assumes only the prerequisites listed in the [course description](../../course-description.md):
@@ -121,6 +99,35 @@ Annual general meetings provide formal voting venues and shareholder dialogue op
 **Stakeholder Diversity**: Different investors require tailored communications. AI-powered personalization improves efficiency when grounded in stakeholder understanding.
 
 **Quality Imperative**: High-stakes communications—where errors trigger regulatory consequences—require AI augmentation maintain or exceed quality standards through robust governance and human oversight.
+
+---
+
+## Concepts Covered
+
+<details class="concepts-covered">
+<summary>📚 Concepts Covered in This Chapter (click to expand)</summary>
+
+This chapter covers the following 17 concepts from the learning graph:
+
+1. Investor Relations Function
+2. Corporate Valuation Strategy
+3. Market Communication Strategy
+4. Earnings Reporting Process
+5. Investor Targeting Methods
+6. Q&A Preparation Techniques
+7. Shareholder Engagement
+8. Proxy Season Management
+9. Annual General Meetings
+10. Investor Presentations
+11. Roadshow Planning
+12. Earnings Call Scripts
+13. Press Release Drafting
+14. Institutional Investors
+15. Retail Investors
+16. Buy-Side Analysts
+17. Sell-Side Analysts
+
+</details>
 
 ---
 

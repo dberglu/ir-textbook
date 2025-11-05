@@ -209,3 +209,100 @@ li,
   padding: 2rem;
   margin: 2rem 0;
 }
+
+/* Collapsible Concepts Covered Section */
+details.concepts-covered {
+  background-color: var(--anthropic-light-gray);
+  border-left: 4px solid var(--anthropic-blue);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+details.concepts-covered[open] {
+  border-left-color: var(--anthropic-orange);
+}
+
+details.concepts-covered summary {
+  font-family: var(--heading-font);
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--anthropic-dark);
+  cursor: pointer;
+  user-select: none;
+  padding: 0.5rem 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+details.concepts-covered summary::-webkit-details-marker {
+  display: none;
+}
+
+details.concepts-covered summary::before {
+  content: "▶";
+  display: inline-block;
+  transition: transform 0.3s ease;
+  font-size: 0.9rem;
+  color: var(--anthropic-blue);
+}
+
+details.concepts-covered[open] summary::before {
+  transform: rotate(90deg);
+  color: var(--anthropic-orange);
+}
+
+details.concepts-covered summary:hover {
+  color: var(--anthropic-orange);
+}
+
+details.concepts-covered summary:focus {
+  outline: 2px solid var(--anthropic-blue);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Content inside the details */
+details.concepts-covered ol {
+  margin-top: 1rem;
+  padding-left: 2rem;
+  font-family: var(--body-font);
+  line-height: 1.8;
+}
+
+details.concepts-covered ol li {
+  margin-bottom: 0.5rem;
+  color: var(--anthropic-dark);
+}
+
+/* Dark mode support */
+[data-md-color-scheme="slate"] details.concepts-covered {
+  background-color: #1f1f1e;
+  border-left-color: var(--anthropic-blue);
+}
+
+[data-md-color-scheme="slate"] details.concepts-covered[open] {
+  border-left-color: var(--anthropic-orange);
+}
+
+[data-md-color-scheme="slate"] details.concepts-covered summary {
+  color: var(--anthropic-light);
+}
+
+[data-md-color-scheme="slate"] details.concepts-covered ol li {
+  color: var(--anthropic-light);
+}
+
+/* Mobile responsive */
+@media screen and (max-width: 768px) {
+  details.concepts-covered {
+    padding: 1rem;
+  }
+  
+  details.concepts-covered summary {
+    font-size: 1rem;
+  }
+}

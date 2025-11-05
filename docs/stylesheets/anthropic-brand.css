@@ -267,6 +267,11 @@ details.concepts-covered summary::before {
   display: none !important;
 }
 
+/* Hide MkDocs Material's default right-side arrow/chevron */
+details.concepts-covered summary::after {
+  display: none !important;
+}
+
 /* Inner list */
 details.concepts-covered .concepts-list {
   padding: 0.75rem 1.25rem 1.25rem;

@@ -57,9 +57,12 @@ nav:
       - Chapter 4 - Valuation Metrics and Performance: chapters/04-valuation-metrics-performance/index.md
       - Chapter 5 - AI and Machine Learning Fundamentals: chapters/05-ai-ml-fundamentals/index.md
       - Chapter 6 - AI-Powered Content Creation: chapters/06-ai-powered-content-creation/index.md
-      - Chapter 7 - Sentiment Analysis and Predictive: chapters/07-sentiment-analysis-predictive/index.md
-      - Chapter 8 - Algorithmic Trading and Microstructure: chapters/08-algorithmic-trading-microstructure/index.md
-      - Chapter 9 - Agentic AI Systems and MCP: chapters/09-agentic-ai-systems-mcp/index.md
-      - Chapter 10 - AI Governance, Risk, and Data: chapters/10-ai-governance-risk-data/index.md
-      - Chapter 11 - AI Dashboards and Performance: chapters/11-ai-dashboards-performance/index.md
-      - Chapter 12 - Transformation and Change Management: chapters/12-transformation-change-management/index.md
+      - Chapter 7 - Sentiment Analysis Methods: chapters/07-sentiment-analysis-methods/index.md
+      - Chapter 8 - Predictive Analytics and Intelligence: chapters/08-predictive-analytics-intelligence/index.md
+      - Chapter 9 - Personalized and Real-Time Engagement: chapters/09-personalized-realtime-engagement/index.md
+      - Chapter 10 - Agentic AI Systems and MCP: chapters/10-agentic-ai-systems-mcp/index.md
+      - Chapter 11 - AI Governance, Ethics, and Risk: chapters/11-ai-governance-ethics-risk/index.md
+      - Chapter 12 - Data Governance and Security: chapters/12-data-governance-security/index.md
+      - Chapter 13 - IR Platforms, Tools, and Case Studies: chapters/13-ir-platforms-tools-case-studies/index.md
+      - Chapter 14 - Transformation Strategy and Change: chapters/14-transformation-strategy-change/index.md
+      - "Chapter 15 - Future: Agentic Ecosystems": chapters/15-future-agentic-ecosystems/index.md

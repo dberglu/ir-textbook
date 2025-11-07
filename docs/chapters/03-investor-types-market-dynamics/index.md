@@ -2,34 +2,36 @@
 
 ## Summary
 
-This chapter explores the diverse landscape of investors and market participants in capital markets. You'll learn to distinguish between institutional and retail investors, understand the characteristics and priorities of hedge funds, mutual funds, pension funds, and sovereign wealth funds, and recognize the different roles of buy-side and sell-side analysts. The chapter also covers investment bank relations, shareholder base analysis, ownership concentration patterns, and peer benchmarking tools. Understanding these investor types and market dynamics is essential for tailoring IR strategies and communications effectively—a foundation that becomes particularly important when applying AI-powered investor targeting and sentiment analysis in later chapters.
+This chapter explores the diverse landscape of institutional and retail investors, analyst types, and market engagement strategies that IR professionals must navigate to effectively communicate corporate value.
+
+## Prerequisites
+
+This chapter builds on concepts from previous chapters. We recommend completing:
+
+- [Chapter 1: Foundations of Modern Investor Relations](../01-foundations-of-modern-ir/index.md)
 
 ## Concepts Covered
 
 This chapter covers the following 15 concepts from the learning graph:
 
-1. Hedge Funds
-2. Mutual Funds
-3. Pension Funds
-4. Sovereign Wealth Funds
-5. Investment Bank Relations
-6. Ownership Concentration
-7. Shareholder Base Analysis
-8. Peer Benchmarking Tools
-9. Analyst Coverage Review
-10. Consensus Estimates
-11. Stock Price Volatility
-12. Market Liquidity Trends
-13. Trading Volume Metrics
-14. Shareholder Return Metrics
-15. Market Capitalization
-
-## Prerequisites
-
-This chapter builds on concepts from:
-
-- [Chapter 1: Foundations of Modern Investor Relations](../01-foundations-of-modern-ir/index.md)
+   1. Analyst Coverage Review
+   2. Beat-and-Raise Tactics
+   3. Buy-Side Analysts
+   4. Consensus Estimates
+   5. Earnings Guidance Strategy
+   6. Guidance Withdrawal Risks
+   7. Hedge Funds
+   8. Institutional Investors
+   9. Investment Bank Relations
+   10. Mutual Funds
+   11. Pension Funds
+   12. Retail Investors
+   13. Sell-Side Analysts
+   14. Setting Guidance Ranges
+   15. Sovereign Wealth Funds
 
 ---
 
-TODO: Generate Chapter Content
+**Status**: Chapter structure created. Content generation pending.
+
+*Use the chapter-content-generator skill to populate this chapter with detailed educational content, diagrams, examples, and exercises.*

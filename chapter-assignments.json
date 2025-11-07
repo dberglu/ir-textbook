@@ -1,0 +1,1601 @@
+{
+  "total_chapters": 15,
+  "total_concepts": 298,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Foundations of Modern Investor Relations",
+      "concept_count": 18,
+      "concepts": [
+        {
+          "id": 18,
+          "label": "Annual General Meetings",
+          "group": "IR-OPS"
+        },
+        {
+          "id": 2,
+          "label": "Corporate Valuation Strategy",
+          "group": "IR-FOUND"
+        },
+        {
+          "id": 21,
+          "label": "Earnings Call Scripts",
+          "group": "IR-OPS"
+        },
+        {
+          "id": 4,
+          "label": "Earnings Reporting Process",
+          "group": "IR-OPS"
+        },
+        {
+          "id": 127,
+          "label": "IR Engagement Metrics",
+          "group": "IR-FOUND"
+        },
+        {
+          "id": 19,
+          "label": "Investor Presentations",
+          "group": "IR-OPS"
+        },
+        {
+          "id": 1,
+          "label": "Investor Relations Function",
+          "group": "IR-FOUND"
+        },
+        {
+          "id": 5,
+          "label": "Investor Targeting Methods",
+          "group": "IR-OPS"
+        },
+        {
+          "id": 126,
+          "label": "Key Performance Indicators",
+          "group": "IR-FOUND"
+        },
+        {
+          "id": 3,
+          "label": "Market Communication Strategy",
+          "group": "IR-FOUND"
+        },
+        {
+          "id": 129,
+          "label": "Meeting Effectiveness",
+          "group": "IR-FOUND"
+        },
+        {
+          "id": 22,
+          "label": "Press Release Drafting",
+          "group": "IR-OPS"
+        },
+        {
+          "id": 17,
+          "label": "Proxy Season Management",
+          "group": "IR-OPS"
+        },
+        {
+          "id": 6,
+          "label": "Q&A Preparation Techniques",
+          "group": "IR-OPS"
+        },
+        {
+          "id": 130,
+          "label": "Response Time Analytics",
+          "group": "IR-FOUND"
+        },
+        {
+          "id": 20,
+          "label": "Roadshow Planning",
+          "group": "IR-OPS"
+        },
+        {
+          "id": 16,
+          "label": "Shareholder Engagement",
+          "group": "IR-FOUND"
+        },
+        {
+          "id": 128,
+          "label": "Tracking Investor Outreach",
+          "group": "IR-FOUND"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Regulatory Frameworks and Compliance",
+      "concept_count": 28,
+      "concepts": [
+        {
+          "id": 46,
+          "label": "Blackout Period Management",
+          "group": "REG-COMP"
+        },
+        {
+          "id": 32,
+          "label": "Disclosure Controls",
+          "group": "REG-COMP"
+        },
+        {
+          "id": 43,
+          "label": "Disclosure Timing Rules",
+          "group": "REG-COMP"
+        },
+        {
+          "id": 283,
+          "label": "Enron Detection Failures",
+          "group": "REG-COMP"
+        },
+        {
+          "id": 34,
+          "label": "Form 10-K Overview",
+          "group": "REG-COMP"
+        },
+        {
+          "id": 35,
+          "label": "Form 10-Q Essentials",
+          "group": "REG-COMP"
+        },
+        {
+          "id": 36,
+          "label": "Form 8-K Summary",
+          "group": "REG-COMP"
+        },
+        {
+          "id": 40,
+          "label": "Forward-Looking Statements",
+          "group": "REG-COMP"
+        },
+        {
+          "id": 47,
+          "label": "Insider Trading Rules",
+          "group": "REG-COMP"
+        },
+        {
+          "id": 31,
+          "label": "Internal Control Systems",
+          "group": "REG-COMP"
+        },
+        {
+          "id": 38,
+          "label": "MD&A Requirements",
+          "group": "REG-COMP"
+        },
+        {
+          "id": 23,
+          "label": "Material Information",
+          "group": "REG-COMP"
+        },
+        {
+          "id": 42,
+          "label": "Materiality Assessment",
+          "group": "REG-COMP"
+        },
+        {
+          "id": 24,
+          "label": "Nonpublic Information",
+          "group": "REG-COMP"
+        },
+        {
+          "id": 27,
+          "label": "Preventing Selective Disclosure",
+          "group": "REG-COMP"
+        },
+        {
+          "id": 44,
+          "label": "Quiet Period Guidelines",
+          "group": "REG-COMP"
+        },
+        {
+          "id": 26,
+          "label": "Reg FD Compliance",
+          "group": "REG-COMP"
+        },
+        {
+          "id": 25,
+          "label": "Regulation Fair Disclosure",
+          "group": "REG-COMP"
+        },
+        {
+          "id": 39,
+          "label": "Risk Factor Disclosures",
+          "group": "REG-COMP"
+        },
+        {
+          "id": 33,
+          "label": "SEC Filing Requirements",
+          "group": "REG-COMP"
+        },
+        {
+          "id": 29,
+          "label": "SOX Section 302",
+          "group": "REG-COMP"
+        },
+        {
+          "id": 30,
+          "label": "SOX Section 404",
+          "group": "REG-COMP"
+        },
+        {
+          "id": 41,
+          "label": "Safe Harbor Provisions",
+          "group": "REG-COMP"
+        },
+        {
+          "id": 28,
+          "label": "Sarbanes-Oxley Act",
+          "group": "REG-COMP"
+        },
+        {
+          "id": 285,
+          "label": "Theranos IR Ethics",
+          "group": "REG-COMP"
+        },
+        {
+          "id": 110,
+          "label": "Time-Sensitive Disclosures",
+          "group": "REG-COMP"
+        },
+        {
+          "id": 45,
+          "label": "Trading Window Rules",
+          "group": "REG-COMP"
+        },
+        {
+          "id": 37,
+          "label": "XBRL Reporting Standards",
+          "group": "REG-COMP"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Investor Types and Market Dynamics",
+      "concept_count": 15,
+      "concepts": [
+        {
+          "id": 59,
+          "label": "Analyst Coverage Review",
+          "group": "INVEST"
+        },
+        {
+          "id": 64,
+          "label": "Beat-and-Raise Tactics",
+          "group": "IR-OPS"
+        },
+        {
+          "id": 13,
+          "label": "Buy-Side Analysts",
+          "group": "INVEST"
+        },
+        {
+          "id": 60,
+          "label": "Consensus Estimates",
+          "group": "INVEST"
+        },
+        {
+          "id": 61,
+          "label": "Earnings Guidance Strategy",
+          "group": "IR-OPS"
+        },
+        {
+          "id": 62,
+          "label": "Guidance Withdrawal Risks",
+          "group": "IR-OPS"
+        },
+        {
+          "id": 9,
+          "label": "Hedge Funds",
+          "group": "INVEST"
+        },
+        {
+          "id": 7,
+          "label": "Institutional Investors",
+          "group": "INVEST"
+        },
+        {
+          "id": 15,
+          "label": "Investment Bank Relations",
+          "group": "INVEST"
+        },
+        {
+          "id": 10,
+          "label": "Mutual Funds",
+          "group": "INVEST"
+        },
+        {
+          "id": 11,
+          "label": "Pension Funds",
+          "group": "INVEST"
+        },
+        {
+          "id": 8,
+          "label": "Retail Investors",
+          "group": "INVEST"
+        },
+        {
+          "id": 14,
+          "label": "Sell-Side Analysts",
+          "group": "INVEST"
+        },
+        {
+          "id": 63,
+          "label": "Setting Guidance Ranges",
+          "group": "IR-OPS"
+        },
+        {
+          "id": 12,
+          "label": "Sovereign Wealth Funds",
+          "group": "INVEST"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Valuation Metrics and Performance Indicators",
+      "concept_count": 26,
+      "concepts": [
+        {
+          "id": 202,
+          "label": "Analyst Coverage Metrics",
+          "group": "VALMET"
+        },
+        {
+          "id": 205,
+          "label": "Beta Risk Measurement",
+          "group": "VALMET"
+        },
+        {
+          "id": 264,
+          "label": "Cost Of Capital Models",
+          "group": "VALMET"
+        },
+        {
+          "id": 266,
+          "label": "DCF Valuation Tools",
+          "group": "VALMET"
+        },
+        {
+          "id": 206,
+          "label": "Dividend Yield Trends",
+          "group": "VALMET"
+        },
+        {
+          "id": 208,
+          "label": "Earnings Per Share Growth",
+          "group": "VALMET"
+        },
+        {
+          "id": 56,
+          "label": "Enterprise Value Metrics",
+          "group": "VALMET"
+        },
+        {
+          "id": 259,
+          "label": "Free Float Metrics",
+          "group": "VALMET"
+        },
+        {
+          "id": 260,
+          "label": "Institutional Share Trends",
+          "group": "VALMET"
+        },
+        {
+          "id": 204,
+          "label": "Market Cap Fluctuations",
+          "group": "VALMET"
+        },
+        {
+          "id": 58,
+          "label": "Market Capitalization",
+          "group": "VALMET"
+        },
+        {
+          "id": 49,
+          "label": "Market Liquidity Trends",
+          "group": "VALMET"
+        },
+        {
+          "id": 51,
+          "label": "Ownership Concentration",
+          "group": "VALMET"
+        },
+        {
+          "id": 55,
+          "label": "P/E Ratio Insights",
+          "group": "VALMET"
+        },
+        {
+          "id": 53,
+          "label": "Peer Benchmarking Tools",
+          "group": "VALMET"
+        },
+        {
+          "id": 203,
+          "label": "Peer Valuation Benchmark",
+          "group": "VALMET"
+        },
+        {
+          "id": 207,
+          "label": "Price To Earnings Ratio",
+          "group": "VALMET"
+        },
+        {
+          "id": 261,
+          "label": "Retail Investor Metrics",
+          "group": "VALMET"
+        },
+        {
+          "id": 209,
+          "label": "Return On Equity Targets",
+          "group": "VALMET"
+        },
+        {
+          "id": 52,
+          "label": "Shareholder Base Analysis",
+          "group": "VALMET"
+        },
+        {
+          "id": 57,
+          "label": "Shareholder Return Metrics",
+          "group": "VALMET"
+        },
+        {
+          "id": 262,
+          "label": "Short Interest Tracking",
+          "group": "VALMET"
+        },
+        {
+          "id": 48,
+          "label": "Stock Price Volatility",
+          "group": "VALMET"
+        },
+        {
+          "id": 201,
+          "label": "Trading Volume Analysis",
+          "group": "VALMET"
+        },
+        {
+          "id": 50,
+          "label": "Trading Volume Metrics",
+          "group": "VALMET"
+        },
+        {
+          "id": 54,
+          "label": "Valuation Multiples",
+          "group": "VALMET"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "AI and Machine Learning Fundamentals",
+      "concept_count": 12,
+      "concepts": [
+        {
+          "id": 65,
+          "label": "AI Fundamentals",
+          "group": "AI-TECH"
+        },
+        {
+          "id": 111,
+          "label": "Agentic AI Systems",
+          "group": "AGENTIC"
+        },
+        {
+          "id": 112,
+          "label": "Autonomous AI Agents",
+          "group": "AGENTIC"
+        },
+        {
+          "id": 218,
+          "label": "Enterprise LLM Usage",
+          "group": "AI-TECH"
+        },
+        {
+          "id": 68,
+          "label": "Generative AI Tools",
+          "group": "AI-TECH"
+        },
+        {
+          "id": 67,
+          "label": "Large Language Models",
+          "group": "AI-TECH"
+        },
+        {
+          "id": 66,
+          "label": "Machine Learning Basics",
+          "group": "AI-TECH"
+        },
+        {
+          "id": 298,
+          "label": "Model Training Datasets",
+          "group": "AI-TECH"
+        },
+        {
+          "id": 69,
+          "label": "Prompt Engineering Skills",
+          "group": "AI-TECH"
+        },
+        {
+          "id": 294,
+          "label": "Reinforcement IR Learning",
+          "group": "AI-TECH"
+        },
+        {
+          "id": 295,
+          "label": "Supervised Data Models",
+          "group": "AI-TECH"
+        },
+        {
+          "id": 296,
+          "label": "Unsupervised Clustering",
+          "group": "AI-TECH"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "AI-Powered Content Creation",
+      "concept_count": 8,
+      "concepts": [
+        {
+          "id": 70,
+          "label": "AI for Content Creation",
+          "group": "AI-CONT"
+        },
+        {
+          "id": 72,
+          "label": "AI-Enhanced Press Releases",
+          "group": "AI-CONT"
+        },
+        {
+          "id": 76,
+          "label": "Compliance Review Tools",
+          "group": "AI-CONT"
+        },
+        {
+          "id": 73,
+          "label": "Drafting Investor Memos",
+          "group": "AI-CONT"
+        },
+        {
+          "id": 71,
+          "label": "GenAI Earnings Reports",
+          "group": "AI-CONT"
+        },
+        {
+          "id": 289,
+          "label": "Generative Script AI",
+          "group": "AI-CONT"
+        },
+        {
+          "id": 74,
+          "label": "Narrative Consistency",
+          "group": "AI-CONT"
+        },
+        {
+          "id": 75,
+          "label": "Tone Analysis Tools",
+          "group": "AI-CONT"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Sentiment Analysis: Signals and Methods",
+      "concept_count": 14,
+      "concepts": [
+        {
+          "id": 210,
+          "label": "AI Sentiment Tracking",
+          "group": "ANLYT"
+        },
+        {
+          "id": 96,
+          "label": "Analyst Report Insights",
+          "group": "ANLYT"
+        },
+        {
+          "id": 97,
+          "label": "Analyzing Feedback",
+          "group": "ANLYT"
+        },
+        {
+          "id": 94,
+          "label": "Monitoring Social Media",
+          "group": "ANLYT"
+        },
+        {
+          "id": 213,
+          "label": "NLP For Transcripts",
+          "group": "ANLYT"
+        },
+        {
+          "id": 92,
+          "label": "Natural Language Processing",
+          "group": "ANLYT"
+        },
+        {
+          "id": 95,
+          "label": "News Sentiment Analysis",
+          "group": "ANLYT"
+        },
+        {
+          "id": 99,
+          "label": "Real-Time Sentiment Data",
+          "group": "ANLYT"
+        },
+        {
+          "id": 91,
+          "label": "Sentiment Analysis Tools",
+          "group": "ANLYT"
+        },
+        {
+          "id": 98,
+          "label": "Sentiment Scoring Models",
+          "group": "ANLYT"
+        },
+        {
+          "id": 219,
+          "label": "Sentiment Vendor Tools",
+          "group": "ANLYT"
+        },
+        {
+          "id": 254,
+          "label": "Social Media Analytics",
+          "group": "ANLYT"
+        },
+        {
+          "id": 93,
+          "label": "Text Mining Methods",
+          "group": "ANLYT"
+        },
+        {
+          "id": 290,
+          "label": "Voice Tone Analysis",
+          "group": "ANLYT"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Predictive Analytics and Market Intelligence",
+      "concept_count": 38,
+      "concepts": [
+        {
+          "id": 105,
+          "label": "Algorithmic Trading Impact",
+          "group": "ANLYT"
+        },
+        {
+          "id": 109,
+          "label": "Analyzing Order Flow",
+          "group": "ANLYT"
+        },
+        {
+          "id": 242,
+          "label": "Anomaly Detection AI",
+          "group": "ANLYT"
+        },
+        {
+          "id": 248,
+          "label": "Benchmarking Algorithms",
+          "group": "ANLYT"
+        },
+        {
+          "id": 288,
+          "label": "Bitcoin ETF Monitoring",
+          "group": "ANLYT"
+        },
+        {
+          "id": 267,
+          "label": "Comparable Company AI",
+          "group": "ANLYT"
+        },
+        {
+          "id": 292,
+          "label": "Deep Learning Forecasts",
+          "group": "ANLYT"
+        },
+        {
+          "id": 250,
+          "label": "EDGAR Data Mining",
+          "group": "ANLYT"
+        },
+        {
+          "id": 222,
+          "label": "Earnings Surprise AI",
+          "group": "ANLYT"
+        },
+        {
+          "id": 297,
+          "label": "Feature Engineering IR",
+          "group": "ANLYT"
+        },
+        {
+          "id": 101,
+          "label": "Forecasting Investor Behavior",
+          "group": "ANLYT"
+        },
+        {
+          "id": 243,
+          "label": "Fraud Prevention Models",
+          "group": "ANLYT"
+        },
+        {
+          "id": 287,
+          "label": "GameStop Squeeze AI",
+          "group": "ANLYT"
+        },
+        {
+          "id": 236,
+          "label": "Glass Lewis Analysis",
+          "group": "ANLYT"
+        },
+        {
+          "id": 228,
+          "label": "Guidance AI Forecasting",
+          "group": "ANLYT"
+        },
+        {
+          "id": 106,
+          "label": "High-Frequency Trading",
+          "group": "ANLYT"
+        },
+        {
+          "id": 235,
+          "label": "ISS Recommendation AI",
+          "group": "ANLYT"
+        },
+        {
+          "id": 263,
+          "label": "Implied Volatility AI",
+          "group": "ANLYT"
+        },
+        {
+          "id": 212,
+          "label": "ML Model Calibration",
+          "group": "ANLYT"
+        },
+        {
+          "id": 107,
+          "label": "Market Microstructure",
+          "group": "ANLYT"
+        },
+        {
+          "id": 103,
+          "label": "Modeling Investor Behavior",
+          "group": "ANLYT"
+        },
+        {
+          "id": 268,
+          "label": "Multiples Analysis AI",
+          "group": "ANLYT"
+        },
+        {
+          "id": 293,
+          "label": "Neural Net Predictions",
+          "group": "ANLYT"
+        },
+        {
+          "id": 247,
+          "label": "Portfolio AI Optimization",
+          "group": "ANLYT"
+        },
+        {
+          "id": 102,
+          "label": "Predicting Market Response",
+          "group": "ANLYT"
+        },
+        {
+          "id": 100,
+          "label": "Predictive Analytics",
+          "group": "ANLYT"
+        },
+        {
+          "id": 211,
+          "label": "Predictive IR Analytics",
+          "group": "ANLYT"
+        },
+        {
+          "id": 108,
+          "label": "Providing Liquidity",
+          "group": "ANLYT"
+        },
+        {
+          "id": 277,
+          "label": "Python Data Scripts",
+          "group": "ANLYT"
+        },
+        {
+          "id": 278,
+          "label": "R Statistical Analysis",
+          "group": "ANLYT"
+        },
+        {
+          "id": 246,
+          "label": "Risk Assessment AI",
+          "group": "ANLYT"
+        },
+        {
+          "id": 226,
+          "label": "Roadshow Optimization",
+          "group": "ANLYT"
+        },
+        {
+          "id": 249,
+          "label": "SEC Filing Analytics",
+          "group": "ANLYT"
+        },
+        {
+          "id": 245,
+          "label": "Scenario AI Simulation",
+          "group": "ANLYT"
+        },
+        {
+          "id": 233,
+          "label": "Shareholder Activism AI",
+          "group": "ANLYT"
+        },
+        {
+          "id": 104,
+          "label": "Trading Pattern Analysis",
+          "group": "ANLYT"
+        },
+        {
+          "id": 244,
+          "label": "Valuation AI Modeling",
+          "group": "ANLYT"
+        },
+        {
+          "id": 265,
+          "label": "WACC AI Calculations",
+          "group": "ANLYT"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Personalized and Real-Time Investor Engagement",
+      "concept_count": 14,
+      "concepts": [
+        {
+          "id": 122,
+          "label": "AI Briefing Generation",
+          "group": "AGENTIC"
+        },
+        {
+          "id": 124,
+          "label": "AI-Driven Dashboards",
+          "group": "AGENTIC"
+        },
+        {
+          "id": 280,
+          "label": "Apple Earnings Strategy",
+          "group": "IR-OPS"
+        },
+        {
+          "id": 145,
+          "label": "Automated Risk Monitoring",
+          "group": "DATA-GOV"
+        },
+        {
+          "id": 282,
+          "label": "Berkshire AGM Lessons",
+          "group": "IR-OPS"
+        },
+        {
+          "id": 239,
+          "label": "Chatbot Query Handling",
+          "group": "AGENTIC"
+        },
+        {
+          "id": 142,
+          "label": "Compliance Monitoring",
+          "group": "DATA-GOV"
+        },
+        {
+          "id": 125,
+          "label": "Designing Dashboards",
+          "group": "AGENTIC"
+        },
+        {
+          "id": 121,
+          "label": "Integrating Live Data",
+          "group": "AGENTIC"
+        },
+        {
+          "id": 225,
+          "label": "Investor Targeting AI",
+          "group": "AGENTIC"
+        },
+        {
+          "id": 90,
+          "label": "Monitoring AI Models",
+          "group": "AI-GOV"
+        },
+        {
+          "id": 232,
+          "label": "Quiet Period Monitoring",
+          "group": "AI-GOV"
+        },
+        {
+          "id": 241,
+          "label": "Real-Time Data Alerts",
+          "group": "AGENTIC"
+        },
+        {
+          "id": 274,
+          "label": "Salesforce IR Dashboards",
+          "group": "TRANSFORM"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Agentic AI Systems and Model Context Protocol",
+      "concept_count": 18,
+      "concepts": [
+        {
+          "id": 113,
+          "label": "Agent Orchestration",
+          "group": "AGENTIC"
+        },
+        {
+          "id": 115,
+          "label": "Agent-Based IR Workflows",
+          "group": "AGENTIC"
+        },
+        {
+          "id": 120,
+          "label": "Agents for Data Retrieval",
+          "group": "AGENTIC"
+        },
+        {
+          "id": 238,
+          "label": "Annual Meeting AI",
+          "group": "AGENTIC"
+        },
+        {
+          "id": 240,
+          "label": "Automated IR Reports",
+          "group": "AGENTIC"
+        },
+        {
+          "id": 123,
+          "label": "Automated Report Tools",
+          "group": "AGENTIC"
+        },
+        {
+          "id": 221,
+          "label": "Crisis AI Assistance",
+          "group": "AGENTIC"
+        },
+        {
+          "id": 223,
+          "label": "ESG Automation Tools",
+          "group": "AGENTIC"
+        },
+        {
+          "id": 227,
+          "label": "Earnings Prep Simulators",
+          "group": "AGENTIC"
+        },
+        {
+          "id": 117,
+          "label": "MCP Architecture Overview",
+          "group": "AGENTIC"
+        },
+        {
+          "id": 119,
+          "label": "MCP Integration Paths",
+          "group": "AGENTIC"
+        },
+        {
+          "id": 118,
+          "label": "MCP Security Standards",
+          "group": "AGENTIC"
+        },
+        {
+          "id": 116,
+          "label": "Model Context Protocol",
+          "group": "AGENTIC"
+        },
+        {
+          "id": 114,
+          "label": "Multi-Agent Coordination",
+          "group": "AGENTIC"
+        },
+        {
+          "id": 255,
+          "label": "News Aggregation AI",
+          "group": "AGENTIC"
+        },
+        {
+          "id": 224,
+          "label": "Proxy AI Support",
+          "group": "AGENTIC"
+        },
+        {
+          "id": 234,
+          "label": "Proxy Firm Simulations",
+          "group": "AGENTIC"
+        },
+        {
+          "id": 237,
+          "label": "Vote Solicitation Bots",
+          "group": "AGENTIC"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "AI Governance, Ethics, and Risk Management",
+      "concept_count": 18,
+      "concepts": [
+        {
+          "id": 80,
+          "label": "AI Ethics for Finance",
+          "group": "AI-GOV"
+        },
+        {
+          "id": 77,
+          "label": "AI Governance Models",
+          "group": "AI-GOV"
+        },
+        {
+          "id": 87,
+          "label": "Algorithmic Bias Risk",
+          "group": "AI-GOV"
+        },
+        {
+          "id": 85,
+          "label": "Bias in Financial Data",
+          "group": "AI-GOV"
+        },
+        {
+          "id": 220,
+          "label": "Compliance AI Monitors",
+          "group": "AI-GOV"
+        },
+        {
+          "id": 82,
+          "label": "Detecting Hallucinations",
+          "group": "AI-GOV"
+        },
+        {
+          "id": 88,
+          "label": "Detecting Model Drift",
+          "group": "AI-GOV"
+        },
+        {
+          "id": 78,
+          "label": "Developing AI Policy",
+          "group": "AI-GOV"
+        },
+        {
+          "id": 231,
+          "label": "Disclosure AI Policies",
+          "group": "AI-GOV"
+        },
+        {
+          "id": 291,
+          "label": "Facial Ethics In IR",
+          "group": "AI-GOV"
+        },
+        {
+          "id": 89,
+          "label": "Managing Model Drift",
+          "group": "AI-GOV"
+        },
+        {
+          "id": 230,
+          "label": "Materiality AI Assessment",
+          "group": "AI-GOV"
+        },
+        {
+          "id": 86,
+          "label": "Mitigating AI Bias",
+          "group": "AI-GOV"
+        },
+        {
+          "id": 84,
+          "label": "Recognizing AI Bias",
+          "group": "AI-GOV"
+        },
+        {
+          "id": 81,
+          "label": "Recognizing Hallucinations",
+          "group": "AI-GOV"
+        },
+        {
+          "id": 83,
+          "label": "Reducing Hallucinations",
+          "group": "AI-GOV"
+        },
+        {
+          "id": 229,
+          "label": "Reg FD Compliance AI",
+          "group": "AI-GOV"
+        },
+        {
+          "id": 79,
+          "label": "Responsible AI Practices",
+          "group": "AI-GOV"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Data Governance and Security",
+      "concept_count": 22,
+      "concepts": [
+        {
+          "id": 138,
+          "label": "Access Control Models",
+          "group": "DATA-GOV"
+        },
+        {
+          "id": 147,
+          "label": "Assessing Risk Exposure",
+          "group": "DATA-GOV"
+        },
+        {
+          "id": 140,
+          "label": "Audit Trail Requirements",
+          "group": "DATA-GOV"
+        },
+        {
+          "id": 214,
+          "label": "Big Data Aggregation",
+          "group": "DATA-GOV"
+        },
+        {
+          "id": 144,
+          "label": "Compliance Automation",
+          "group": "DATA-GOV"
+        },
+        {
+          "id": 258,
+          "label": "Cybersecurity Protocols",
+          "group": "DATA-GOV"
+        },
+        {
+          "id": 131,
+          "label": "Data Governance Basics",
+          "group": "DATA-GOV"
+        },
+        {
+          "id": 136,
+          "label": "Data Security Standards",
+          "group": "DATA-GOV"
+        },
+        {
+          "id": 137,
+          "label": "Encryption Best Practices",
+          "group": "DATA-GOV"
+        },
+        {
+          "id": 134,
+          "label": "Financial Data Privacy",
+          "group": "DATA-GOV"
+        },
+        {
+          "id": 257,
+          "label": "GDPR Data Compliance",
+          "group": "DATA-GOV"
+        },
+        {
+          "id": 141,
+          "label": "Managing Audit Logs",
+          "group": "DATA-GOV"
+        },
+        {
+          "id": 132,
+          "label": "Managing Data Quality",
+          "group": "DATA-GOV"
+        },
+        {
+          "id": 148,
+          "label": "Mitigating IR Risk",
+          "group": "DATA-GOV"
+        },
+        {
+          "id": 135,
+          "label": "Protecting Personal Data",
+          "group": "DATA-GOV"
+        },
+        {
+          "id": 143,
+          "label": "RegTech Applications",
+          "group": "DATA-GOV"
+        },
+        {
+          "id": 146,
+          "label": "Risk Management Frameworks",
+          "group": "DATA-GOV"
+        },
+        {
+          "id": 139,
+          "label": "Role-Based Access",
+          "group": "DATA-GOV"
+        },
+        {
+          "id": 149,
+          "label": "Third-Party Risk Strategy",
+          "group": "DATA-GOV"
+        },
+        {
+          "id": 133,
+          "label": "Tracking Data Lineage",
+          "group": "DATA-GOV"
+        },
+        {
+          "id": 150,
+          "label": "Vendor Risk Controls",
+          "group": "DATA-GOV"
+        },
+        {
+          "id": 256,
+          "label": "Web Scraping Guidelines",
+          "group": "DATA-GOV"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "IR Platforms, Tools, and Case Studies",
+      "concept_count": 19,
+      "concepts": [
+        {
+          "id": 217,
+          "label": "AlphaSense Search",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 281,
+          "label": "Amazon Letter Insights",
+          "group": "IR-FOUND"
+        },
+        {
+          "id": 251,
+          "label": "Bloomberg IR Integration",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 270,
+          "label": "Broadridge Proxy Tools",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 271,
+          "label": "Computershare Services",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 273,
+          "label": "DealCloud IR CRM",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 252,
+          "label": "FactSet Benchmarking",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 272,
+          "label": "Intralinks Data Rooms",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 269,
+          "label": "Ipreo IR Solutions",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 216,
+          "label": "Nasdaq IR Tools",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 276,
+          "label": "Power BI Metrics",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 215,
+          "label": "Q4 Platform Features",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 155,
+          "label": "Selecting AI Tools",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 198,
+          "label": "Selecting IR Platforms",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 275,
+          "label": "Tableau IR Visuals",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 279,
+          "label": "Tesla IR Case Study",
+          "group": "IR-FOUND"
+        },
+        {
+          "id": 253,
+          "label": "Thomson Reuters Feeds",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 284,
+          "label": "VW Scandal Response",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 286,
+          "label": "WeWork IPO Analysis",
+          "group": "IR-FOUND"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Transformation Strategy and Change Management",
+      "concept_count": 14,
+      "concepts": [
+        {
+          "id": 170,
+          "label": "AI Transformation Strategy",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 166,
+          "label": "Building a Business Case",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 163,
+          "label": "C-Suite Communications",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 167,
+          "label": "Calculating AI ROI",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 159,
+          "label": "Change Management Models",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 158,
+          "label": "Change Management Plans",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 175,
+          "label": "Defining Success Metrics",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 157,
+          "label": "Designing Pilot Programs",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 151,
+          "label": "Evaluating AI Vendors",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 171,
+          "label": "Roadmap Prioritization",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 160,
+          "label": "Stakeholder Identification",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 161,
+          "label": "Stakeholder Mapping",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 185,
+          "label": "Talent Strategy Planning",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 152,
+          "label": "Vendor Due Diligence",
+          "group": "TRANSFORM"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Future Outlook: Agentic Ecosystems and Next-Gen IR",
+      "concept_count": 34,
+      "concepts": [
+        {
+          "id": 190,
+          "label": "Boosting Digital Fluency",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 154,
+          "label": "Build vs. Buy Choices",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 188,
+          "label": "Building AI Literacy",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 195,
+          "label": "Capturing Lessons Learned",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 168,
+          "label": "Cost-Benefit Analysis",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 162,
+          "label": "Cross-Functional Teams",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 187,
+          "label": "Designing Training Programs",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 165,
+          "label": "Developing Narratives",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 196,
+          "label": "Documenting Best Practices",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 194,
+          "label": "Driving Improvement Cycles",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 183,
+          "label": "Escalation Workflows",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 193,
+          "label": "Feedback Loop Design",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 184,
+          "label": "Handling Exceptions",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 181,
+          "label": "Human-in-the-Loop Models",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 177,
+          "label": "IR Operating Framework",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 200,
+          "label": "IR Transformation Plan",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 180,
+          "label": "Identifying Automation Gains",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 173,
+          "label": "Identifying Quick Wins",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 199,
+          "label": "Integrating Enterprise AI",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 197,
+          "label": "Knowledge Sharing Systems",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 189,
+          "label": "Launching Upskilling Plans",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 174,
+          "label": "Milestone Planning",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 176,
+          "label": "Operating Model Design",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 172,
+          "label": "Phased Implementation",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 178,
+          "label": "Process Redesign Plans",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 153,
+          "label": "Procuring AI Solutions",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 156,
+          "label": "Proof of Concept Design",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 182,
+          "label": "Review Workflows",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 186,
+          "label": "Skills Gap Evaluation",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 164,
+          "label": "Storytelling with Data",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 169,
+          "label": "Tracking Value Realization",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 191,
+          "label": "Understanding Tech Adoption",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 192,
+          "label": "User Acceptance Testing",
+          "group": "TRANSFORM"
+        },
+        {
+          "id": 179,
+          "label": "Workflow Automation",
+          "group": "TRANSFORM"
+        }
+      ]
+    }
+  ]
+}

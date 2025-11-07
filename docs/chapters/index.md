@@ -1,28 +1,48 @@
 # Chapters
 
-This textbook is organized into 12 chapters covering 200 concepts from the learning graph. The chapters follow a pedagogical progression from investor relations foundations through AI technologies, analytics, governance, and transformation strategy.
+This textbook is organized into **15 chapters** covering **298 concepts** across investor relations fundamentals, AI technologies, analytics, governance, and strategic transformation.
 
 ## Chapter Overview
 
-1. [Foundations of Modern Investor Relations](01-foundations-of-modern-ir/index.md) - Introduces the strategic role of IR, core workflows, stakeholder types, and fundamental IR operations
-2. [Regulatory Frameworks and Compliance](02-regulatory-frameworks-compliance/index.md) - Covers SEC requirements, Reg FD, SOX, disclosure controls, and the regulatory environment governing IR
-3. [Investor Types and Market Dynamics](03-investor-types-market-dynamics/index.md) - Explores institutional and retail investors, analyst types, and characteristics of different market participants
-4. [Valuation Metrics and Market Performance](04-valuation-metrics-performance/index.md) - Examines stock price dynamics, valuation multiples, analyst coverage, and earnings guidance strategies
-5. [AI and Machine Learning Fundamentals](05-ai-ml-fundamentals/index.md) - Introduces AI fundamentals, machine learning, large language models, and prompt engineering for IR applications
-6. [AI-Powered Content Creation for IR](06-ai-powered-content-creation/index.md) - Applies AI to drafting earnings reports, press releases, investor memos, and compliance review
-7. [Sentiment Analysis and Predictive Analytics](07-sentiment-analysis-predictive/index.md) - Covers NLP, sentiment analysis, text mining, social media monitoring, and forecasting investor behavior
-8. [Algorithmic Trading and Market Microstructure](08-algorithmic-trading-microstructure/index.md) - Examines how algorithmic trading, HFT, and market microstructure affect IR timing and disclosure
-9. [Agentic AI Systems and Model Context Protocol](09-agentic-ai-systems-mcp/index.md) - Introduces autonomous AI agents, agent orchestration, MCP architecture, and agentic workflows
-10. [AI Governance, Risk Management, and Data Quality](10-ai-governance-risk-data/index.md) - Addresses AI governance, responsible AI practices, hallucination detection, bias mitigation, and data security
-11. [AI-Enabled Dashboards and Performance Tracking](11-ai-dashboards-performance/index.md) - Covers AI-driven dashboards, KPI design, IR engagement metrics, and investor outreach tracking
-12. [AI Transformation Strategy and Change Management](12-transformation-change-management/index.md) - Synthesizes vendor evaluation, change management, business case development, transformation roadmaps, and operating model design
+1. [Foundations of Modern Investor Relations](01-foundations-of-modern-ir/index.md) - This chapter introduces the strategic role of investor relations in capital markets, covering core IR functions, essential workflows, and fundamental stakeholder engagement practices that establish the context for AI transformation.
+2. [Regulatory Frameworks and Compliance](02-regulatory-frameworks-compliance/index.md) - This chapter examines the regulatory environment—particularly Regulation Fair Disclosure and Sarbanes-Oxley—governing all IR activities and shaping how AI tools must be designed and deployed to ensure compliance.
+3. [Investor Types and Market Dynamics](03-investor-types-market-dynamics/index.md) - This chapter explores the diverse landscape of institutional and retail investors, analyst types, and market engagement strategies that IR professionals must navigate to effectively communicate corporate value.
+4. [Valuation Metrics and Performance Indicators](04-valuation-metrics-performance/index.md) - This chapter covers financial metrics, valuation multiples, market indicators, and performance measurement techniques that IR professionals use to communicate corporate value to the investment community.
+5. [AI and Machine Learning Fundamentals](05-ai-ml-fundamentals/index.md) - This chapter provides foundational knowledge of artificial intelligence and machine learning, including LLMs, RAG, model quality assessment, and the basic concepts of agentic systems that enable AI-powered IR.
+6. [AI-Powered Content Creation](06-ai-powered-content-creation/index.md) - This chapter explores how generative AI can enhance IR content creation through prompt engineering, structured templates, tone analysis, and compliance-aware workflows while maintaining narrative consistency.
+7. [Sentiment Analysis: Signals and Methods](07-sentiment-analysis-methods/index.md) - This chapter examines sentiment analysis methodologies, NLP techniques for processing transcripts and news, feature engineering strategies, and dataset selection for converting market signals into actionable IR intelligence.
+8. [Predictive Analytics and Market Intelligence](08-predictive-analytics-intelligence/index.md) - This chapter covers predictive analytics applications including forecasting investor behavior, scenario modeling, early-warning indicators, and linking analytical insights to strategic IR actions like roadshows and briefings.
+9. [Personalized and Real-Time Investor Engagement](09-personalized-realtime-engagement/index.md) - This chapter introduces next-generation IR approaches including investor digital twins, real-time monitoring, multimodal analysis of calls and presentations, and personalized engagement strategies that deliver right-time outreach.
+10. [Agentic AI Systems and Model Context Protocol](10-agentic-ai-systems-mcp/index.md) - This chapter details autonomous AI agents, Model Context Protocol architecture for secure AI integration, agent orchestration patterns, and practical applications of agentic systems in IR workflows and automation.
+11. [AI Governance, Ethics, and Risk Management](11-ai-governance-ethics-risk/index.md) - This chapter establishes governance frameworks for responsible AI use in IR, covering bias mitigation, hallucination detection, ethical considerations, and risk management practices essential for maintaining market trust.
+12. [Data Governance and Security](12-data-governance-security/index.md) - This chapter addresses data quality, security standards, privacy compliance, audit trails, and risk management frameworks necessary for building trustworthy data foundations that support AI-powered IR.
+13. [IR Platforms, Tools, and Case Studies](13-ir-platforms-tools-case-studies/index.md) - This chapter surveys leading IR platforms (Q4, Bloomberg, FactSet, Nasdaq), analytical tools (Python, R, Tableau), and real-world case studies demonstrating successful and cautionary tales in IR strategy and execution.
+14. [Transformation Strategy and Change Management](14-transformation-strategy-change/index.md) - This chapter provides strategic frameworks for AI transformation including business case development, vendor selection, proof-of-concept design, change management models, and stakeholder alignment for successful AI adoption in IR.
+15. [Future Outlook: Agentic Ecosystems and Next-Gen IR](15-future-agentic-ecosystems/index.md) - This chapter explores emerging trends including multi-agent ecosystems, multimodal reasoning, synthetic data, real-time investor copilots, autonomy boundaries, and advanced computing impacts on the future of IR.
 
 ## How to Use This Textbook
 
-Progress through the chapters sequentially to build your understanding systematically. Early chapters establish foundational IR and regulatory knowledge, middle chapters introduce AI technologies and analytics capabilities, and later chapters synthesize these into comprehensive transformation strategies. Each chapter builds on concepts from previous chapters, respecting the dependency relationships in the learning graph.
+This course follows a carefully designed learning progression:
 
-The textbook is designed for executive learners (CDAO, CFO, CIO) driving AI transformation in investor relations. No programming knowledge is required, though familiarity with AI/ML concepts and corporate finance is recommended.
+1. **Chapters 1-4** establish IR fundamentals, regulatory frameworks, investor types, and valuation metrics
+2. **Chapters 5-6** introduce AI/ML foundations and content creation applications
+3. **Chapters 7-9** cover analytics, predictions, and personalized engagement
+4. **Chapters 10-12** explore autonomous systems, AI governance, and data security
+5. **Chapters 13-14** provide practical guidance on platforms, tools, and transformation strategy
+6. **Chapter 15** looks ahead to emerging trends and future IR ecosystems
+
+Each chapter builds on previous concepts, so we recommend following the sequence. However, experienced practitioners may skip foundational chapters based on their background.
+
+## Chapter Structure
+
+Each chapter includes:
+- **Summary**: Overview of topics and learning objectives
+- **Prerequisites**: Recommended prior knowledge
+- **Concepts Covered**: Complete list of concepts from the learning graph
+- **Content**: Detailed explanations, examples, diagrams, and case studies
+- **Exercises**: Hands-on activities and reflection prompts
+- **Quiz**: Assessment questions aligned with Bloom's taxonomy
 
 ---
 
-**Note:** Each chapter includes a complete list of concepts covered. Review the prerequisites before starting each chapter to ensure you have the necessary background knowledge.
+**Note:** All chapters reference the [learning graph](../learning-graph/index.md) for concept dependencies and the [glossary](../glossary.md) for term definitions.

@@ -35,6 +35,18 @@ theme:
 extra_css:
   - stylesheets/anthropic-brand.css
 
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+
 nav:
   - Home: index.md
   - Course Overview: course-description.md

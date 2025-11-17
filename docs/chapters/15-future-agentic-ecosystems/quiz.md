@@ -270,7 +270,7 @@ After completing this quiz:
 2. Work through the [Chapter Exercises](index.md#exercises) for hands-on transformation planning practice
 3. Review the [Course Summary](../../conclusion.md) to integrate learning across all chapters
 
-For additional practice questions, see the [Quiz Bank](../../learning-graph/quiz-bank.json).
+
 
 ---
 

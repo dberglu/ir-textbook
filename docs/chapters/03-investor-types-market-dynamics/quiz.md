@@ -230,4 +230,4 @@ After completing this quiz:
 2. Work through the [Chapter Exercises](index.md#exercises) for practical application scenarios
 3. Proceed to [Chapter 4: Valuation Metrics and Performance](../04-valuation-metrics-performance/index.md)
 
-For additional practice questions, see the [Quiz Bank](../../learning-graph/quiz-bank.json).
+

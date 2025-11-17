@@ -227,6 +227,6 @@ After completing this quiz:
 
 1. Review the [Chapter Summary](index.md#summary) to reinforce AI/ML concepts
 2. Work through the [Chapter Exercises](index.md#exercises) for hands-on practice
-3. Proceed to [Chapter 6: Natural Language Processing for IR](../06-natural-language-processing-ir/index.md)
+3. Proceed to [Chapter 6: AI-Powered Content Creation](../06-ai-powered-content-creation/index.md)
 
-For additional practice questions, see the [Quiz Bank](../../learning-graph/quiz-bank.json).
+

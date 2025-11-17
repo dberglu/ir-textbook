@@ -270,4 +270,4 @@ After completing this quiz:
 2. Work through the [Chapter Exercises](index.md#exercises) for compliance scenario practice
 3. Proceed to [Chapter 3: Capital Markets and Investor Landscape](../03-investor-types-market-dynamics/index.md)
 
-For additional practice questions, see the [Quiz Bank](../../learning-graph/quiz-bank.json).
+

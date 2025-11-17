@@ -270,4 +270,4 @@ After completing this quiz:
 2. Work through the [Chapter Exercises](index.md#exercises) for hands-on prompt development practice
 3. Proceed to [Chapter 7: Sentiment Analysis Methods](../07-sentiment-analysis-methods/index.md)
 
-For additional practice questions, see the [Quiz Bank](../../learning-graph/quiz-bank.json).
+

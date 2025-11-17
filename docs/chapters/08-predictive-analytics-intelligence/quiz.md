@@ -270,4 +270,4 @@ After completing this quiz:
 2. Work through the [Chapter Exercises](index.md#exercises) for hands-on feature engineering and model evaluation practice
 3. Proceed to [Chapter 9: Personalized and Real-Time Engagement](../09-personalized-realtime-engagement/index.md)
 
-For additional practice questions, see the [Quiz Bank](../../learning-graph/quiz-bank.json).
+

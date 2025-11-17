@@ -268,6 +268,6 @@ After completing this quiz:
 
 1. Review the [Chapter Summary](index.md#summary) to reinforce AI governance and ethics concepts
 2. Work through the [Chapter Exercises](index.md#exercises) for hands-on bias detection and policy development practice
-3. Proceed to [Chapter 12: Data Infrastructure and Integration](../12-data-infrastructure-integration/index.md)
+3. Proceed to [Chapter 12: Data Governance and Security](../12-data-governance-security/index.md)
 
-For additional practice questions, see the [Quiz Bank](../../learning-graph/quiz-bank.json).
+

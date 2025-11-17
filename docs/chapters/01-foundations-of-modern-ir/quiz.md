@@ -227,6 +227,6 @@ After completing this quiz:
 
 1. Review the [Chapter Summary](index.md#summary) to reinforce key concepts
 2. Work through the [Chapter Exercises](index.md#exercises) for hands-on practice
-3. Proceed to [Chapter 2: Regulatory Environment and Compliance](../02-regulatory-environment-compliance/index.md)
+3. Proceed to [Chapter 2: Regulatory Frameworks and Compliance](../02-regulatory-frameworks-compliance/index.md)
 
-For additional practice questions, see the [Quiz Bank](../../learning-graph/quiz-bank.json).
+

@@ -270,4 +270,4 @@ After completing this quiz:
 2. Work through the [Chapter Exercises](index.md#exercises) for hands-on agent design practice
 3. Proceed to [Chapter 11: AI Governance, Ethics, and Risk Management](../11-ai-governance-ethics-risk/index.md)
 
-For additional practice questions, see the [Quiz Bank](../../learning-graph/quiz-bank.json).
+

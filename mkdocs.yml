@@ -52,22 +52,52 @@ nav:
   - Chapters:
       - Overview: chapters/index.md
       - "Part I: IR Foundations":
-          - Chapter 1 - Foundations of Modern IR: chapters/01-foundations-of-modern-ir/index.md
-          - Chapter 2 - Regulatory Frameworks and Compliance: chapters/02-regulatory-frameworks-compliance/index.md
-          - Chapter 3 - Investor Types and Market Dynamics: chapters/03-investor-types-market-dynamics/index.md
-          - Chapter 4 - Valuation Metrics and Performance: chapters/04-valuation-metrics-performance/index.md
+          - Chapter 1 - Foundations of Modern IR:
+              - Content: chapters/01-foundations-of-modern-ir/index.md
+              - Quiz: chapters/01-foundations-of-modern-ir/quiz.md
+          - Chapter 2 - Regulatory Frameworks and Compliance:
+              - Content: chapters/02-regulatory-frameworks-compliance/index.md
+              - Quiz: chapters/02-regulatory-frameworks-compliance/quiz.md
+          - Chapter 3 - Investor Types and Market Dynamics:
+              - Content: chapters/03-investor-types-market-dynamics/index.md
+              - Quiz: chapters/03-investor-types-market-dynamics/quiz.md
+          - Chapter 4 - Valuation Metrics and Performance:
+              - Content: chapters/04-valuation-metrics-performance/index.md
+              - Quiz: chapters/04-valuation-metrics-performance/quiz.md
       - "Part II: AI Technologies":
-          - Chapter 5 - AI and Machine Learning Fundamentals: chapters/05-ai-ml-fundamentals/index.md
-          - Chapter 6 - AI-Powered Content Creation: chapters/06-ai-powered-content-creation/index.md
+          - Chapter 5 - AI and Machine Learning Fundamentals:
+              - Content: chapters/05-ai-ml-fundamentals/index.md
+              - Quiz: chapters/05-ai-ml-fundamentals/quiz.md
+          - Chapter 6 - AI-Powered Content Creation:
+              - Content: chapters/06-ai-powered-content-creation/index.md
+              - Quiz: chapters/06-ai-powered-content-creation/quiz.md
       - "Part III: Analytics & Engagement":
-          - Chapter 7 - Sentiment Analysis Methods: chapters/07-sentiment-analysis-methods/index.md
-          - Chapter 8 - Predictive Analytics and Intelligence: chapters/08-predictive-analytics-intelligence/index.md
-          - Chapter 9 - Personalized and Real-Time Engagement: chapters/09-personalized-realtime-engagement/index.md
+          - Chapter 7 - Sentiment Analysis Methods:
+              - Content: chapters/07-sentiment-analysis-methods/index.md
+              - Quiz: chapters/07-sentiment-analysis-methods/quiz.md
+          - Chapter 8 - Predictive Analytics and Intelligence:
+              - Content: chapters/08-predictive-analytics-intelligence/index.md
+              - Quiz: chapters/08-predictive-analytics-intelligence/quiz.md
+          - Chapter 9 - Personalized and Real-Time Engagement:
+              - Content: chapters/09-personalized-realtime-engagement/index.md
+              - Quiz: chapters/09-personalized-realtime-engagement/quiz.md
       - "Part IV: Autonomous Systems & Governance":
-          - Chapter 10 - Agentic AI Systems and MCP: chapters/10-agentic-ai-systems-mcp/index.md
-          - Chapter 11 - AI Governance, Ethics, and Risk: chapters/11-ai-governance-ethics-risk/index.md
-          - Chapter 12 - Data Governance and Security: chapters/12-data-governance-security/index.md
+          - Chapter 10 - Agentic AI Systems and MCP:
+              - Content: chapters/10-agentic-ai-systems-mcp/index.md
+              - Quiz: chapters/10-agentic-ai-systems-mcp/quiz.md
+          - Chapter 11 - AI Governance, Ethics, and Risk:
+              - Content: chapters/11-ai-governance-ethics-risk/index.md
+              - Quiz: chapters/11-ai-governance-ethics-risk/quiz.md
+          - Chapter 12 - Data Governance and Security:
+              - Content: chapters/12-data-governance-security/index.md
+              - Quiz: chapters/12-data-governance-security/quiz.md
       - "Part V: Implementation & Future":
-          - Chapter 13 - IR Platforms, Tools, and Case Studies: chapters/13-ir-platforms-tools-case-studies/index.md
-          - Chapter 14 - Transformation Strategy and Change: chapters/14-transformation-strategy-change/index.md
-          - "Chapter 15 - Future: Agentic Ecosystems": chapters/15-future-agentic-ecosystems/index.md
+          - Chapter 13 - IR Platforms, Tools, and Case Studies:
+              - Content: chapters/13-ir-platforms-tools-case-studies/index.md
+              - Quiz: chapters/13-ir-platforms-tools-case-studies/quiz.md
+          - Chapter 14 - Transformation Strategy and Change:
+              - Content: chapters/14-transformation-strategy-change/index.md
+              - Quiz: chapters/14-transformation-strategy-change/quiz.md
+          - "Chapter 15 - Future: Agentic Ecosystems":
+              - Content: chapters/15-future-agentic-ecosystems/index.md
+              - Quiz: chapters/15-future-agentic-ecosystems/quiz.md

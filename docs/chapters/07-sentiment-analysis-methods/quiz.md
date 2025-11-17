@@ -270,4 +270,4 @@ After completing this quiz:
 2. Work through the [Chapter Exercises](index.md#exercises) for hands-on feature engineering practice
 3. Proceed to [Chapter 8: Predictive Analytics and Market Intelligence](../08-predictive-analytics-intelligence/index.md)
 
-For additional practice questions, see the [Quiz Bank](../../learning-graph/quiz-bank.json).
+

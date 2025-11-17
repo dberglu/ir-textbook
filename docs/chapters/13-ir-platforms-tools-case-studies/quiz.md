@@ -268,6 +268,6 @@ After completing this quiz:
 
 1. Review the [Chapter Summary](index.md#summary) to reinforce platform and tool knowledge
 2. Work through the [Chapter Exercises](index.md#exercises) for hands-on platform evaluation practice
-3. Proceed to [Chapter 14: Professional Skills and Career Development](../14-professional-skills-career/index.md)
+3. Proceed to [Chapter 14: Transformation Strategy and Change Management](../14-transformation-strategy-change/index.md)
 
-For additional practice questions, see the [Quiz Bank](../../learning-graph/quiz-bank.json).
+

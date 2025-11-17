@@ -268,6 +268,6 @@ After completing this quiz:
 
 1. Review the [Chapter Summary](index.md#summary) to reinforce transformation strategy concepts
 2. Work through the [Chapter Exercises](index.md#exercises) for hands-on business case development practice
-3. Proceed to [Chapter 15: Future of AI in Investor Relations](../15-future-ai-investor-relations/index.md)
+3. Proceed to [Chapter 15: Future Outlook - Agentic Ecosystems](../15-future-agentic-ecosystems/index.md)
 
-For additional practice questions, see the [Quiz Bank](../../learning-graph/quiz-bank.json).
+

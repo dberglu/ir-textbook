@@ -230,4 +230,4 @@ After completing this quiz:
 2. Work through the [Chapter Exercises](index.md#exercises) for hands-on calculation practice
 3. Proceed to [Chapter 5: AI and Machine Learning Fundamentals](../05-ai-ml-fundamentals/index.md)
 
-For additional practice questions, see the [Quiz Bank](../../learning-graph/quiz-bank.json).
+

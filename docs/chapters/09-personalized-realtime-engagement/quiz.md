@@ -270,4 +270,4 @@ After completing this quiz:
 2. Work through the [Chapter Exercises](index.md#exercises) for hands-on dashboard design practice
 3. Proceed to [Chapter 10: Agentic AI Systems and the Model Context Protocol](../10-agentic-ai-systems-mcp/index.md)
 
-For additional practice questions, see the [Quiz Bank](../../learning-graph/quiz-bank.json).
+

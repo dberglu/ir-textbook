@@ -268,6 +268,6 @@ After completing this quiz:
 
 1. Review the [Chapter Summary](index.md#summary) to reinforce data governance and security concepts
 2. Work through the [Chapter Exercises](index.md#exercises) for hands-on policy development and risk assessment practice
-3. Proceed to [Chapter 13: Technology Stack and Platform Selection](../13-technology-stack-platforms/index.md)
+3. Proceed to [Chapter 13: IR Platforms, Tools, and Case Studies](../13-ir-platforms-tools-case-studies/index.md)
 
-For additional practice questions, see the [Quiz Bank](../../learning-graph/quiz-bank.json).
+

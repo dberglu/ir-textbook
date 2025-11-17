@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Glossary - AI for Investor Relations</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- Header -->
+        <header class="glossary-header">
+            <h1>📚 Glossary of Terms</h1>
+            <p class="subtitle">AI for Investor Relations Transformation - {{ totalTerms }} Concepts</p>
+        </header>
+
+        <!-- Global Search Box -->
+        <div class="search-container">
+            <div class="search-box">
+                <input
+                    type="text"
+                    v-model="searchQuery"
+                    placeholder="🔍 Search terms, definitions, or examples..."
+                    class="search-input"
+                >
+                <button v-if="searchQuery" @click="clearSearch" class="clear-btn">✕</button>
+            </div>
+            <div class="search-stats" v-if="searchQuery">
+                {{ filteredTerms.length }} of {{ totalTerms }} terms match
+            </div>
+        </div>
+
+        <!-- Tab Navigation -->
+        <div class="tabs">
+            <button
+                v-for="tab in tabs"
+                :key="tab.id"
+                @click="activeTab = tab.id"
+                :class="['tab', { active: activeTab === tab.id }]"
+            >
+                {{ tab.label }}
+            </button>
+        </div>
+
+        <!-- Tab Content -->
+        <div class="tab-content">
+            <!-- Alphabetical View -->
+            <div v-show="activeTab === 'alphabetical'" class="alphabetical-view">
+                <div class="alphabet-filter">
+                    <button
+                        v-for="letter in alphabet"
+                        :key="letter"
+                        @click="selectedLetter = letter"
+                        :class="['letter-btn', { active: selectedLetter === letter }]"
+                    >
+                        {{ letter }}
+                    </button>
+                    <button
+                        @click="selectedLetter = null"
+                        :class="['letter-btn all', { active: selectedLetter === null }]"
+                    >
+                        All
+                    </button>
+                </div>
+
+                <div class="terms-list">
+                    <div
+                        v-for="term in alphabeticalTerms"
+                        :key="term.name"
+                        class="term-card"
+                        :class="{ expanded: expandedTerms.includes(term.name) }"
+                    >
+                        <div class="term-header" @click="toggleTerm(term.name)">
+                            <h3 class="term-name">
+                                {{ term.name }}
+                                <span v-if="term.isCore" class="core-badge">CORE</span>
+                                <span class="category-tag" :style="getCategoryStyle(term.category)">
+                                    {{ getCategoryName(term.category) }}
+                                </span>
+                            </h3>
+                            <span class="expand-icon">{{ expandedTerms.includes(term.name) ? '▼' : '▶' }}</span>
+                        </div>
+                        <div class="term-preview" v-if="!expandedTerms.includes(term.name)">
+                            {{ getPreview(term.definition) }}
+                        </div>
+                        <div class="term-body" v-if="expandedTerms.includes(term.name)">
+                            <p class="definition">{{ term.definition }}</p>
+                            <div v-if="term.example" class="example">
+                                <strong>Example:</strong> {{ term.example }}
+                            </div>
+                            <div class="term-meta">
+                                <span class="difficulty-badge" :class="term.difficulty">{{ term.difficulty }}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category View -->
+            <div v-show="activeTab === 'category'" class="category-view">
+                <div class="category-grid">
+                    <div
+                        v-for="(category, key) in categories"
+                        :key="key"
+                        class="category-card"
+                        :style="{ borderLeftColor: category.color }"
+                        @click="expandCategory(key)"
+                    >
+                        <div class="category-header">
+                            <h3>{{ category.classifierName }}</h3>
+                            <span class="category-count">{{ getCategoryCount(key) }} terms</span>
+                        </div>
+                        <div class="category-terms" v-if="expandedCategory === key">
+                            <div
+                                v-for="term in getCategoryTerms(key)"
+                                :key="term.name"
+                                class="mini-term"
+                                @click.stop="expandTerm(term.name)"
+                            >
+                                <strong>{{ term.name }}</strong>
+                                <span v-if="term.isCore" class="core-badge mini">CORE</span>
+                                <p>{{ getPreview(term.definition) }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Learning Path View -->
+            <div v-show="activeTab === 'learning-path'" class="learning-path-view">
+                <div class="path-section">
+                    <h2>🎯 Must-Know Core Concepts</h2>
+                    <p class="section-desc">Essential foundations for understanding AI in Investor Relations</p>
+                    <div class="terms-list compact">
+                        <div
+                            v-for="term in coreTerms"
+                            :key="term.name"
+                            class="term-card compact"
+                            @click="expandTerm(term.name)"
+                        >
+                            <h3 class="term-name">
+                                {{ term.name }}
+                                <span class="category-tag" :style="getCategoryStyle(term.category)">
+                                    {{ getCategoryName(term.category) }}
+                                </span>
+                            </h3>
+                            <p class="definition">{{ term.definition }}</p>
+                            <div v-if="term.example" class="example">
+                                <strong>Example:</strong> {{ term.example }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="path-section">
+                    <h2>📖 Beginner Concepts</h2>
+                    <p class="section-desc">Start here - fundamental concepts with no prerequisites</p>
+                    <div class="difficulty-filter">
+                        <span>{{ beginnerTerms.length }} beginner concepts</span>
+                        <button @click="showAllBeginner = !showAllBeginner">
+                            {{ showAllBeginner ? 'Show Less' : 'Show All' }}
+                        </button>
+                    </div>
+                    <div class="terms-grid">
+                        <div
+                            v-for="term in displayedBeginnerTerms"
+                            :key="term.name"
+                            class="mini-term-card"
+                            @click="expandTerm(term.name)"
+                        >
+                            <strong>{{ term.name }}</strong>
+                            <span class="category-tag mini" :style="getCategoryStyle(term.category)">
+                                {{ getCategoryName(term.category) }}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="path-section">
+                    <h2>🔧 Intermediate Concepts</h2>
+                    <p class="section-desc">Build on foundations with practical applications</p>
+                    <div class="difficulty-filter">
+                        <span>{{ intermediateTerms.length }} intermediate concepts</span>
+                    </div>
+                    <div class="terms-grid">
+                        <div
+                            v-for="term in intermediateTerms.slice(0, 20)"
+                            :key="term.name"
+                            class="mini-term-card"
+                            @click="expandTerm(term.name)"
+                        >
+                            <strong>{{ term.name }}</strong>
+                            <span class="category-tag mini" :style="getCategoryStyle(term.category)">
+                                {{ getCategoryName(term.category) }}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="path-section">
+                    <h2>🚀 Advanced Concepts</h2>
+                    <p class="section-desc">Expert-level topics with multiple dependencies</p>
+                    <div class="difficulty-filter">
+                        <span>{{ advancedTerms.length }} advanced concepts</span>
+                    </div>
+                    <div class="terms-grid">
+                        <div
+                            v-for="term in advancedTerms.slice(0, 20)"
+                            :key="term.name"
+                            class="mini-term-card advanced"
+                            @click="expandTerm(term.name)"
+                        >
+                            <strong>{{ term.name }}</strong>
+                            <span class="category-tag mini" :style="getCategoryStyle(term.category)">
+                                {{ getCategoryName(term.category) }}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Term Detail Modal -->
+        <div v-if="selectedTerm" class="modal-overlay" @click="selectedTerm = null">
+            <div class="modal-content" @click.stop>
+                <button class="close-modal" @click="selectedTerm = null">✕</button>
+                <div class="modal-header">
+                    <h2>{{ selectedTerm.name }}</h2>
+                    <div class="modal-badges">
+                        <span v-if="selectedTerm.isCore" class="core-badge">CORE</span>
+                        <span class="difficulty-badge" :class="selectedTerm.difficulty">
+                            {{ selectedTerm.difficulty }}
+                        </span>
+                        <span class="category-tag" :style="getCategoryStyle(selectedTerm.category)">
+                            {{ getCategoryName(selectedTerm.category) }}
+                        </span>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <p class="definition">{{ selectedTerm.definition }}</p>
+                    <div v-if="selectedTerm.example" class="example">
+                        <strong>Example:</strong> {{ selectedTerm.example }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

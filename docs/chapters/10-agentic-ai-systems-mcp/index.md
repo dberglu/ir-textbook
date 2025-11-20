@@ -859,6 +859,19 @@ The future of IR will increasingly leverage agentic systems to handle routine an
 
 ---
 
+## Additional Resources
+
+- **[AI System Architecture MicroSim](../../sims/ai-system-architecture/index.md)** - Interactive visualization of agentic AI architecture with Model Context Protocol integration
+- [Chapter 5: AI and Machine Learning Fundamentals](../05-ai-ml-fundamentals/index.md) - Foundation concepts for understanding AI systems
+- [Chapter 11: AI Governance, Ethics, and Risk](../11-ai-governance-ethics-risk/index.md) - Governance frameworks for agentic AI deployment
+- [Chapter 12: Data Governance and Security](../12-data-governance-security/index.md) - Security requirements for AI data access
+- [Anthropic: Model Context Protocol](https://www.anthropic.com/news/model-context-protocol) - Official MCP specification and documentation
+- [LangChain Documentation](https://python.langchain.com/docs/get_started/introduction) - Leading agentic AI framework
+- [Course FAQ](../../faq.md) - Common questions about agentic AI implementation
+- [Learning Graph](../../learning-graph/index.md) - Visual representation of concept dependencies
+
+---
+
 ## Concepts Covered
 
 This chapter covered the following 18 concepts from the learning graph:

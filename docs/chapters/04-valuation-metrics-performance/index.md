@@ -726,6 +726,7 @@ Refer to the [glossary](../../glossary.md) for complete definitions of all 298 c
 
 ## Additional Resources
 
+- **[P/E Ratio Calculator MicroSim](../../sims/pe-ratio-calculator/index.md)** - Interactive tool for understanding Price-to-Earnings ratios and company valuation
 - [Chapter 1: Foundations of Modern Investor Relations](../01-foundations-of-modern-ir/index.md) - Core IR workflows and performance measurement
 - [Chapter 3: Investor Types and Market Dynamics](../03-investor-types-market-dynamics/index.md) - Understanding which metrics different investors emphasize
 - [Chapter 8: Predictive Analytics and Market Intelligence](../08-predictive-analytics-intelligence/index.md) - Using AI to forecast valuation trends and investor responses
@@ -735,6 +736,6 @@ Refer to the [glossary](../../glossary.md) for complete definitions of all 298 c
 
 ---
 
-**Status**: Chapter content complete. Quiz generation and MicroSim development pending.
+**Status**: Chapter content complete with interactive MicroSim available.
 
 *Proceed to [Chapter 5](../05-ai-ml-fundamentals/index.md) to explore AI and machine learning fundamentals enabling IR transformation.*

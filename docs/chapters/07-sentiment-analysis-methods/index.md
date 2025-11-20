@@ -1084,6 +1084,7 @@ Refer to the [glossary](../../glossary.md) for complete definitions of all 298 c
 
 ## Additional Resources
 
+- **[Sentiment Scoring Engine MicroSim](../../sims/sentiment-scoring-engine/index.md)** - Interactive demonstration of lexicon-based sentiment analysis on financial text
 - [Chapter 5: AI and Machine Learning Fundamentals](../05-ai-ml-fundamentals/index.md) - Supervised learning, model training, evaluation foundations
 - [Chapter 6: AI-Powered Content Creation](../06-ai-powered-content-creation/index.md) - Tone analysis for generated content
 - [Chapter 8: Predictive Analytics and Market Intelligence](../08-predictive-analytics-intelligence/index.md) - Using sentiment for forecasting
@@ -1093,6 +1094,6 @@ Refer to the [glossary](../../glossary.md) for complete definitions of all 298 c
 
 ---
 
-**Status**: Chapter content complete. Quiz generation and MicroSim development pending.
+**Status**: Chapter content complete with interactive MicroSim available.
 
 *Proceed to [Chapter 8](../08-predictive-analytics-intelligence/index.md) to explore predictive analytics and market intelligence applications.*

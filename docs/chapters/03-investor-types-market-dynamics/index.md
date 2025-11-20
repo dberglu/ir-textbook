@@ -529,6 +529,7 @@ Refer to the [glossary](../../glossary.md) for complete definitions of all 298 c
 
 ## Additional Resources
 
+- **[Investor Network Map MicroSim](../../sims/investor-network-map/index.md)** - Interactive visualization of investor relationships and influence pathways
 - [Chapter 1: Foundations of Modern Investor Relations](../01-foundations-of-modern-ir/index.md) - Core IR workflows and engagement mechanisms
 - [Chapter 2: Regulatory Frameworks and Compliance](../02-regulatory-frameworks-compliance/index.md) - Guidance disclosure requirements and forward-looking statement protections
 - [Chapter 4: Valuation Metrics and Performance Indicators](../04-valuation-metrics-performance/index.md) - Financial metrics different investor types emphasize
@@ -538,6 +539,6 @@ Refer to the [glossary](../../glossary.md) for complete definitions of all 298 c
 
 ---
 
-**Status**: Chapter content complete. Quiz generation and MicroSim development pending.
+**Status**: Chapter content complete with interactive MicroSim available.
 
 *Proceed to [Chapter 4](../04-valuation-metrics-performance/index.md) to explore financial metrics and performance measurement techniques.*

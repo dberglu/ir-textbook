@@ -62,6 +62,10 @@ nav:
       - Taxonomy Distribution Report: learning-graph/taxonomy-distribution.md
   - MicroSims:
       - Graph Viewer: sims/graph-viewer/index.md
+      - Investor Network Map: sims/investor-network-map/index.md
+      - P/E Ratio Calculator: sims/pe-ratio-calculator/index.md
+      - Sentiment Scoring Engine: sims/sentiment-scoring-engine/index.md
+      - AI System Architecture: sims/ai-system-architecture/index.md
   - Chapters:
       - Overview: chapters/index.md
       - "Part I: IR Foundations":

@@ -15,7 +15,7 @@
         <link rel="next" href="../../sims/graph-viewer/">
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/IR_favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
     
     
@@ -25,6 +25,9 @@
     
     
       <link rel="stylesheet" href="../../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -38,10 +41,12 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Lora";--md-code-font:"Roboto Mono"}</style>
       
     
+    
+      <link rel="stylesheet" href="../../stylesheets/anthropic-brand.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -53,7 +58,14 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -74,14 +86,11 @@
     
       
 
-  
-
-<header class="md-header md-header--shadow" data-md-component="header">
+<header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../.." title="Investor Relations Textbook" class="md-header__button md-logo" aria-label="Investor Relations Textbook" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../../assets/images/IR_favicon.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -104,6 +113,32 @@
         </div>
       </div>
     </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
     
     
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
@@ -135,6 +170,8 @@
         </button>
       </nav>
       
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
@@ -160,6 +197,172 @@
       
         
           
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../course-description/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Course Overview
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../glossary/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Glossary
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../faq/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  FAQ
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../references/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  References
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+  Learning Graph
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../sims/graph-viewer/" class="md-tabs__link">
+          
+  
+  
+  MicroSims
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../chapters/" class="md-tabs__link">
+          
+  
+  
+  Chapters
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
         
       
       <main class="md-main" data-md-component="main">
@@ -173,13 +376,14 @@
                     
 
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="Investor Relations Textbook" class="md-nav__button md-logo" aria-label="Investor Relations Textbook" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../../assets/images/IR_favicon.png" alt="logo">
 
     </a>
     Investor Relations Textbook
@@ -235,6 +439,72 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Glossary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    References
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -243,15 +513,23 @@
     
     
     
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
             
   
   
@@ -264,8 +542,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_3">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             Learning Graph
           </label>
@@ -522,24 +800,6 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#reg-comp-reg-comp" class="md-nav__link">
-    <span class="md-ellipsis">
-      REG-COMP (REG-COMP)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#data-gov-data-gov" class="md-nav__link">
-    <span class="md-ellipsis">
-      DATA-GOV (DATA-GOV)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#anlyt-anlyt" class="md-nav__link">
     <span class="md-ellipsis">
       ANLYT (ANLYT)
@@ -549,9 +809,36 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#reg-comp-reg-comp" class="md-nav__link">
+    <span class="md-ellipsis">
+      REG-COMP (REG-COMP)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#agentic-agentic" class="md-nav__link">
     <span class="md-ellipsis">
       AGENTIC (AGENTIC)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#valmet-valmet" class="md-nav__link">
+    <span class="md-ellipsis">
+      VALMET (VALMET)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-gov-data-gov" class="md-nav__link">
+    <span class="md-ellipsis">
+      DATA-GOV (DATA-GOV)
     </span>
   </a>
   
@@ -576,24 +863,6 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#invest-invest" class="md-nav__link">
-    <span class="md-ellipsis">
-      INVEST (INVEST)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#valmet-valmet" class="md-nav__link">
-    <span class="md-ellipsis">
-      VALMET (VALMET)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#ir-found-ir-found" class="md-nav__link">
     <span class="md-ellipsis">
       IR-FOUND (IR-FOUND)
@@ -603,9 +872,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#ai-cont-ai-cont" class="md-nav__link">
+  <a href="#invest-invest" class="md-nav__link">
     <span class="md-ellipsis">
-      AI-CONT (AI-CONT)
+      INVEST (INVEST)
     </span>
   </a>
   
@@ -615,6 +884,15 @@
   <a href="#ai-tech-ai-tech" class="md-nav__link">
     <span class="md-ellipsis">
       AI-TECH (AI-TECH)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ai-cont-ai-cont" class="md-nav__link">
+    <span class="md-ellipsis">
+      AI-CONT (AI-CONT)
     </span>
   </a>
   
@@ -675,15 +953,22 @@
     
     
     
+      
+      
+        
+      
+    
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
             
   
   
@@ -696,8 +981,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
             MicroSims
           </label>
@@ -726,6 +1011,98 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/investor-network-map/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Investor Network Map
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/pe-ratio-calculator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    P/E Ratio Calculator
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/sentiment-scoring-engine/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sentiment Scoring Engine
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ai-system-architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AI System Architecture
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -743,15 +1120,22 @@
     
     
     
+      
+      
+        
+      
+    
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
             
   
   
@@ -764,8 +1148,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
             Chapters
           </label>
@@ -800,13 +1184,103 @@
   
   
   
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Part I: IR Foundations
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            Part I: IR Foundations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_2_1" id="__nav_8_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Chapter 1 - Foundations of Modern IR
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Chapter 1 - Foundations of Modern IR
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../../chapters/chapter-1/" class="md-nav__link">
+      <a href="../../chapters/01-foundations-of-modern-ir/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Chapter 1 – Introduction
+    Content
     
   </span>
   
@@ -824,12 +1298,88 @@
   
   
     <li class="md-nav__item">
-      <a href="../../chapters/chapter-2/" class="md-nav__link">
+      <a href="../../chapters/01-foundations-of-modern-ir/quiz/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Chapter 2 – Stakeholder Communication
+    Quiz
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_2_2" id="__nav_8_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Chapter 2 - Regulatory Frameworks and Compliance
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Chapter 2 - Regulatory Frameworks and Compliance
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chapters/02-regulatory-frameworks-compliance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Content
     
   </span>
   
@@ -847,17 +1397,1532 @@
   
   
     <li class="md-nav__item">
-      <a href="../../chapters/chapter-3/" class="md-nav__link">
+      <a href="../../chapters/02-regulatory-frameworks-compliance/quiz/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Chapter 3 – Financial Reporting & Disclosure
+    Quiz
     
   </span>
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_2_3" id="__nav_8_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Chapter 3 - Investor Types and Market Dynamics
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Chapter 3 - Investor Types and Market Dynamics
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chapters/03-investor-types-market-dynamics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Content
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chapters/03-investor-types-market-dynamics/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quiz
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_2_4" id="__nav_8_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Chapter 4 - Valuation Metrics and Performance
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            Chapter 4 - Valuation Metrics and Performance
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chapters/04-valuation-metrics-performance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Content
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chapters/04-valuation-metrics-performance/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quiz
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_3" id="__nav_8_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Part II: AI Technologies
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_3">
+            <span class="md-nav__icon md-icon"></span>
+            Part II: AI Technologies
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_3_1" id="__nav_8_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Chapter 5 - AI and Machine Learning Fundamentals
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            Chapter 5 - AI and Machine Learning Fundamentals
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chapters/05-ai-ml-fundamentals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Content
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chapters/05-ai-ml-fundamentals/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quiz
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_3_2" id="__nav_8_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Chapter 6 - AI-Powered Content Creation
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Chapter 6 - AI-Powered Content Creation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chapters/06-ai-powered-content-creation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Content
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chapters/06-ai-powered-content-creation/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quiz
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_4" id="__nav_8_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Part III: Analytics & Engagement
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_4">
+            <span class="md-nav__icon md-icon"></span>
+            Part III: Analytics & Engagement
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_4_1" id="__nav_8_4_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Chapter 7 - Sentiment Analysis Methods
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            Chapter 7 - Sentiment Analysis Methods
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chapters/07-sentiment-analysis-methods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Content
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chapters/07-sentiment-analysis-methods/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quiz
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_4_2" id="__nav_8_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Chapter 8 - Predictive Analytics and Intelligence
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Chapter 8 - Predictive Analytics and Intelligence
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chapters/08-predictive-analytics-intelligence/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Content
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chapters/08-predictive-analytics-intelligence/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quiz
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_4_3" id="__nav_8_4_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Chapter 9 - Personalized and Real-Time Engagement
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            Chapter 9 - Personalized and Real-Time Engagement
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chapters/09-personalized-realtime-engagement/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Content
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chapters/09-personalized-realtime-engagement/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quiz
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_5" id="__nav_8_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Part IV: Autonomous Systems & Governance
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_5">
+            <span class="md-nav__icon md-icon"></span>
+            Part IV: Autonomous Systems & Governance
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_5_1" id="__nav_8_5_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Chapter 10 - Agentic AI Systems and MCP
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            Chapter 10 - Agentic AI Systems and MCP
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chapters/10-agentic-ai-systems-mcp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Content
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chapters/10-agentic-ai-systems-mcp/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quiz
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_5_2" id="__nav_8_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Chapter 11 - AI Governance, Ethics, and Risk
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            Chapter 11 - AI Governance, Ethics, and Risk
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chapters/11-ai-governance-ethics-risk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Content
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chapters/11-ai-governance-ethics-risk/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quiz
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_5_3" id="__nav_8_5_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Chapter 12 - Data Governance and Security
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Chapter 12 - Data Governance and Security
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chapters/12-data-governance-security/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Content
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chapters/12-data-governance-security/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quiz
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_6" id="__nav_8_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Part V: Implementation & Future
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_6">
+            <span class="md-nav__icon md-icon"></span>
+            Part V: Implementation & Future
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_6_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_6_1" id="__nav_8_6_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Chapter 13 - IR Platforms, Tools, and Case Studies
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_6_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_6_1">
+            <span class="md-nav__icon md-icon"></span>
+            Chapter 13 - IR Platforms, Tools, and Case Studies
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chapters/13-ir-platforms-tools-case-studies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Content
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chapters/13-ir-platforms-tools-case-studies/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quiz
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_6_2" id="__nav_8_6_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Chapter 14 - Transformation Strategy and Change
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            Chapter 14 - Transformation Strategy and Change
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chapters/14-transformation-strategy-change/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Content
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chapters/14-transformation-strategy-change/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quiz
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_6_3" id="__nav_8_6_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Chapter 15 - Future: Agentic Ecosystems
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            Chapter 15 - Future: Agentic Ecosystems
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chapters/15-future-agentic-ecosystems/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Content
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chapters/15-future-agentic-ecosystems/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quiz
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -976,24 +3041,6 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#reg-comp-reg-comp" class="md-nav__link">
-    <span class="md-ellipsis">
-      REG-COMP (REG-COMP)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#data-gov-data-gov" class="md-nav__link">
-    <span class="md-ellipsis">
-      DATA-GOV (DATA-GOV)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#anlyt-anlyt" class="md-nav__link">
     <span class="md-ellipsis">
       ANLYT (ANLYT)
@@ -1003,9 +3050,36 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#reg-comp-reg-comp" class="md-nav__link">
+    <span class="md-ellipsis">
+      REG-COMP (REG-COMP)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#agentic-agentic" class="md-nav__link">
     <span class="md-ellipsis">
       AGENTIC (AGENTIC)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#valmet-valmet" class="md-nav__link">
+    <span class="md-ellipsis">
+      VALMET (VALMET)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-gov-data-gov" class="md-nav__link">
+    <span class="md-ellipsis">
+      DATA-GOV (DATA-GOV)
     </span>
   </a>
   
@@ -1030,24 +3104,6 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#invest-invest" class="md-nav__link">
-    <span class="md-ellipsis">
-      INVEST (INVEST)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#valmet-valmet" class="md-nav__link">
-    <span class="md-ellipsis">
-      VALMET (VALMET)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#ir-found-ir-found" class="md-nav__link">
     <span class="md-ellipsis">
       IR-FOUND (IR-FOUND)
@@ -1057,9 +3113,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#ai-cont-ai-cont" class="md-nav__link">
+  <a href="#invest-invest" class="md-nav__link">
     <span class="md-ellipsis">
-      AI-CONT (AI-CONT)
+      INVEST (INVEST)
     </span>
   </a>
   
@@ -1069,6 +3125,15 @@
   <a href="#ai-tech-ai-tech" class="md-nav__link">
     <span class="md-ellipsis">
       AI-TECH (AI-TECH)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ai-cont-ai-cont" class="md-nav__link">
+    <span class="md-ellipsis">
+      AI-CONT (AI-CONT)
     </span>
   </a>
   
@@ -1119,14 +3184,14 @@
 
 
 
-<h1 id="taxonomy-distribution-report">Taxonomy Distribution Report</h1>
-<h2 id="overview">Overview</h2>
+<h1 id="taxonomy-distribution-report">Taxonomy Distribution Report<a class="headerlink" href="#taxonomy-distribution-report" title="Permanent link">&para;</a></h1>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>Total Concepts</strong>: 200</li>
+<li><strong>Total Concepts</strong>: 298</li>
 <li><strong>Number of Taxonomies</strong>: 12</li>
-<li><strong>Average Concepts per Taxonomy</strong>: 16.7</li>
+<li><strong>Average Concepts per Taxonomy</strong>: 24.8</li>
 </ul>
-<h2 id="distribution-summary">Distribution Summary</h2>
+<h2 id="distribution-summary">Distribution Summary<a class="headerlink" href="#distribution-summary" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -1141,114 +3206,114 @@
 <tr>
 <td>TRANSFORM</td>
 <td>TRANSFORM</td>
-<td>50</td>
-<td>25.0%</td>
+<td>65</td>
+<td>21.8%</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>ANLYT</td>
+<td>ANLYT</td>
+<td>52</td>
+<td>17.4%</td>
 <td>✅</td>
 </tr>
 <tr>
 <td>REG-COMP</td>
 <td>REG-COMP</td>
+<td>28</td>
+<td>9.4%</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>AGENTIC</td>
+<td>AGENTIC</td>
+<td>27</td>
+<td>9.1%</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>VALMET</td>
+<td>VALMET</td>
 <td>26</td>
-<td>13.0%</td>
+<td>8.7%</td>
 <td>✅</td>
 </tr>
 <tr>
 <td>DATA-GOV</td>
 <td>DATA-GOV</td>
+<td>24</td>
+<td>8.1%</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>AI-GOV</td>
+<td>AI-GOV</td>
 <td>20</td>
-<td>10.0%</td>
+<td>6.7%</td>
 <td>✅</td>
 </tr>
 <tr>
-<td>ANLYT</td>
-<td>ANLYT</td>
-<td>19</td>
-<td>9.5%</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>AGENTIC</td>
-<td>AGENTIC</td>
+<td>IR-OPS</td>
+<td>IR-OPS</td>
 <td>15</td>
-<td>7.5%</td>
+<td>5.0%</td>
 <td>✅</td>
 </tr>
 <tr>
-<td>AI-GOV</td>
-<td>AI-GOV</td>
-<td>14</td>
-<td>7.0%</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>IR-OPS</td>
-<td>IR-OPS</td>
-<td>13</td>
-<td>6.5%</td>
+<td>IR-FOUND</td>
+<td>IR-FOUND</td>
+<td>12</td>
+<td>4.0%</td>
 <td>✅</td>
 </tr>
 <tr>
 <td>INVEST</td>
 <td>INVEST</td>
 <td>11</td>
-<td>5.5%</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>VALMET</td>
-<td>VALMET</td>
-<td>11</td>
-<td>5.5%</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>IR-FOUND</td>
-<td>IR-FOUND</td>
-<td>9</td>
-<td>4.5%</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>AI-CONT</td>
-<td>AI-CONT</td>
-<td>7</td>
-<td>3.5%</td>
+<td>3.7%</td>
 <td>✅</td>
 </tr>
 <tr>
 <td>AI-TECH</td>
 <td>AI-TECH</td>
-<td>5</td>
-<td>2.5%</td>
+<td>10</td>
+<td>3.4%</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>AI-CONT</td>
+<td>AI-CONT</td>
+<td>8</td>
+<td>2.7%</td>
 <td>ℹ️ Under</td>
 </tr>
 </tbody>
 </table>
-<h2 id="visual-distribution">Visual Distribution</h2>
-<pre><code>TRANSFORM ████████████  50 ( 25.0%)
-REG-COMP ██████  26 ( 13.0%)
-DATA-GOV █████  20 ( 10.0%)
-ANLYT  ████  19 (  9.5%)
-AGENTIC ███  15 (  7.5%)
-AI-GOV ███  14 (  7.0%)
-IR-OPS ███  13 (  6.5%)
-INVEST ██  11 (  5.5%)
-VALMET ██  11 (  5.5%)
-IR-FOUND ██   9 (  4.5%)
-AI-CONT █   7 (  3.5%)
-AI-TECH █   5 (  2.5%)
-</code></pre>
-<h2 id="balance-analysis">Balance Analysis</h2>
-<h3 id="no-over-represented-categories">✅ No Over-Represented Categories</h3>
+<h2 id="visual-distribution">Visual Distribution<a class="headerlink" href="#visual-distribution" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>TRANSFORM ██████████  65 ( 21.8%)
+ANLYT  ████████  52 ( 17.4%)
+REG-COMP ████  28 (  9.4%)
+AGENTIC ████  27 (  9.1%)
+VALMET ████  26 (  8.7%)
+DATA-GOV ████  24 (  8.1%)
+AI-GOV ███  20 (  6.7%)
+IR-OPS ██  15 (  5.0%)
+IR-FOUND ██  12 (  4.0%)
+INVEST █  11 (  3.7%)
+AI-TECH █  10 (  3.4%)
+AI-CONT █   8 (  2.7%)
+</code></pre></div>
+<h2 id="balance-analysis">Balance Analysis<a class="headerlink" href="#balance-analysis" title="Permanent link">&para;</a></h2>
+<h3 id="no-over-represented-categories">✅ No Over-Represented Categories<a class="headerlink" href="#no-over-represented-categories" title="Permanent link">&para;</a></h3>
 <p>All categories are under the 30% threshold. Good balance!</p>
-<h3 id="i-under-represented-categories-3">ℹ️ Under-Represented Categories (&lt;3%)</h3>
+<h3 id="i-under-represented-categories-3">ℹ️ Under-Represented Categories (&lt;3%)<a class="headerlink" href="#i-under-represented-categories-3" title="Permanent link">&para;</a></h3>
 <ul>
-<li><strong>AI-TECH</strong> (AI-TECH): 5 concepts (2.5%)</li>
+<li><strong>AI-CONT</strong> (AI-CONT): 8 concepts (2.7%)</li>
 <li><em>Note</em>: Small categories are acceptable for specialized topics</li>
 </ul>
-<h2 id="category-details">Category Details</h2>
-<h3 id="transform-transform">TRANSFORM (TRANSFORM)</h3>
-<p><strong>Count</strong>: 50 concepts (25.0%)</p>
+<h2 id="category-details">Category Details<a class="headerlink" href="#category-details" title="Permanent link">&para;</a></h2>
+<h3 id="transform-transform">TRANSFORM (TRANSFORM)<a class="headerlink" href="#transform-transform" title="Permanent link">&para;</a></h3>
+<p><strong>Count</strong>: 65 concepts (21.8%)</p>
 <p><strong>Concepts</strong>:</p>
 <ul>
 <li>
@@ -1326,172 +3391,10 @@ AI-TECH █   5 (  2.5%)
 <li>Developing Narratives</li>
 </ol>
 </li>
-<li><em>...and 35 more</em></li>
+<li><em>...and 50 more</em></li>
 </ul>
-<h3 id="reg-comp-reg-comp">REG-COMP (REG-COMP)</h3>
-<p><strong>Count</strong>: 26 concepts (13.0%)</p>
-<p><strong>Concepts</strong>:</p>
-<ul>
-<li>
-<ol>
-<li>Material Information</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Nonpublic Information</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Regulation Fair Disclosure</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Reg FD Compliance</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Preventing Selective Disclosure</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Sarbanes-Oxley Act</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>SOX Section 302</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>SOX Section 404</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Internal Control Systems</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Disclosure Controls</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>SEC Filing Requirements</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Form 10-K Overview</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Form 10-Q Essentials</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Form 8-K Summary</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>XBRL Reporting Standards</li>
-</ol>
-</li>
-<li><em>...and 11 more</em></li>
-</ul>
-<h3 id="data-gov-data-gov">DATA-GOV (DATA-GOV)</h3>
-<p><strong>Count</strong>: 20 concepts (10.0%)</p>
-<p><strong>Concepts</strong>:</p>
-<ul>
-<li>
-<ol>
-<li>Data Governance Basics</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Managing Data Quality</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Tracking Data Lineage</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Financial Data Privacy</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Protecting Personal Data</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Data Security Standards</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Encryption Best Practices</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Access Control Models</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Role-Based Access</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Audit Trail Requirements</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Managing Audit Logs</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Compliance Monitoring</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>RegTech Applications</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Compliance Automation</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Automated Risk Monitoring</li>
-</ol>
-</li>
-<li><em>...and 5 more</em></li>
-</ul>
-<h3 id="anlyt-anlyt">ANLYT (ANLYT)</h3>
-<p><strong>Count</strong>: 19 concepts (9.5%)</p>
+<h3 id="anlyt-anlyt">ANLYT (ANLYT)<a class="headerlink" href="#anlyt-anlyt" title="Permanent link">&para;</a></h3>
+<p><strong>Count</strong>: 52 concepts (17.4%)</p>
 <p><strong>Concepts</strong>:</p>
 <ul>
 <li>
@@ -1569,10 +3472,91 @@ AI-TECH █   5 (  2.5%)
 <li>Algorithmic Trading Impact</li>
 </ol>
 </li>
-<li><em>...and 4 more</em></li>
+<li><em>...and 37 more</em></li>
 </ul>
-<h3 id="agentic-agentic">AGENTIC (AGENTIC)</h3>
-<p><strong>Count</strong>: 15 concepts (7.5%)</p>
+<h3 id="reg-comp-reg-comp">REG-COMP (REG-COMP)<a class="headerlink" href="#reg-comp-reg-comp" title="Permanent link">&para;</a></h3>
+<p><strong>Count</strong>: 28 concepts (9.4%)</p>
+<p><strong>Concepts</strong>:</p>
+<ul>
+<li>
+<ol>
+<li>Material Information</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Nonpublic Information</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Regulation Fair Disclosure</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Reg FD Compliance</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Preventing Selective Disclosure</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Sarbanes-Oxley Act</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>SOX Section 302</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>SOX Section 404</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Internal Control Systems</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Disclosure Controls</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>SEC Filing Requirements</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Form 10-K Overview</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Form 10-Q Essentials</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Form 8-K Summary</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>XBRL Reporting Standards</li>
+</ol>
+</li>
+<li><em>...and 13 more</em></li>
+</ul>
+<h3 id="agentic-agentic">AGENTIC (AGENTIC)<a class="headerlink" href="#agentic-agentic" title="Permanent link">&para;</a></h3>
+<p><strong>Count</strong>: 27 concepts (9.1%)</p>
 <p><strong>Concepts</strong>:</p>
 <ul>
 <li>
@@ -1650,9 +3634,172 @@ AI-TECH █   5 (  2.5%)
 <li>Designing Dashboards</li>
 </ol>
 </li>
+<li><em>...and 12 more</em></li>
 </ul>
-<h3 id="ai-gov-ai-gov">AI-GOV (AI-GOV)</h3>
-<p><strong>Count</strong>: 14 concepts (7.0%)</p>
+<h3 id="valmet-valmet">VALMET (VALMET)<a class="headerlink" href="#valmet-valmet" title="Permanent link">&para;</a></h3>
+<p><strong>Count</strong>: 26 concepts (8.7%)</p>
+<p><strong>Concepts</strong>:</p>
+<ul>
+<li>
+<ol>
+<li>Stock Price Volatility</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Market Liquidity Trends</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Trading Volume Metrics</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Ownership Concentration</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Shareholder Base Analysis</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Peer Benchmarking Tools</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Valuation Multiples</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>P/E Ratio Insights</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Enterprise Value Metrics</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Shareholder Return Metrics</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Market Capitalization</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Trading Volume Analysis</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Analyst Coverage Metrics</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Peer Valuation Benchmark</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Market Cap Fluctuations</li>
+</ol>
+</li>
+<li><em>...and 11 more</em></li>
+</ul>
+<h3 id="data-gov-data-gov">DATA-GOV (DATA-GOV)<a class="headerlink" href="#data-gov-data-gov" title="Permanent link">&para;</a></h3>
+<p><strong>Count</strong>: 24 concepts (8.1%)</p>
+<p><strong>Concepts</strong>:</p>
+<ul>
+<li>
+<ol>
+<li>Data Governance Basics</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Managing Data Quality</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Tracking Data Lineage</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Financial Data Privacy</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Protecting Personal Data</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Data Security Standards</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Encryption Best Practices</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Access Control Models</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Role-Based Access</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Audit Trail Requirements</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Managing Audit Logs</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Compliance Monitoring</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>RegTech Applications</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Compliance Automation</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Automated Risk Monitoring</li>
+</ol>
+</li>
+<li><em>...and 9 more</em></li>
+</ul>
+<h3 id="ai-gov-ai-gov">AI-GOV (AI-GOV)<a class="headerlink" href="#ai-gov-ai-gov" title="Permanent link">&para;</a></h3>
+<p><strong>Count</strong>: 20 concepts (6.7%)</p>
 <p><strong>Concepts</strong>:</p>
 <ul>
 <li>
@@ -1725,9 +3872,15 @@ AI-TECH █   5 (  2.5%)
 <li>Monitoring AI Models</li>
 </ol>
 </li>
+<li>
+<ol>
+<li>Compliance AI Monitors</li>
+</ol>
+</li>
+<li><em>...and 5 more</em></li>
 </ul>
-<h3 id="ir-ops-ir-ops">IR-OPS (IR-OPS)</h3>
-<p><strong>Count</strong>: 13 concepts (6.5%)</p>
+<h3 id="ir-ops-ir-ops">IR-OPS (IR-OPS)<a class="headerlink" href="#ir-ops-ir-ops" title="Permanent link">&para;</a></h3>
+<p><strong>Count</strong>: 15 concepts (5.0%)</p>
 <p><strong>Concepts</strong>:</p>
 <ul>
 <li>
@@ -1795,9 +3948,84 @@ AI-TECH █   5 (  2.5%)
 <li>Beat-and-Raise Tactics</li>
 </ol>
 </li>
+<li>
+<ol>
+<li>Apple Earnings Strategy</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Berkshire AGM Lessons</li>
+</ol>
+</li>
 </ul>
-<h3 id="invest-invest">INVEST (INVEST)</h3>
-<p><strong>Count</strong>: 11 concepts (5.5%)</p>
+<h3 id="ir-found-ir-found">IR-FOUND (IR-FOUND)<a class="headerlink" href="#ir-found-ir-found" title="Permanent link">&para;</a></h3>
+<p><strong>Count</strong>: 12 concepts (4.0%)</p>
+<p><strong>Concepts</strong>:</p>
+<ul>
+<li>
+<ol>
+<li>Investor Relations Function</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Corporate Valuation Strategy</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Market Communication Strategy</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Shareholder Engagement</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Key Performance Indicators</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>IR Engagement Metrics</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Tracking Investor Outreach</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Meeting Effectiveness</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Response Time Analytics</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Tesla IR Case Study</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Amazon Letter Insights</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>WeWork IPO Analysis</li>
+</ol>
+</li>
+</ul>
+<h3 id="invest-invest">INVEST (INVEST)<a class="headerlink" href="#invest-invest" title="Permanent link">&para;</a></h3>
+<p><strong>Count</strong>: 11 concepts (3.7%)</p>
 <p><strong>Concepts</strong>:</p>
 <ul>
 <li>
@@ -1856,118 +4084,63 @@ AI-TECH █   5 (  2.5%)
 </ol>
 </li>
 </ul>
-<h3 id="valmet-valmet">VALMET (VALMET)</h3>
-<p><strong>Count</strong>: 11 concepts (5.5%)</p>
+<h3 id="ai-tech-ai-tech">AI-TECH (AI-TECH)<a class="headerlink" href="#ai-tech-ai-tech" title="Permanent link">&para;</a></h3>
+<p><strong>Count</strong>: 10 concepts (3.4%)</p>
 <p><strong>Concepts</strong>:</p>
 <ul>
 <li>
 <ol>
-<li>Stock Price Volatility</li>
+<li>AI Fundamentals</li>
 </ol>
 </li>
 <li>
 <ol>
-<li>Market Liquidity Trends</li>
+<li>Machine Learning Basics</li>
 </ol>
 </li>
 <li>
 <ol>
-<li>Trading Volume Metrics</li>
+<li>Large Language Models</li>
 </ol>
 </li>
 <li>
 <ol>
-<li>Ownership Concentration</li>
+<li>Generative AI Tools</li>
 </ol>
 </li>
 <li>
 <ol>
-<li>Shareholder Base Analysis</li>
+<li>Prompt Engineering Skills</li>
 </ol>
 </li>
 <li>
 <ol>
-<li>Peer Benchmarking Tools</li>
+<li>Enterprise LLM Usage</li>
 </ol>
 </li>
 <li>
 <ol>
-<li>Valuation Multiples</li>
+<li>Reinforcement IR Learning</li>
 </ol>
 </li>
 <li>
 <ol>
-<li>P/E Ratio Insights</li>
+<li>Supervised Data Models</li>
 </ol>
 </li>
 <li>
 <ol>
-<li>Enterprise Value Metrics</li>
+<li>Unsupervised Clustering</li>
 </ol>
 </li>
 <li>
 <ol>
-<li>Shareholder Return Metrics</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Market Capitalization</li>
+<li>Model Training Datasets</li>
 </ol>
 </li>
 </ul>
-<h3 id="ir-found-ir-found">IR-FOUND (IR-FOUND)</h3>
-<p><strong>Count</strong>: 9 concepts (4.5%)</p>
-<p><strong>Concepts</strong>:</p>
-<ul>
-<li>
-<ol>
-<li>Investor Relations Function</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Corporate Valuation Strategy</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Market Communication Strategy</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Shareholder Engagement</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Key Performance Indicators</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>IR Engagement Metrics</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Tracking Investor Outreach</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Meeting Effectiveness</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Response Time Analytics</li>
-</ol>
-</li>
-</ul>
-<h3 id="ai-cont-ai-cont">AI-CONT (AI-CONT)</h3>
-<p><strong>Count</strong>: 7 concepts (3.5%)</p>
+<h3 id="ai-cont-ai-cont">AI-CONT (AI-CONT)<a class="headerlink" href="#ai-cont-ai-cont" title="Permanent link">&para;</a></h3>
+<p><strong>Count</strong>: 8 concepts (2.7%)</p>
 <p><strong>Concepts</strong>:</p>
 <ul>
 <li>
@@ -2005,43 +4178,18 @@ AI-TECH █   5 (  2.5%)
 <li>Compliance Review Tools</li>
 </ol>
 </li>
-</ul>
-<h3 id="ai-tech-ai-tech">AI-TECH (AI-TECH)</h3>
-<p><strong>Count</strong>: 5 concepts (2.5%)</p>
-<p><strong>Concepts</strong>:</p>
-<ul>
 <li>
 <ol>
-<li>AI Fundamentals</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Machine Learning Basics</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Large Language Models</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Generative AI Tools</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Prompt Engineering Skills</li>
+<li>Generative Script AI</li>
 </ol>
 </li>
 </ul>
-<h2 id="recommendations">Recommendations</h2>
+<h2 id="recommendations">Recommendations<a class="headerlink" href="#recommendations" title="Permanent link">&para;</a></h2>
 <ul>
-<li>✅ <strong>Good balance</strong>: Categories are reasonably distributed (spread: 22.5%)</li>
+<li>✅ <strong>Good balance</strong>: Categories are reasonably distributed (spread: 19.1%)</li>
 <li>✅ <strong>MISC category minimal</strong>: Good categorization specificity</li>
 </ul>
-<h3 id="educational-use-recommendations">Educational Use Recommendations</h3>
+<h3 id="educational-use-recommendations">Educational Use Recommendations<a class="headerlink" href="#educational-use-recommendations" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Use taxonomy categories for color-coding in graph visualizations</li>
 <li>Design curriculum modules based on taxonomy groupings</li>
@@ -2071,6 +4219,12 @@ AI-TECH █   5 (  2.5%)
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
       </main>
       
         <footer class="md-footer">
@@ -2099,7 +4253,7 @@ AI-TECH █   5 (  2.5%)
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>

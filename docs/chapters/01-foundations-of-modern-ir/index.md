@@ -100,59 +100,59 @@ The process typically initiates 3-4 weeks before earnings announcement with fina
 
 <details>
     <summary>Quarterly Earnings Workflow Diagram</summary>
-    Type: workflow
+Type: workflow
 
-    Purpose: Illustrate the end-to-end earnings reporting process from close to post-call follow-up
+Purpose: Illustrate the end-to-end earnings reporting process from close to post-call follow-up
 
-    Visual style: Swimlane flowchart showing parallel workstreams and decision gates
+Visual style: Swimlane flowchart showing parallel workstreams and decision gates
 
-    Swimlanes:
-    - Finance/Accounting
-    - IR Team
-    - Legal/Compliance
-    - Executive Management
-    - External Stakeholders
+Swimlanes:
+- Finance/Accounting
+- IR Team
+- Legal/Compliance
+- Executive Management
+- External Stakeholders
 
-    Steps:
+Steps:
 
-    Week 1: Financial Close & Data Compilation
-    Finance/Accounting: "Month-end close procedures, consolidation, preliminary results"
-    IR Team: "Consensus tracking, analyst model review, surprise analysis preparation"
-    Legal: "Monitor for material events requiring 8-K disclosure"
-    Hover text: "Identify variances from guidance and consensus; flag areas requiring explanation"
+Week 1: Financial Close & Data Compilation
+Finance/Accounting: "Month-end close procedures, consolidation, preliminary results"
+IR Team: "Consensus tracking, analyst model review, surprise analysis preparation"
+Legal: "Monitor for material events requiring 8-K disclosure"
+Hover text: "Identify variances from guidance and consensus; flag areas requiring explanation"
 
-    Week 2: Internal Review Cycle
-    Finance/Accounting: "Variance analysis, business unit reconciliation, segment results finalization"
-    IR Team: "Draft earnings release and presentation slides"
-    Legal: "Review disclosure obligations, update forward-looking statement language"
-    Management: "Preliminary results review with CFO"
-    Hover text: "Cross-functional alignment on narrative, surprises, and Q&A preparation topics"
+Week 2: Internal Review Cycle
+Finance/Accounting: "Variance analysis, business unit reconciliation, segment results finalization"
+IR Team: "Draft earnings release and presentation slides"
+Legal: "Review disclosure obligations, update forward-looking statement language"
+Management: "Preliminary results review with CFO"
+Hover text: "Cross-functional alignment on narrative, surprises, and Q&A preparation topics"
 
-    Week 3: Approval & Finalization
-    Finance/Accounting: "Audit committee review of results"
-    IR Team: "Finalize earnings call script, coordinate review cycle"
-    Legal: "Final compliance review of all materials"
-    Management: "Executive team review and approval"
-    Decision Point: "Audit committee approval?" (If No → return to Finance; If Yes → proceed)
-    Hover text: "Legal sign-off required for Reg FD compliance before release"
+Week 3: Approval & Finalization
+Finance/Accounting: "Audit committee review of results"
+IR Team: "Finalize earnings call script, coordinate review cycle"
+Legal: "Final compliance review of all materials"
+Management: "Executive team review and approval"
+Decision Point: "Audit committee approval?" (If No → return to Finance; If Yes → proceed)
+Hover text: "Legal sign-off required for Reg FD compliance before release"
 
-    Week 4: Public Disclosure & Market Engagement
-    Finance/Accounting: "Wire earnings release to newswires"
-    IR Team: "Post materials to investor website, coordinate conference call"
-    Management: "Deliver earnings call presentation and Q&A"
-    External Stakeholders: "Analysts update models, investors adjust positions"
-    Hover text: "Coordinated disclosure at market close or pre-market to ensure fair access"
+Week 4: Public Disclosure & Market Engagement
+Finance/Accounting: "Wire earnings release to newswires"
+IR Team: "Post materials to investor website, coordinate conference call"
+Management: "Deliver earnings call presentation and Q&A"
+External Stakeholders: "Analysts update models, investors adjust positions"
+Hover text: "Coordinated disclosure at market close or pre-market to ensure fair access"
 
-    Post-Call: Follow-up & Documentation
-    IR Team: "Analyst/investor follow-up, track consensus revisions, document questions for next quarter"
-    Legal: "Archive call transcript and materials for regulatory compliance"
-    Hover text: "Monitor trading patterns and sentiment shifts; respond to follow-up inquiries"
+Post-Call: Follow-up & Documentation
+IR Team: "Analyst/investor follow-up, track consensus revisions, document questions for next quarter"
+Legal: "Archive call transcript and materials for regulatory compliance"
+Hover text: "Monitor trading patterns and sentiment shifts; respond to follow-up inquiries"
 
-    Color coding:
-    - Blue: Data preparation and analysis
-    - Orange: Content creation and review
-    - Red: Compliance gates and approvals
-    - Green: External engagement and disclosure
+Color coding:
+- Blue: Data preparation and analysis
+- Orange: Content creation and review
+- Red: Compliance gates and approvals
+- Green: External engagement and disclosure
 </details>
 
 **Earnings call scripts** provide prepared remarks for management presentations during quarterly earnings conference calls, typically divided into CFO financial commentary and CEO strategic discussion. Effective scripts balance detail with accessibility, acknowledge shortfalls transparently, and emphasize forward momentum—all delivered within 15-20 minutes to preserve time for analyst Q&A. The scripting process involves iterative drafting by IR, review by functional leaders, legal vetting for disclosure compliance, and executive rehearsal to ensure natural delivery and message retention.

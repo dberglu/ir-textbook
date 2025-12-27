@@ -33,38 +33,23 @@ For IR professionals navigating AI transformation, these principles create speci
 
 The consequences of non-compliance extend beyond regulatory penalties. **Disclosure controls**—processes ensuring accurate and timely public reporting of material information—represent critical governance mechanisms that, when ineffective, expose companies to SEC enforcement actions, shareholder litigation, reputational damage, loss of market confidence, executive liability, and elevated cost of capital. For companies deploying AI in IR functions, disclosure control frameworks must expand to address algorithm governance, output validation, hallucination detection, and human oversight requirements that preserve compliance even as automation increases.
 
-<details>
-    <summary>SEC Disclosure Regulatory Timeline</summary>
-    Type: timeline
+### SEC Disclosure Regulatory Timeline
 
-    Time period: 1933-2025
+| Year | Milestone | Category | Impact on IR |
+|------|-----------|----------|--------------|
+| **1933** | Securities Act | 🔵 Foundational | Establishes disclosure requirements for securities offerings |
+| **1934** | Securities Exchange Act | 🔵 Foundational | Creates SEC; mandates ongoing reporting for public companies |
+| **1964** | Amendments Act | 🔵 Foundational | Extends reporting to OTC companies; broadens SEC jurisdiction |
+| **1968** | Disclosure Rules | 🔵 Foundational | Comprehensive rules for public offerings and proxy statements |
+| **2000** | Regulation Fair Disclosure | 🟠 Modern Reform | Prohibits selective disclosure; levels playing field for all investors |
+| **2002** | Sarbanes-Oxley Act | 🟠 Modern Reform | Executive certification; internal control requirements; audit reform |
+| **2009** | XBRL Mandatory | 🟡 Digital Era | Machine-readable financial data enables automated analysis |
+| **2013** | Social Media Guidance | 🟡 Digital Era | Permits social media for disclosures if broadly accessible |
+| **2018** | Inline XBRL Required | 🟡 Digital Era | Human + machine-readable filings in single document |
+| **2023** | Cybersecurity Rules | 🟡 Digital Era | Material incident disclosure within 4 business days |
+| **2024-2025** | AI Governance Focus | 🟡 Digital Era | Emerging requirements for algorithmic transparency and automated systems |
 
-    Orientation: Horizontal
-
-    Events:
-    - 1933: Securities Act establishes foundation for disclosure requirements
-    - 1934: Securities Exchange Act creates SEC and ongoing reporting obligations
-    - 1964: Amendments extend reporting requirements to over-the-counter companies
-    - 1968: SEC adopts comprehensive disclosure rules for public offerings
-    - 2000: Regulation Fair Disclosure (Reg FD) prohibits selective disclosure
-    - 2002: Sarbanes-Oxley Act mandates executive certification and control reporting
-    - 2009: XBRL reporting becomes mandatory for public companies
-    - 2013: SEC permits social media for material disclosures if broadly accessible
-    - 2018: Inline XBRL required for financial statements
-    - 2023: SEC proposes cybersecurity disclosure rules (finalized July 2023)
-    - 2024-2025: Regulatory focus on AI governance, algorithmic transparency, and automated disclosure systems
-
-    Visual style: Horizontal timeline with alternating above/below placement
-
-    Color coding:
-    - Blue: Foundational securities laws (1930s-1960s)
-    - Orange: Modern disclosure reforms (2000-2010)
-    - Gold: Digital and AI era adaptations (2013-present)
-
-    Interactive features:
-    - Hover to see detailed description of each regulatory milestone
-    - Click to expand with implications for current IR practice and AI deployment
-</details>
+*🔵 Foundational securities laws | 🟠 Modern disclosure reforms | 🟡 Digital and AI era*
 
 The regulatory environment continues evolving to address technological change. Recent SEC guidance acknowledges digital communication channels (social media, investor portals, mobile apps) as permissible disclosure venues provided they ensure broad public access equivalent to traditional newswires and SEC filings. This creates opportunities for IR innovation while maintaining the fundamental requirement: material information must reach all investors simultaneously through widely accessible means. As AI systems become more sophisticated, regulators will likely scrutinize how automated tools affect disclosure quality, timing, and equal access—making proactive governance and transparent AI practices essential for maintaining regulatory compliance and stakeholder trust.
 
@@ -96,66 +81,52 @@ Reg FD distinguishes between **intentional** and **unintentional** selective dis
 
 **Nonpublic information** constitutes material facts not yet disclosed to the general public through appropriate channels. The classification depends on *both* materiality and disclosure status—information becomes "public" only after dissemination via broadly accessible channels that provide all investors reasonable opportunity to access it. Internal discussions, selective institutional presentations, analyst-only briefings, and private investor calls do not constitute public disclosure under Reg FD, regardless of audience size.
 
-<details>
-    <summary>Reg FD Compliance Decision Tree Workflow</summary>
-    Type: workflow
+### Reg FD Compliance Decision Tree
 
-    Purpose: Guide IR professionals through Reg FD compliance assessment when considering external communications
+```
+START: Planning External Communication
+         │
+         ▼
+┌─────────────────────────────────────┐
+│ Will you discuss financial          │
+│ performance, guidance, or           │
+│ strategic developments?             │
+└─────────────────────────────────────┘
+         │
+    ┌────┴────┐
+    │         │
+   NO        YES
+    │         │
+    ▼         ▼
+┌────────┐  ┌─────────────────────────┐
+│Proceed │  │ Is information already  │
+│(low    │  │ publicly disclosed?     │
+│risk)   │  └─────────────────────────┘
+└────────┘           │
+              ┌──────┴──────┐
+             YES           NO
+              │             │
+              ▼             ▼
+        ┌──────────┐  ┌─────────────────────┐
+        │ Proceed; │  │ Is this INTENTIONAL │
+        │ reference│  │ disclosure?         │
+        │ public   │  └─────────────────────┘
+        │ sources  │           │
+        └──────────┘     ┌─────┴─────┐
+                        YES         NO
+                         │           │
+                         ▼           ▼
+                   ┌──────────┐ ┌──────────────┐
+                   │ ⛔ STOP  │ │ Implement    │
+                   │ Require  │ │ safeguards:  │
+                   │ public   │ │ legal on call│
+                   │ disclosure│ │ scripted    │
+                   │ first    │ │ responses    │
+                   └──────────┘ └──────────────┘
+```
 
-    Visual style: Flowchart with decision diamonds and process rectangles
-
-    Steps:
-
-    1. Start: "Planning External Communication (investor meeting, analyst call, conference presentation)"
-       Hover text: "Any interaction with external parties requires Reg FD compliance assessment"
-
-    2. Decision: "Will you discuss specific financial performance, guidance, or strategic developments?"
-       Hover text: "Material topics include earnings, revenue trends, margin changes, major contracts, M&A, strategic pivots"
-
-    3a. If NO → Process: "Proceed with meeting using public information only; document discussion topics"
-        Hover text: "Low Reg FD risk, but maintain records demonstrating compliance"
-
-    3b. If YES → Decision: "Is the information already publicly disclosed?"
-        Hover text: "Public = disclosed via press release, SEC filing, webcasted call available to all investors"
-
-    4a. If YES (publicly disclosed) → Process: "Proceed with discussion; reference public sources"
-        Hover text: "Safe to discuss, but cite specific public documents to demonstrate compliance"
-
-    4b. If NO (not publicly disclosed) → Decision: "Is this an intentional disclosure of material information?"
-        Hover text: "Intentional = company plans to share specific material facts in this meeting"
-
-    5a. If INTENTIONAL → Process: "STOP - Require simultaneous public disclosure via 8-K filing or press release"
-        Hover text: "Cannot proceed with selective disclosure; must make information public first or simultaneously"
-
-    5b. If UNINTENTIONAL RISK → Process: "Implement safeguards: legal on call, scripted responses, post-meeting review"
-        Hover text: "High risk - prepare carefully and monitor conversation closely"
-
-    6. Process: "Conduct meeting with safeguards active"
-       Hover text: "Legal counsel monitors; stick to approved talking points; flag concerning questions for offline follow-up"
-
-    7. Decision: "Post-meeting review: Was material nonpublic information inadvertently disclosed?"
-       Hover text: "Immediate debrief with legal to assess whether any statements revealed non-public material facts"
-
-    8a. If NO → End: "Document compliance; file records"
-        Hover text: "No further action required; maintain documentation of topics discussed"
-
-    8b. If YES → Process: "URGENT - Public disclosure required within 24 hours via Form 8-K or press release"
-        Hover text: "Trigger disclosure committee; draft and file public disclosure promptly to cure violation"
-
-    9. End: "Reg FD Compliance Maintained"
-
-    Color coding:
-    - Blue: Planning and assessment steps
-    - Yellow: Decision points requiring judgment
-    - Red: STOP/urgent action requirements
-    - Green: Compliant outcomes
-
-    Swimlanes:
-    - IR Team
-    - Legal Counsel
-    - Disclosure Committee
-    - External Stakeholders
-</details>
+!!! warning "Post-Meeting Review Required"
+    After every investor interaction, conduct immediate debrief with legal counsel. If material nonpublic information was inadvertently disclosed, **public disclosure is required within 24 hours** via Form 8-K or press release.
 
 **Material Information** encompasses facts beyond quantitative financial metrics. Strategic developments—major customer wins or losses, significant product launches or failures, regulatory approvals or setbacks—frequently meet materiality thresholds based on qualitative significance even when immediate financial impacts remain uncertain. The "reasonable investor" standard asks whether the information would alter the "total mix" of available information in a way that could influence investment decisions, a deliberately broad test that errs toward disclosure when doubt exists.
 
@@ -217,51 +188,18 @@ The Form 10-K serves as the authoritative annual reference document, providing t
 
 **Time-sensitive disclosures** trigger 8-K filing obligations within four business days of event occurrence for most items, though Item 2.02 (earnings) filings are not subject to liability under Section 18 of the Exchange Act, slightly reducing legal risk. Material events demanding prompt disclosure include leadership changes, major contract signings, acquisition announcements, regulatory actions, and significant customer losses.
 
-<details>
-    <summary>SEC Filing Requirements Comparison Table</summary>
-    Type: diagram
+### SEC Filing Requirements Comparison
 
-    Purpose: Visual comparison of major SEC filing types showing timing, content, and compliance requirements
+| Requirement | Form 10-K | Form 10-Q | Form 8-K |
+|-------------|-----------|-----------|----------|
+| **Frequency** | Annual | Quarterly (3/year) | Event-driven |
+| **Deadline** | 60/75/90 days after FYE* | 40/45 days after quarter | 4 business days |
+| **Typical Length** | 100-300+ pages | 30-80 pages | 2-15 pages |
+| **Financial Statements** | 3 years audited + footnotes | Quarterly unaudited + YTD | Only if required by event |
+| **Audit Requirement** | Full independent audit | Auditor review only | Not required |
+| **Primary Content** | Complete business description, risk factors, full MD&A, governance, exec comp | Quarterly MD&A, risk updates, legal proceedings | Material events: earnings, exec changes, contracts, M&A |
 
-    Components to show:
-    - Three main filing types as columns: Form 10-K, Form 10-Q, Form 8-K
-    - Rows comparing: Filing frequency, deadline, page length, financial statement requirements, audit requirements, primary content focus
-
-    Form 10-K Column:
-    - Frequency: Annual
-    - Deadline: 60/75/90 days after fiscal year-end (based on filer status)
-    - Length: 100-300+ pages
-    - Financials: Three years audited annual statements + footnotes
-    - Audit: Full independent audit required
-    - Content: Complete business description, comprehensive risk factors, full MD&A, governance details, executive compensation, material contracts
-    - Color: Blue
-
-    Form 10-Q Column:
-    - Frequency: Quarterly (3 per year)
-    - Deadline: 40/45 days after quarter-end
-    - Length: 30-80 pages
-    - Financials: Quarterly unaudited statements + YTD + footnotes
-    - Audit: Review by auditors (not full audit)
-    - Content: Quarterly MD&A, updated risk factors, legal proceedings updates, officer certifications
-    - Color: Orange
-
-    Form 8-K Column:
-    - Frequency: Event-driven (as needed)
-    - Deadline: 4 business days after triggering event (most items)
-    - Length: 2-15 pages (event-specific)
-    - Financials: Only if required by specific item (e.g., acquisition)
-    - Audit: Not required
-    - Content: Material event disclosure (earnings, exec changes, contracts, acquisitions, etc.)
-    - Color: Gold
-
-    Visual style: Comparison matrix with clear cell boundaries
-
-    Labels:
-    - Header: "SEC Periodic Filing Requirements"
-    - Footer note: "Filing deadlines vary by filer status: Large Accelerated (≥$700M float), Accelerated ($75M-$700M), Non-Accelerated (<$75M)"
-
-    Implementation: HTML table with CSS styling for visual clarity
-</details>
+*Filing deadlines by filer status: Large Accelerated (≥$700M float): 60 days | Accelerated ($75M-$700M): 75 days | Non-Accelerated (<$75M): 90 days
 
 **MD&A Requirements** (Management's Discussion and Analysis) mandate disclosure of known trends, events, or uncertainties reasonably likely to affect future operations. This narrative section requires management to discuss financial results from their perspective, explaining drivers of performance changes, analyzing segment results, discussing liquidity and capital resources, identifying material trends, and addressing forward-looking factors affecting the business.
 
@@ -345,79 +283,27 @@ XBRL benefits multiple stakeholders:
 
 For companies deploying AI in financial reporting workflows, XBRL creates structured data infrastructure that AI systems can consume and validate more reliably than unstructured text. AI tools can automatically verify XBRL tag accuracy against financial statements, identify tagging errors or inconsistencies, flag unusual patterns demanding review, and generate analytics comparing company data against peer benchmarks using standardized taxonomies.
 
-<details>
-    <summary>XBRL Financial Reporting Workflow</summary>
-    Type: workflow
+### XBRL Financial Reporting Workflow
 
-    Purpose: Show the end-to-end process of XBRL-tagged financial statement preparation and filing
+| Phase | Step | Description | Quality Gate |
+|-------|------|-------------|--------------|
+| **1. Preparation** | Financial statement prep | Prepare statements in ERP/consolidation system | — |
+| | Export data | Extract finalized financial data + footnotes | — |
+| **2. Tagging** | Apply XBRL tags | Map line items to US GAAP/IFRS taxonomy | — |
+| | Custom extensions | Create company-specific tags if needed | Document definitions |
+| **3. Validation** | Automated validation | Check syntax, calculations, required elements | ⚠️ Fix errors, re-validate |
+| | Expert review | SMEs verify tags match financial intent | ✓ Human sign-off |
+| **4. Generation** | Create iXBRL | Generate HTML with embedded XBRL tags | — |
+| | Management review | CFO/controller final approval | ✓ Executive sign-off |
+| **5. Filing** | Submit to EDGAR | File with SEC along with exhibits | — |
+| | SEC acceptance | Automated format and compliance checks | ⚠️ Correct rejections |
+| **6. Publication** | Public availability | Investors can access structured data | ✓ Complete |
 
-    Visual style: Horizontal flowchart showing sequential steps and quality gates
-
-    Steps:
-
-    1. Start: "Financial statement preparation in reporting system"
-       Hover text: "Company prepares quarterly/annual financial statements using ERP or consolidation systems"
-
-    2. Process: "Export financial data and footnotes"
-       Hover text: "Extract finalized financial statement data including all footnote disclosures"
-
-    3. Process: "Apply XBRL tags using taxonomy"
-       Hover text: "Map each financial statement line item and disclosure to standardized XBRL taxonomy elements (US GAAP or IFRS)"
-
-    4. Decision: "Are custom extensions needed?"
-       Hover text: "Standard taxonomy may not cover company-specific line items or disclosures"
-
-    5a. If YES → Process: "Create custom XBRL extension tags with definitions"
-        Hover text: "Document custom tags with clear definitions and hierarchy relationships"
-
-    5b. If NO → Continue to validation
-
-    6. Process: "Validate XBRL file against SEC rules"
-       Hover text: "Run automated validation checking syntax, calculation relationships, and required elements"
-
-    7. Decision: "Validation errors found?"
-       Hover text: "Common errors: broken calculations, incorrect relationships, missing required tags"
-
-    8a. If YES → Return to tagging (step 3)
-        Hover text: "Correct errors and re-validate until clean"
-
-    8b. If NO → Continue to review
-
-    9. Process: "Human expert review of XBRL output"
-       Hover text: "Subject matter experts verify tags accurately represent financial statement intent"
-
-    10. Process: "Generate inline XBRL (iXBRL) HTML file"
-        Hover text: "Create human-readable HTML with embedded machine-readable XBRL tags"
-
-    11. Process: "Final validation and management review"
-        Hover text: "CFO/controller review iXBRL output before filing"
-
-    12. Process: "File iXBRL document via EDGAR system"
-        Hover text: "Submit to SEC along with other required exhibits and certifications"
-
-    13. Process: "SEC performs automated acceptance checks"
-        Hover text: "EDGAR system validates file format and basic compliance"
-
-    14. Decision: "Filing accepted?"
-
-    15a. If NO → Process: "Correct errors and refile"
-         Hover text: "Address SEC rejection reasons and resubmit"
-
-    15b. If YES → End: "XBRL financial statements publicly available"
-         Hover text: "Investors and analysts can now consume structured financial data"
-
-    Color coding:
-    - Blue: Data preparation steps
-    - Orange: XBRL tagging and technical steps
-    - Red: Validation and quality gates
-    - Green: Filing and publication
-
-    Opportunities for AI Enhancement:
-    - Automated tag suggestion based on historical mappings
-    - Error detection before formal validation
-    - Anomaly detection comparing tagged values to prior periods
-    - Custom extension optimization to minimize non-standard tags
-</details>
+!!! info "AI Enhancement Opportunities"
+    - **Automated tag suggestions** based on historical mappings
+    - **Pre-validation error detection** before formal SEC checks
+    - **Anomaly detection** comparing values to prior periods
+    - **Extension optimization** to minimize non-standard tags
 
 The structured data foundation created by XBRL enables next-generation IR applications: AI-powered investor chatbots can retrieve precise financial data to answer quantitative questions, automated dashboards can generate peer comparisons without manual data compilation, predictive models can identify unusual patterns demanding management attention, and agentic systems can monitor competitor filings for strategic intelligence.
 

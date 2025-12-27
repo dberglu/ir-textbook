@@ -460,101 +460,27 @@ Final Steps:
 
 Time: Hours (for routine) to days (for sensitive materials)
 
-<details>
-    <summary>AI Content Review Workflow Diagram</summary>
-    Type: workflow
+### AI Content Review Workflow
 
-    Purpose: Visualize end-to-end AI-assisted content creation workflow with review gates
+| Stage | AI System | IR Team | Legal/Compliance | Finance | Executive |
+|-------|-----------|---------|------------------|---------|-----------|
+| **1. Draft Generation** (5-30 min) | Receive inputs → Generate draft → Apply compliance checks → Flag uncertainties | Review completeness; if inadequate, refine prompt | — | — | — |
+| **2. Parallel Review** (2-48 hrs) | — | Verify numbers, edit for clarity, check completeness | Reg FD assessment, safe harbor review, consistency check | Confirm numbers match systems, validate calculations | Strategic review, disclosure level, tone |
+| **3. Approval Gates** | — | ✓ IR Lead sign-off | ✓ Legal sign-off | — | ✓ CFO approval → ✓ CEO (major releases) |
+| **4. Finalization** | — | Lock document, execute distribution | — | — | — |
 
-    Visual style: Swimlane flowchart showing parallel tracks and decision points
+**Typical Timeline by Content Type:**
 
-    Swimlanes:
-    - AI System
-    - IR Team
-    - Legal/Compliance
-    - Finance/Accounting
-    - Executive Management
+| Content Type | Total Time |
+|--------------|------------|
+| Routine press release | 1-2 days |
+| Earnings release | 2-3 days |
+| Major strategic announcement | 3-7 days |
 
-    Steps:
-
-    Stage 1: Draft Generation
-
-    AI System: "Receive inputs: financial data, strategic highlights, historical context"
-    AI System: "Generate draft using approved prompt from library"
-    AI System: "Apply compliance checks (safe harbor, disclosure completeness)"
-    AI System: "Deliver draft with confidence scores and flagged uncertainties"
-    Time indicator: "5-30 minutes"
-
-    IR Team: "Review AI output for completeness"
-    Decision: "Draft quality acceptable for review?"
-    If NO → "Refine prompt or inputs, regenerate"
-    If YES → Proceed to Stage 2
-
-    Stage 2: Parallel Review Process
-
-    IR Team Track:
-    - "Accuracy review: Verify all numbers and claims"
-    - "Quality review: Edit for clarity, flow, tone"
-    - "Completeness review: Check all required sections included"
-    Decision: "Issues found?"
-    If YES → "Mark issues, suggest revisions"
-
-    Legal/Compliance Track:
-    - "Reg FD assessment: Check selective disclosure risk"
-    - "Safe harbor review: Verify forward-looking statement language"
-    - "Consistency check: Compare to prior public statements"
-    Decision: "Compliance concerns?"
-    If YES → "Require modifications, document rationale"
-
-    Finance/Accounting Track:
-    - "Data verification: Confirm numbers match financial systems"
-    - "Calculation check: Validate comparisons and percentages"
-    Decision: "Financial accuracy confirmed?"
-    If NO → "Return to IR for correction"
-
-    Executive Management Track (parallel once IR complete):
-    - "Strategic review: Assess messaging and positioning"
-    - "Disclosure level: Approve transparency and detail"
-    - "Tone evaluation: Ensure appropriate for circumstances"
-
-    Time indicator: "2-48 hours depending on complexity"
-
-    Stage 3: Consolidation and Approval
-
-    IR Team: "Incorporate all review feedback"
-    IR Team: "Generate revised version"
-    IR Team: "Distribute for final approval"
-
-    Approval Gates (sequential):
-    1. IR Team Lead: "Accuracy and completeness sign-off"
-    2. Legal: "Compliance and disclosure sign-off"
-    3. CFO: "Financial and messaging approval"
-    4. CEO (for major releases): "Final approval"
-
-    Decision: "All approvals obtained?"
-    If NO → "Address concerns, resubmit"
-    If YES → Proceed to publication
-
-    Final: "Lock document, execute filing/distribution"
-
-    Time indicator: "2-24 hours for approval cycle"
-
-    Total Workflow Time:
-    - Routine press release: 1-2 days
-    - Earnings release: 2-3 days
-    - Major strategic announcement: 3-7 days
-
-    Color coding:
-    - Blue: AI-automated steps
-    - Orange: Human review steps
-    - Red: Approval gates (cannot bypass)
-    - Green: Approved and finalized
-
-    Annotations:
-    - "Human-in-the-loop at every stage - AI accelerates but doesn't decide"
-    - "Version control critical - track all changes and decisions"
-    - "Audit trail maintained for regulatory compliance"
-</details>
+!!! warning "Critical Principles"
+    - **Human-in-the-loop at every stage** — AI accelerates but doesn't decide
+    - **Version control** — Track all changes and decisions
+    - **Audit trail** — Maintained for regulatory compliance
 
 **Quality Control Checklists:**
 

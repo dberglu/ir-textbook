@@ -77,84 +77,38 @@ AI transformation impacts EV dynamics through multiple channels. Companies fundi
 
 Multiple selection depends on company characteristics and investor preferences. Growth companies with minimal or negative earnings often trade on Price/Sales or EV/Sales multiples since P/E ratios prove meaningless or misleading. Mature, profitable companies emphasize P/E and EV/EBITDA. Capital-intensive industries (manufacturing, transportation) reference Price/Book. Technology and software businesses increasingly use ARR (Annual Recurring Revenue) or other specialized metrics.
 
-<details>
-    <summary>Valuation Multiple Selection Framework</summary>
-    Type: diagram
+### Valuation Multiple Selection Framework
 
-    Purpose: Decision tree helping IR professionals select appropriate valuation multiples for their company and communication context
+**Step 1: Is the company profitable?**
 
-    Layout: Decision tree with company characteristic gates
+=== "Yes (Profitable)"
 
-    Start: "Select Primary Valuation Multiple"
+    | Business Model | Primary Multiple | Secondary Multiples | Rationale |
+    |----------------|------------------|---------------------|-----------|
+    | **Asset-Intensive** (manufacturing, real estate, banking) | Price/Book (P/B) | P/E, EV/EBITDA | Asset values drive returns; tangible book matters |
+    | **Capital-Light** (software, services, platforms) | P/E, EV/EBITDA | Price/Sales, PEG | Profitability matters more than assets |
+    | **Cyclical** (commodities, industrials) | EV/EBITDA, P/B | Normalized P/E, P/CF | Smooth out earnings volatility |
 
-    Decision 1: "Is the company profitable (positive net income)?"
+=== "No (Unprofitable)"
 
-    If YES → Decision 2a: "What is the business model?"
-        If ASSET-INTENSIVE (manufacturing, real estate, banking):
-            Primary: Price/Book (P/B)
-            Secondary: P/E Ratio, EV/EBITDA
-            Reasoning: Asset values drive returns; tangible book value matters
+    | Situation | Primary Multiple | Secondary Multiples | Rationale |
+    |-----------|------------------|---------------------|-----------|
+    | **Revenue-generating** | Price/Sales, EV/Sales | Price/ARR (SaaS), Price/GMV | Revenue shows traction; path to profit matters |
+    | **Pre-revenue** | Market Cap vs. TAM | Price/User, milestone achievement | Value based on opportunity and progress |
 
-        If CAPITAL-LIGHT (software, services, platforms):
-            Primary: P/E Ratio, EV/EBITDA
-            Secondary: Price/Sales, PEG Ratio
-            Reasoning: Profitability matters more than assets; growth quality important
+**Step 2: Adjust for growth rate**
 
-        If CYCLICAL (commodities, industrials):
-            Primary: EV/EBITDA, Price/Book
-            Secondary: P/E (normalized), Price/Cash Flow
-            Reasoning: Smooth out cyclical earnings volatility
+| Growth Rate | Multiple Adjustments |
+|-------------|---------------------|
+| **High (>20% annually)** | Add PEG ratio, forward multiples, revenue growth vs. peers |
+| **Moderate (5-20%)** | Use current-year multiples, 3-5 year averages |
+| **Low/Declining (<5%)** | Emphasize dividend yield, FCF yield, asset-based valuations |
 
-    If NO (unprofitable) → Decision 2b: "Is the company generating revenue?"
-
-        If YES (growing top-line):
-            Primary: Price/Sales (P/S), EV/Sales
-            Secondary: Price/ARR (for SaaS), Price/GMV (for marketplaces)
-            Reasoning: Revenue growth demonstrates market traction; path to profitability matters
-
-        If NO (pre-revenue):
-            Primary: Market Cap vs. TAM, Price/User or Price/Subscriber
-            Secondary: Peer funding comparisons, development milestone achievement
-            Reasoning: Value speculative based on market opportunity and progress
-
-    Decision 3: "What growth rate characterizes the business?"
-
-        If HIGH GROWTH (>20% annually):
-            Add: PEG Ratio (P/E divided by growth rate)
-            Add: Forward multiples (next-year estimates)
-            Add: Revenue growth vs. peers
-            Reasoning: Growth justifies premium multiples; forward-looking metrics matter
-
-        If MODERATE GROWTH (5-20% annually):
-            Use: Current year multiples
-            Add: 3-5 year average multiples
-            Reasoning: Stable growth supports consistent valuation frameworks
-
-        If LOW/DECLINING GROWTH (<5% or negative):
-            Use: Dividend yield, Free Cash Flow yield
-            Add: Liquidation or asset-based valuations
-            Reasoning: Value extraction matters more than growth
-
-    Output: Recommended Valuation Framework
-
-    Primary Multiple: [Selected based on decision tree]
-    Secondary Multiples: [2-3 supporting metrics]
-    Peer Comparison Set: [Similar companies using same multiples]
-    Historical Range: [Company's typical multiple range over 3-5 years]
-    Sector Benchmark: [Industry median/average multiples]
-
-    AI Transformation Considerations (callout):
-    - Investment phase: May temporarily make P/E less relevant; emphasize forward multiples
-    - Growth acceleration: Highlight PEG ratio improvement as growth inflects
-    - Operational leverage: Show path to margin expansion and EBITDA growth
-    - Long-term value: Use DCF frameworks alongside multiples for transformation narratives
-
-    Color coding:
-    - Blue: Decision gates
-    - Green: Recommended primary multiples
-    - Orange: Secondary/supporting multiples
-    - Red: Special situation considerations
-</details>
+!!! tip "AI Transformation Considerations"
+    - **Investment phase**: P/E temporarily less relevant; emphasize forward multiples
+    - **Growth acceleration**: Highlight PEG ratio improvement as growth inflects
+    - **Operational leverage**: Show path to margin expansion and EBITDA growth
+    - **Long-term value**: Use DCF frameworks alongside multiples for transformation narratives
 
 **Price-to-earnings ratio (P/E ratio)** divides stock price by earnings per share, indicating how much investors pay for each dollar of current profits. The P/E ratio reflects market expectations for future earnings growth, risk assessment, and quality of earnings. High P/E multiples (30x+) signal strong growth expectations or low risk perceptions; low P/E multiples (<15x) suggest value opportunities, elevated risk, or cyclical earnings depression.
 
@@ -383,92 +337,45 @@ For AI transformation communications, TSR provides accountability metrics showin
 
 AI transformation narratives targeting retail audiences require: simplified technical explanations accessible to non-specialists, visual content (infographics, videos) demonstrating AI capabilities and business impacts, FAQ resources addressing common questions and misconceptions, and social media engagement responding to community discussions and correcting misinformation.
 
-<details>
-    <summary>Shareholder Composition Analysis Dashboard</summary>
-    Type: infographic
+### Sample Shareholder Composition Dashboard
 
-    Purpose: Visualize comprehensive shareholder base composition with trends and strategic implications
+=== "Ownership by Type"
 
-    Layout: Multi-panel dashboard with interconnected visualizations
+    | Investor Type | % of Shares | Characteristics |
+    |---------------|-------------|-----------------|
+    | 🔵 Active Institutional | 45% | Research-driven, quarterly engagement |
+    | 🟢 Index Funds | 28% | Holdings by index inclusion, proxy voting |
+    | 🟠 Hedge Funds | 12% | Shorter horizons, higher turnover |
+    | 🟣 Retail | 11% | Social media influence, momentum-driven |
+    | 🟡 Insiders | 4% | Management and board alignment |
 
-    Panel 1: Ownership by Investor Type (Top Left)
-    Pie chart showing percentage breakdown:
-    - Active Institutional: 45%
-    - Index Funds: 28%
-    - Hedge Funds: 12%
-    - Retail: 11%
-    - Insiders: 4%
+=== "Ownership Concentration"
 
-    Each segment clickable to show:
-    - Top 10 holders in that category
-    - Recent buying/selling activity
-    - Average holding period
-    - Typical turnover rates
+    | Holder Group | % Ownership | Assessment |
+    |--------------|-------------|------------|
+    | Top 1 holder | 8.5% | Not dominant |
+    | Top 5 holders | 28% | Moderate concentration |
+    | Top 10 holders | 42% | Significant influence |
+    | Top 20 holders | 58% | Majority control |
 
-    Color scheme: Blue (institutional), Green (index), Orange (hedge), Purple (retail), Gold (insider)
+    *"Moderately concentrated - top 20 control majority but not extreme"*
 
-    Panel 2: Ownership Concentration (Top Right)
-    Horizontal bar chart showing:
-    - Top 1 holder: 8.5%
-    - Top 5 holders: 28%
-    - Top 10 holders: 42%
-    - Top 20 holders: 58%
+=== "Trends & Performance"
 
-    Annotation: "Moderately concentrated - top 20 control majority but not extreme"
+    **Institutional Ownership Trend**: 65% → 73% over 3 years (245 → 312 holders)
 
-    Panel 3: Institutional Ownership Trends (Middle Left)
-    Line graph showing 3-year trend:
-    - X-axis: Quarterly periods
-    - Y-axis: % Institutional ownership
-    - Line trending upward from 65% to 73%
-    - Overlay: Number of institutional holders (growing from 245 to 312)
+    Key inflection points:
 
-    Annotations on key inflection points:
-    - Q2 2023: "S&P MidCap 400 addition +5% institutional"
-    - Q4 2023: "AI strategy announcement +3% long-term funds"
+    - **Q2 2023**: S&P MidCap 400 addition (+5% institutional)
+    - **Q4 2023**: AI strategy announcement (+3% long-term funds)
 
-    Panel 4: Trading Activity Patterns (Middle Right)
-    Volume chart with components:
-    - Daily volume bars
-    - 20-day moving average line
-    - Color-coded by buyer type (green = institutional accumulation, red = distribution)
+    **Short Interest**: 6.2% of float (down from 9% peak) | Days to cover: 2.8
 
-    Recent pattern: "Sustained institutional accumulation over 3 months"
-
-    Panel 5: Short Interest Tracking (Bottom Left)
-    Combined line and bar chart:
-    - Bars: Short interest as % of float (currently 6.2%)
-    - Line: Days to cover (currently 2.8 days)
-    - Historical context: Range over 2 years (3-12%)
-
-    Status: "Moderate short interest, down from 9% peak"
-
-    Panel 6: Shareholder Returns (Bottom Right)
-    Comparison table:
-
-    | Period | Company TSR | S&P 500 | Sector Avg | Relative Performance |
-    |--------|-------------|---------|------------|----------------------|
-    | 1-Year | +18.5% | +12.3% | +15.2% | +6.2% vs S&P, +3.3% vs sector |
-    | 3-Year | +42.1% | +35.8% | +38.4% | +6.3% vs S&P, +3.7% vs sector |
-    | 5-Year | +87.3% | +68.2% | +71.5% | +19.1% vs S&P, +15.8% vs sector |
-
-    Summary insight box:
-    "Consistent outperformance driven by long-term institutional support and execution delivery"
-
-    Interactive features:
-    - Hover over any data point for detailed breakdown
-    - Click segments to drill into specific holder lists
-    - Toggle between value and change views
-    - Filter by time periods (1Y, 3Y, 5Y, 10Y)
-    - Export data to Excel/PDF
-
-    Header controls:
-    - Reporting date selector
-    - Peer comparison toggle
-    - Historical trend view
-
-    Implementation: HTML/CSS/JavaScript with D3.js for interactive visualizations
-</details>
+    | Period | Company TSR | S&P 500 | Relative |
+    |--------|-------------|---------|----------|
+    | 1-Year | +18.5% | +12.3% | **+6.2%** |
+    | 3-Year | +42.1% | +35.8% | **+6.3%** |
+    | 5-Year | +87.3% | +68.2% | **+19.1%** |
 
 ---
 

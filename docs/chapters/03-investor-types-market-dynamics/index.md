@@ -54,68 +54,17 @@ Hedge fund engagement demands precision and responsiveness. Hedge fund analysts 
 
 Sovereign wealth fund engagement often centers on governance quality, geopolitical considerations, sustainability commitments, and alignment with national strategic priorities. These institutions can provide substantial patient capital for transformative investments, but demand high-quality governance, transparent risk disclosure, and often prefer direct engagement with senior executives or board members rather than IR teams. For AI transformation narratives, sovereign wealth funds evaluate competitive positioning within global technology landscape, alignment with national AI strategies, ethical AI frameworks, and risk management sophistication.
 
-<details>
-    <summary>Institutional Investor Segmentation Map</summary>
-    Type: diagram
+### Institutional Investor Segmentation Map
 
-    Purpose: Visual framework showing major institutional investor types mapped across two dimensions: investment time horizon and engagement intensity
+|  | **Short-Term (<1 year)** | **Medium-Term (1-5 years)** | **Long-Term (>5 years)** |
+|--|--------------------------|----------------------------|--------------------------|
+| **Active/Deep Engagement** | 🔴 **Activist Hedge Funds, Event-Driven Funds** — Detailed operational analysis, governance focus, catalyst-driven | 🟣 **Long/Short Hedge Funds, Growth Funds** — Fundamental analysis, quarterly monitoring | 🔵 **Pension Funds, Sovereign Wealth, Active Mutual** — ESG focus, governance, strategic partnerships |
+| **Passive/Light Engagement** | 🟠 **Quant/Systematic Funds, HFT** — Data-driven, limited IR interaction | — | 🟢 **Index Funds, ETFs** — Holdings by index inclusion, vote via proxy policies |
 
-    Layout: 2x2 matrix with axes
-
-    X-Axis: Investment Time Horizon
-    - Left: Short-term (< 1 year)
-    - Center: Medium-term (1-5 years)
-    - Right: Long-term (> 5 years)
-
-    Y-Axis: Engagement Intensity
-    - Bottom: Passive/Light engagement
-    - Top: Active/Deep engagement
-
-    Quadrants and investor types:
-
-    Top-Left (Short-term + Active engagement):
-    - Activist Hedge Funds
-    - Event-Driven Funds
-    - Characteristics: Detailed operational analysis, governance focus, catalysts
-    - Color: Red
-
-    Top-Right (Long-term + Active engagement):
-    - Pension Funds
-    - Sovereign Wealth Funds
-    - Active Mutual Funds (research-driven)
-    - Characteristics: ESG focus, governance, strategic partnerships
-    - Color: Blue
-
-    Bottom-Left (Short-term + Passive engagement):
-    - Quantitative/Systematic Hedge Funds
-    - High-Frequency Trading Firms
-    - Characteristics: Data-driven, limited IR interaction
-    - Color: Orange
-
-    Bottom-Right (Long-term + Passive engagement):
-    - Index Funds
-    - ETFs
-    - Some long-only funds
-    - Characteristics: Holdings driven by index inclusion, vote based on proxy policies
-    - Color: Green
-
-    Middle (Medium-term + Moderate engagement):
-    - Long/Short Hedge Funds
-    - Growth Mutual Funds
-    - Characteristics: Fundamental analysis, quarterly monitoring
-    - Color: Purple
-
-    Annotations:
-    - Arrow showing "Increasing need for detailed AI transformation narrative" pointing from bottom-left to top-right
-    - Note: "Index funds = ~40% of U.S. equity market as of 2024"
-    - Note: "Activist campaigns typically target governance, capital allocation, or strategic pivots"
-
-    Legend:
-    - Circle size represents approximate % of market capitalization
-    - Dotted lines show typical migration paths (e.g., passive index fund becoming active when ESG concerns arise)
-
-    Implementation: Interactive visualization allowing users to click on each segment to see example funds, typical questions they ask, and optimal IR engagement strategies
-</details>
+!!! note "Key Market Dynamics"
+    - **Index funds now represent ~40% of U.S. equity market** (up from 15-20% two decades ago)
+    - **AI transformation narratives** are most important for top-right quadrant (active + long-term)
+    - **Activist campaigns** typically target governance, capital allocation, or strategic pivots
 
 The institutional investor landscape continues evolving. Index funds and ETFs now represent 40-45% of U.S. equity market capitalization, up from 15-20% two decades ago. This shift toward passive investment creates concentration among large asset managers (BlackRock, Vanguard, State Street) who collectively influence proxy voting, governance standards, and ESG expectations across portfolios. While index fund managers engage less frequently on operational matters than active funds, they increasingly exercise influence on governance, climate risk, board composition, and executive compensation—topics intersecting with AI transformation through board expertise requirements, risk oversight frameworks, and performance incentive design.
 
@@ -255,84 +204,48 @@ For AI transformation, beat-and-raise becomes particularly fraught. Transformati
 
 The decision to withdraw guidance during AI transformation depends on transformation scope and uncertainty. Wholesale business model transformations (shifting from products to services, entering entirely new markets) may justify temporary withdrawal. Incremental AI augmentation of existing operations typically doesn't warrant withdrawal—instead, companies widen guidance ranges and provide qualitative scenarios explaining transformation impacts.
 
-<details>
-    <summary>Earnings Guidance Decision Framework</summary>
-    Type: workflow
+### Earnings Guidance Decision Framework
 
-    Purpose: Guide executives through systematic decision process for establishing earnings guidance strategy
+```
+START: Evaluate Guidance Strategy
+         │
+         ▼
+┌─────────────────────────────────────┐
+│ Do business economics support       │
+│ reliable forecasting?               │
+└─────────────────────────────────────┘
+         │
+    ┌────┴────┐
+    │         │
+   NO        YES
+    │         │
+    ▼         ▼
+┌─────────────┐  ┌─────────────────────────┐
+│ Temporary   │  │ What is primary         │
+│ or          │  │ stakeholder time        │
+│ Structural? │  │ horizon?                │
+└─────────────┘  └─────────────────────────┘
+    │                     │
+┌───┴───┐           ┌─────┴─────┐
+│       │           │           │
+TEMP   STRUCT    SHORT-TERM  LONG-TERM
+│       │           │           │
+▼       ▼           ▼           ▼
+```
 
-    Visual style: Decision tree with gates and recommendation outputs
+| Situation | Recommendation |
+|-----------|----------------|
+| **Temporary uncertainty** (crisis, pandemic) | Suspend guidance with clear resumption timeline; maintain qualitative commentary |
+| **Structural uncertainty** (early-stage, R&D-intensive) | Adopt qualitative framework with KPI disclosure; avoid precise EPS guidance |
+| **Short-term focus + can beat** | Detailed quarterly guidance with conservative positioning (beat-and-raise) |
+| **Short-term focus + variable** | Annual guidance only; discourage quarterly focus |
+| **Long-term focus + transformation** | Multi-year framework (2-3 year targets); wide ranges; annual updates |
+| **Long-term focus + steady state** | Annual guidance with key metric focus (revenue, EPS, margins) |
 
-    Steps:
-
-    1. Start: "Evaluate Guidance Strategy"
-       Hover text: "Annual strategic review of guidance approach"
-
-    2. Decision: "Do business economics support reliable forecasting?"
-       Hover text: "Assess visibility into revenue drivers, cost structures, competitive dynamics"
-
-    3a. If NO → Decision: "Is uncertainty temporary or structural?"
-        Hover text: "Temporary = pandemic, crisis; Structural = early-stage, R&D-intensive business model"
-
-    4a. If TEMPORARY → Recommendation: "Suspend guidance with clear timeline for resumption"
-         Hover text: "Communicate what needs to change for guidance to resume; maintain qualitative commentary"
-
-    4b. If STRUCTURAL → Recommendation: "Adopt qualitative guidance framework with KPI disclosure"
-         Hover text: "Focus on operational metrics, strategic milestones, directional trends; avoid precise EPS guidance"
-
-    3b. If YES (forecastable) → Decision: "What is primary stakeholder time horizon?"
-         Hover text: "Long-term holders (pension, mutual funds) vs. short-term focused (hedge funds, traders)"
-
-    5a. If SHORT-TERM FOCUSED → Decision: "Can you consistently beat quarterly expectations?"
-         Hover text: "Honest assessment of operational excellence and business visibility"
-
-    6a. If YES → Recommendation: "Detailed quarterly guidance with conservative positioning"
-         Hover text: "Enable beat-and-raise pattern; narrow ranges; quarterly updates"
-
-    6b. If NO → Recommendation: "Annual guidance only; discourage quarterly focus"
-         Hover text: "Guide to annual metrics; explain quarterly variability; reset expectations"
-
-    5b. If LONG-TERM FOCUSED → Decision: "Is business in transformation/investment mode?"
-         Hover text: "AI transformation, market expansion, M&A integration, business model shift"
-
-    7a. If YES (transformation) → Recommendation: "Multi-year framework with annual updates"
-         Hover text: "Provide 2-3 year directional targets; explain investment curve; update annually; wide ranges"
-
-    7b. If NO (steady state) → Recommendation: "Annual guidance with key metric focus"
-         Hover text: "Annual revenue/EPS ranges; margin frameworks; capital allocation priorities"
-
-    8. Output: Guidance Policy Documentation
-       Components:
-       - Metrics to guide (revenue, EPS, margins, cash flow, etc.)
-       - Time horizons (quarterly, annual, multi-year)
-       - Range widths and positioning philosophy
-       - Update triggers and frequency
-       - Scenario frameworks for AI transformation impacts
-       - Communication protocols
-
-    9. Implementation: Board Approval & Disclosure
-       - Present recommendation to board audit committee
-       - Obtain board concurrence on guidance approach
-       - Disclose guidance policy in next earnings release
-       - Train IR team and management on framework
-
-    Color coding:
-    - Blue: Assessment questions
-    - Yellow: Decision gates
-    - Green: Recommendations
-    - Orange: Implementation actions
-
-    Swimlanes:
-    - CFO/Finance
-    - IR Team
-    - Board/Audit Committee
-    - External Stakeholders
-
-    AI Transformation Considerations (callout box):
-    - Investment phase (years 1-2): Consider annual-only or multi-year frameworks
-    - Scaling phase (years 2-3): Transition to more specific guidance as visibility improves
-    - Mature AI operations (year 3+): Return to detailed guidance if appropriate
-</details>
+!!! tip "AI Transformation Guidance Considerations"
+    - **Investment phase (years 1-2)**: Consider annual-only or multi-year frameworks
+    - **Scaling phase (years 2-3)**: Transition to more specific guidance as visibility improves
+    - **Mature AI operations (year 3+)**: Return to detailed guidance if appropriate
 
 ---
 

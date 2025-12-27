@@ -116,111 +116,31 @@ Combine individual predictions into actionable insights:
 - **Source Comparison**: Sentiment differences across sources (analysts vs. news vs. social media)
 - **Statistical Significance**: Determine whether sentiment changes are meaningful or noise
 
-<details>
-    <summary>NLP Sentiment Analysis Pipeline Diagram</summary>
-    Type: workflow
+### NLP Sentiment Analysis Pipeline
 
-    Purpose: Illustrate end-to-end NLP pipeline from raw text to actionable sentiment insights
+| Stage | Process | Input | Output |
+|-------|---------|-------|--------|
+| **1. Data Collection** | Gather from earnings transcripts, analyst reports, news, social media, CRM | — | Raw text (100-1000+ docs/month) |
+| **2. Preprocessing** | Remove HTML, tokenize, normalize, remove stop words, lemmatize | "The company's AI investments are driving..." | `['company', 'ai', 'investment', 'drive', ...]` |
+| **3. Feature Engineering** | TF-IDF, word embeddings (Word2Vec), contextual embeddings (BERT, FinBERT) | Processed tokens | Numerical vectors (300-768 dimensions) |
+| **4. Classification** | Lexicon-based, ML (SVM, Random Forest), or LLM-based (FinBERT) | Feature vectors | Sentiment scores (-1 to +1) + confidence |
+| **5. Aggregation** | Time series, entity-level, theme-based, source comparison | Sentiment scores | Dashboard insights |
+| **6. Action Loop** | Adjust messaging, address concerns, retrain models | Insights | Improved communications |
 
-    Visual style: Horizontal flowchart with data transformation at each stage
+**Sample Dashboard Output:**
 
-    Stages:
+| Metric | Value | Trend |
+|--------|-------|-------|
+| Overall sentiment | +0.72 | ↑ +12% vs prior Q |
+| Top positive themes | AI strategy (+0.85), margins (+0.78) | — |
+| Top concerns | Guidance uncertainty (-0.45), competition (-0.32) | — |
+| Analyst sentiment | 75% positive | ↑ from 60% |
 
-    Stage 1: Data Collection
-    Sources:
-    - Earnings call transcripts (from website, FactSet, Bloomberg)
-    - Analyst reports (email, research platforms)
-    - News articles (news APIs, Google News, financial media)
-    - Social media (Twitter/X API, Reddit, StockTwits)
-    - Investor emails (CRM, inbox)
-    - Regulatory filings (EDGAR, company websites)
-
-    Output: Raw text documents
-    Volume: 100-1000+ documents per month
-    Hover text: "Automated collection via APIs and web scraping reduces manual effort"
-
-    Stage 2: Preprocessing
-    Tasks:
-    - HTML/formatting removal
-    - Tokenization (splitting into words)
-    - Lowercasing and normalization
-    - Stop word removal ("the", "is", "at")
-    - Lemmatization (reducing to root forms)
-
-    Input: "The company's AI investments are driving significant growth..."
-    Output: ['company', 'ai', 'investment', 'drive', 'significant', 'growth']
-    Hover text: "Preprocessing reduces noise and standardizes text for analysis"
-
-    Stage 3: Feature Engineering
-    Methods:
-    - TF-IDF vectorization (term frequency-inverse document frequency)
-    - Word embeddings (Word2Vec, GloVe)
-    - Contextual embeddings (BERT, FinBERT)
-    - Financial domain features (returns, guidance, margins)
-
-    Output: Numerical vector representations
-    Example: [0.23, 0.45, 0.12, ..., 0.67] (300-768 dimensional vectors)
-    Hover text: "Converting text to numbers enables machine learning"
-
-    Stage 4: Sentiment Classification
-    Model options:
-    - Lexicon-based (dictionary of positive/negative words)
-    - Machine learning (Naive Bayes, SVM, Random Forest)
-    - Deep learning (LSTM, Transformer)
-    - LLM-based (FinBERT, GPT fine-tuned for finance)
-
-    Output: Sentiment scores
-    Example:
-    - Overall: 0.72 (positive, scale -1 to +1)
-    - Confidence: 0.85
-    - Entity-level: Company: +0.72, Management: +0.65, Strategy: +0.45
-
-    Hover text: "Models trained on labeled financial text predict sentiment"
-
-    Stage 5: Aggregation & Analysis
-    Analytics:
-    - Time series trends (sentiment improving/deteriorating?)
-    - Entity-level breakdown (what's driving sentiment?)
-    - Theme-based analysis (which topics are positive/negative?)
-    - Source comparison (analysts vs. news vs. social)
-    - Statistical significance (is change meaningful?)
-
-    Output: Actionable insights
-    Dashboard metrics:
-    - Overall sentiment trend: ↑ +12% vs. prior quarter
-    - Top positive themes: AI strategy (+0.85), margin expansion (+0.78)
-    - Top concerns: Guidance uncertainty (-0.45), competition (-0.32)
-    - Analyst sentiment: 75% positive (up from 60%)
-
-    Hover text: "Business intelligence informing strategic IR decisions"
-
-    Stage 6: Action & Feedback Loop
-    IR Actions:
-    - Adjust messaging on concerning themes
-    - Double down on resonating messages
-    - Proactively address emerging questions
-    - Monitor effectiveness of responses
-
-    Feedback:
-    - Retrain models with new labeled data
-    - Refine features based on what predicts outcomes
-    - Update lexicons with company-specific terminology
-    - Improve data collection based on gaps
-
-    Hover text: "Continuous improvement through measurement and learning"
-
-    Color coding:
-    - Blue: Data collection and preparation
-    - Orange: Feature extraction and modeling
-    - Green: Analysis and insights
-    - Gold: Action and improvement
-
-    Metrics displayed:
-    - Processing time: ~30 minutes for 100 documents
-    - Accuracy: 82% (vs. 75% human inter-rater agreement)
-    - Coverage: 95% of relevant content analyzed (vs. 20% manual sample)
-    - Time savings: 40 hours/month of manual analysis eliminated
-</details>
+!!! success "Pipeline Performance"
+    - **Processing time**: ~30 min for 100 documents
+    - **Accuracy**: 82% (vs. 75% human inter-rater agreement)
+    - **Coverage**: 95% of content analyzed (vs. 20% manual sample)
+    - **Time savings**: 40 hours/month of manual analysis eliminated
 
 **Text mining methods** extract meaningful information and patterns from large volumes of unstructured text through systematic analysis of word frequencies, co-occurrences, topic distributions, and linguistic patterns. For IR applications, text mining reveals:
 

@@ -73,118 +73,51 @@ For IR executives, the critical insight is that AI exists on a spectrum from sim
 
 Three fundamental machine learning approaches serve different purposes:
 
-<details>
-    <summary>Machine Learning Paradigms Comparison</summary>
-    Type: diagram
+### Machine Learning Paradigms Comparison
 
-    Purpose: Visual comparison of three machine learning approaches with IR use cases
+| Aspect | 🔵 Supervised Learning | 🟢 Unsupervised Learning | 🟠 Reinforcement Learning |
+|--------|------------------------|-------------------------|---------------------------|
+| **Definition** | Learning from labeled examples | Discovering patterns in unlabeled data | Learning through trial and reward |
+| **Data Required** | Inputs + correct outputs | Inputs only (no labels) | Environment + reward signal |
+| **How It Works** | Learn mapping from inputs to known outputs | Identify natural groupings and structures | Take actions, receive feedback, optimize |
 
-    Layout: Three-column comparison table with visual elements
+**IR Use Cases by Paradigm:**
 
-    Column 1: Supervised Learning
-    Definition: Learning from labeled examples where correct outputs are known
+=== "Supervised (Most Common)"
 
-    How it works:
-    - Training data includes inputs (features) and correct outputs (labels)
-    - Algorithm learns mapping function from inputs to outputs
-    - Makes predictions on new inputs based on learned patterns
-
-    Visual representation:
-    Input → [Training Examples with Labels] → Model → Output
-
-    IR Examples:
     - Classify analyst questions as positive/neutral/negative
     - Predict which investors likely to increase positions
-    - Forecast earnings call attendance based on historical patterns
-    - Identify emails requiring executive response vs. standard handling
+    - Forecast earnings call attendance
+    - Identify emails requiring executive response
 
-    Strengths:
-    - High accuracy when training data is abundant and representative
-    - Clear performance metrics (accuracy, precision, recall)
-    - Well-understood techniques with mature tooling
+    **Strengths**: High accuracy with good training data, clear metrics
 
-    Limitations:
-    - Requires large volumes of labeled training data (expensive to create)
-    - Only works well on tasks similar to training examples
-    - Performance degrades if real-world data differs from training data
+    **Limitations**: Requires large labeled datasets (expensive to create)
 
-    Common Algorithms:
-    - Linear regression, logistic regression
-    - Decision trees, random forests
-    - Neural networks, support vector machines
+=== "Unsupervised (Exploration)"
 
-    Column 2: Unsupervised Learning
-    Definition: Discovering patterns in unlabeled data without predefined categories
+    - Segment shareholders by trading patterns
+    - Identify natural themes in investor questions
+    - Group companies into peer sets
+    - Discover investor communities with similar holdings
 
-    How it works:
-    - Training data includes only inputs (no labels or correct answers)
-    - Algorithm identifies natural groupings and structures
-    - Reveals hidden patterns and relationships
+    **Strengths**: No labeling required, discovers hidden patterns
 
-    Visual representation:
-    Input → [Unlabeled Data] → Clustering Algorithm → Discovered Segments
+    **Limitations**: Results can be ambiguous, requires domain expertise
 
-    IR Examples:
-    - Segment shareholders into groups based on trading patterns
-    - Identify natural themes in investor questions without predefined categories
-    - Group companies into peer sets based on financial characteristics
-    - Discover investor communities with similar portfolio holdings
+=== "Reinforcement (Optimization)"
 
-    Strengths:
-    - No expensive labeling required
-    - Discovers patterns humans might miss
-    - Flexible exploration without preconceived categories
-
-    Limitations:
-    - Results can be ambiguous or difficult to interpret
-    - No objective "correct answer" for validation
-    - Requires domain expertise to assess meaningfulness
-
-    Common Algorithms:
-    - K-means clustering, hierarchical clustering
-    - Principal component analysis (PCA)
-    - Topic modeling (LDA)
-
-    Column 3: Reinforcement Learning
-    Definition: Learning optimal strategies through trial, feedback, and reward mechanisms
-
-    How it works:
-    - Agent takes actions in environment
-    - Receives rewards or penalties based on outcomes
-    - Learns policy maximizing cumulative rewards over time
-
-    Visual representation:
-    Agent → Action → Environment → Reward → [Learning Loop]
-
-    IR Examples:
     - Optimize email subject lines and send timing
-    - Learn ideal engagement frequency for different investor segments
-    - Determine optimal disclosure level balancing transparency and competitive sensitivity
-    - Test communication channel effectiveness (email vs. phone vs. in-person)
+    - Learn ideal engagement frequency by segment
+    - Test communication channel effectiveness
+    - Balance disclosure transparency vs. competitive sensitivity
 
-    Strengths:
-    - Learns from direct experience rather than requiring training data
-    - Adapts continuously as environment changes
-    - Discovers non-obvious strategies through exploration
+    **Strengths**: Learns from experience, adapts continuously
 
-    Limitations:
-    - Requires ability to safely experiment (not always feasible in IR)
-    - Can take many iterations to learn effective policies
-    - Balancing exploration (trying new things) vs. exploitation (using what works)
+    **Limitations**: Requires safe experimentation environment
 
-    Common Algorithms:
-    - Q-learning, deep Q-networks
-    - Policy gradient methods
-    - Multi-armed bandits (simpler variant)
-
-    Color coding:
-    - Blue: Supervised (most common in IR)
-    - Green: Unsupervised (exploratory analysis)
-    - Orange: Reinforcement (optimization)
-
-    Bottom note:
-    "Most AI applications in IR use supervised learning when labeled data exists, unsupervised learning for exploration and segmentation, and reinforcement learning for optimization problems where experimentation is safe and measurable."
-</details>
+!!! note "Practical Application"
+    Most IR AI applications use **supervised learning** when labeled data exists, **unsupervised learning** for exploration and segmentation, and **reinforcement learning** for optimization where experimentation is safe.
 
 **Supervised data models** dominate practical IR applications because many tasks involve predicting known outcomes from historical examples. When IR teams possess thousands of historical investor interactions with known results (email opened/ignored, meeting accepted/declined, question asked during call), supervised learning excels at predicting future outcomes.
 

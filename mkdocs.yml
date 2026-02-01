@@ -121,3 +121,7 @@ nav:
           - "Chapter 15 - Future: Agentic Ecosystems":
               - Content: chapters/15-future-agentic-ecosystems/index.md
               - Quiz: chapters/15-future-agentic-ecosystems/quiz.md
+extra:
+  schema: https://dmccreary.github.io/intelligent-textbooks/ns/textbook/v1
+  textbook_name: Investor Relations Textbook
+  textbook_version: "1.0"
